@@ -3,12 +3,13 @@
   "version": "0.0.4",
   "private": false,
   "description": "Icons for popular cloud services and networking hardware.",
+  "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "exports": {
-    ".": "./dist/"
+    "./*": "./dist/*.js"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && tsc --emitDeclarationOnly",
     "generate-collections-index": "ts-node --transpile-only ./src/tools/processCollections.ts && npm run lint:fix-generated",
     "lint:fix-generated": "eslint --fix ./src/collections/**/index.ts"
   },
