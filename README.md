@@ -12,7 +12,7 @@ For a full list of icons, see the [this link]().
 ## How to use
 
 ### Import icons into a React app
-Icons can be imported as `base64` encoded strings.  See the section [Trade-off's between importing vs self-hosting icons](#) for more information.
+Icons can be imported as `base64` encoded strings.  See this section on [tradeoffs](#trade-offs-between-importing-vs-self-hosting-icons) for more information on importing options.
 
 - `npm install isopacks`
 - Import the collection you want to use
