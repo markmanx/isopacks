@@ -6,7 +6,7 @@ defaults: &defaults
     - image: cimg/node:19.7.0
 
 jobs:
-  build:
+  buildAndDeploy:
     <<: *defaults
     steps:
       - checkout
@@ -16,21 +16,8 @@ jobs:
       - run:
           name: Build
           command: npm run build
-      - persist_to_workspace:
-          root: ~/repo
-          paths:
-            - ./dist
-            - ./LICENSE
-            - ./package.json
-            - ./README.md
-
-  deploy:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: ~/repo
       - run:
-          name: Publish package
+          name: Publish to NPM
           command: |
             npm set //registry.npmjs.org/:_authToken=$npm_TOKEN
             npm publish
@@ -38,15 +25,7 @@ jobs:
 workflows:
   main:
     jobs:
-      - build:
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v.*/
-      - deploy:
-          requires:
-            - build
+      - buildAndDeploy:
           filters:
             branches:
               ignore: /.*/

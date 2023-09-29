@@ -5,14 +5,14 @@ module.exports = {
   target: 'web',
   entry: {
     'index': './src/index.ts',
-    'isoflow': './src/collections/isoflow/index.ts',
-    'aws': './src/collections/aws/index.ts',
-    'azure': './src/collections/azure/index.ts',
-    'gcp': './src/collections/gcp/index.ts',
-    'kubernetes': './src/collections/kubernetes/index.ts'
+    'collections/isoflow/index': './src/collections/isoflow/index.ts',
+    'collections/aws/index': './src/collections/aws/index.ts',
+    'collections/azure/index': './src/collections/azure/index.ts',
+    'collections/gcp/index': './src/collections/gcp/index.ts',
+    'collections/kubernetes/index': './src/collections/kubernetes/index.ts'
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.ts'],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -22,21 +22,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(ts|tsx)$/,
+        test: /\.ts$/,
         use: 'ts-loader',
         exclude: /node_modules/
       },
       {
         test: /\.svg$/,
-        use: [
-          {
-            loader: 'svg-url-loader',
-            options: {
-              encoding: "base64",
-            },
-          }
-        ],
-        exclude: /node_modules/
+        type: 'asset/inline'
       }
     ]
   },
