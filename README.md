@@ -1,14 +1,12 @@
 # Isopacks
-A compilation of networking and cloud icons for use in diagrams.  Each collection we refer to as an "Isopack", for example there is an `aws` Isopack.
+The goal of this library is to expose various collections of popular networking and cloud icons in a way that is easy to import and use in Javascript projects.  Many of the icon sets are provided for free by popular cloud service providers (e.g. AWS, GCP and Azure), some are provided by the community (see the [Kubernetes icon project](https://github.com/kubernetes/community/tree/master/icons)) and the more general icons are provided by the guys at [Isoflow.io](https://isoflow.io).
+
+**Please read the LICENSE files associated with each isopack and respect the licenses of each icon provider**.
 
 ## Do I need Isoflow to use these icons?
 No.  You can drop these icons into any diagramming tool that supports importing images.  However, if you're looking for a diagramming tool that supports these icons out of the box, check out [Isoflow.io](https://isoflow.io).
 
 ## What's in it
-This library contains:
-- General networking icons (e.g. server, switch, router) provided by the guys at [Isoflow.io](https://isoflow.io).
-- Icons for popular cloud services (e.g. AWS, GCP, Azure, Kubernetes).  These are official icons provided by the cloud providers (and in some cases, by the community) and may come with licensing restrictions.
-
 For a full list of icons, see the [this link]().
 
 ## How to use
