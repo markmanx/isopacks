@@ -1,4 +1,5 @@
 import type { Icon } from '../../types';
+import _k8s_ from './icons/_k8s_.svg';
 import k8sapi from './icons/k8s-api.svg';
 import k8sccm from './icons/k8s-c-c-m.svg';
 import k8scm1 from './icons/k8s-c-m1.svg';
@@ -18,7 +19,6 @@ import k8sing from './icons/k8s-ing.svg';
 import k8sjob from './icons/k8s-job.svg';
 import k8skproxy from './icons/k8s-k-proxy.svg';
 import k8skubelet from './icons/k8s-kubelet.svg';
-import k8skubernetes from './icons/k8s-kubernetes.svg';
 import k8slimits from './icons/k8s-limits.svg';
 import k8snetpol from './icons/k8s-netpol.svg';
 import k8snode from './icons/k8s-node.svg';
@@ -41,6 +41,13 @@ import k8suser from './icons/k8s-user.svg';
 import k8svol from './icons/k8s-vol.svg';
 
 const KubernetesIsopack: Icon[] = [
+  {
+    id: '_k8s_',
+    name: '_k8s_',
+    category: 'Kubernetes',
+    url: _k8s_,
+    isIsometric: false
+  },
   {
     id: 'k8s-api',
     name: 'k8s-api',
@@ -172,13 +179,6 @@ const KubernetesIsopack: Icon[] = [
     name: 'k8s-kubelet',
     category: 'Kubernetes',
     url: k8skubelet,
-    isIsometric: false
-  },
-  {
-    id: 'k8s-kubernetes',
-    name: 'k8s-kubernetes',
-    category: 'Kubernetes',
-    url: k8skubernetes,
     isIsometric: false
   },
   {

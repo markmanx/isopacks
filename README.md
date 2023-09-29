@@ -7,7 +7,7 @@ The goal of this library is to expose various collections of popular networking 
 No.  You can drop these icons into any diagramming tool that supports importing images.  However, if you're looking for a diagramming tool that supports these icons out of the box, check out [Isoflow.io](https://isoflow.io).
 
 ## What's in it
-For a full list of icons, see the [this link]().
+For a full list of icons, see the [this link](icons.md).
 
 ## How to use
 

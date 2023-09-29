@@ -36,12 +36,6 @@ const collections: CollectionConfig[] = [
   }
 ];
 
-/**
- * Creates an index file from a collection of icons.
- * @description This function will build an index file (a JSON object of all icons along with their names) from a folder of icons.
- * @param {string} dirName - The name of the directory within .
- * @param {string} author - The author of the book.
- */
 const createIndexFromCollection = async (
   dirName: string,
   categoryName: string,

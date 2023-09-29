@@ -1,4 +1,5 @@
 import type { Icon } from '../../types';
+import _gcp_ from './icons/_gcp_.svg';
 import gcpaccesscontextmanager from './icons/gcp-access-context-manager.svg';
 import gcpadministration from './icons/gcp-administration.svg';
 import gcpadvancedagentmodeling from './icons/gcp-advanced-agent-modeling.svg';
@@ -217,6 +218,13 @@ import gcpworkflows from './icons/gcp-workflows.svg';
 import gcpworkloadidentitypool from './icons/gcp-workload-identity-pool.svg';
 
 const GCPIsopack: Icon[] = [
+  {
+    id: '_gcp_',
+    name: '_gcp_',
+    category: 'GCP',
+    url: _gcp_,
+    isIsometric: false
+  },
   {
     id: 'gcp-access-context-manager',
     name: 'gcp-access-context-manager',

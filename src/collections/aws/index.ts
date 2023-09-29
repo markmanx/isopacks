@@ -1,4 +1,5 @@
 import type { Icon } from '../../types';
+import _aws_ from './icons/_aws_.svg';
 import awsactivate from './icons/aws-activate.svg';
 import awsalexaforbusiness from './icons/aws-alexa-for-business.svg';
 import awsamplify from './icons/aws-amplify.svg';
@@ -318,9 +319,15 @@ import awsworkmail from './icons/aws-workmail.svg';
 import awsworkspacesweb from './icons/aws-workspaces-web.svg';
 import awsworkspaces from './icons/aws-workspaces.svg';
 import awsxray from './icons/aws-x-ray.svg';
-import aws from './icons/aws.svg';
 
 const AWSIsopack: Icon[] = [
+  {
+    id: '_aws_',
+    name: '_aws_',
+    category: 'AWS',
+    url: _aws_,
+    isIsometric: false
+  },
   {
     id: 'aws-activate',
     name: 'aws-activate',
@@ -2552,13 +2559,6 @@ const AWSIsopack: Icon[] = [
     name: 'aws-x-ray',
     category: 'AWS',
     url: awsxray,
-    isIsometric: false
-  },
-  {
-    id: 'aws',
-    name: 'aws',
-    category: 'AWS',
-    url: aws,
     isIsometric: false
   }
 ];

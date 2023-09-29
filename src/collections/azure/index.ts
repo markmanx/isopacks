@@ -1,4 +1,5 @@
 import type { Icon } from '../../types';
+import _azure_ from './icons/_azure_.svg';
 import azureaadlicenses from './icons/azure-aad-licenses.svg';
 import azureabsmember from './icons/azure-abs-member.svg';
 import azureacssolutionsbuilder from './icons/azure-acs-solutions-builder.svg';
@@ -445,10 +446,16 @@ import azureworkbooks from './icons/azure-workbooks.svg';
 import azureworkercontainerapp from './icons/azure-worker-container-app.svg';
 import azureworkflow from './icons/azure-workflow.svg';
 import azureworkspaces from './icons/azure-workspaces.svg';
-import azure from './icons/azure.svg';
 import azureattestation from './icons/azureattestation.svg';
 
 const AzureIsopack: Icon[] = [
+  {
+    id: '_azure_',
+    name: '_azure_',
+    category: 'Azure',
+    url: _azure_,
+    isIsometric: false
+  },
   {
     id: 'azure-aad-licenses',
     name: 'azure-aad-licenses',
@@ -3569,13 +3576,6 @@ const AzureIsopack: Icon[] = [
     name: 'azure-workspaces',
     category: 'Azure',
     url: azureworkspaces,
-    isIsometric: false
-  },
-  {
-    id: 'azure',
-    name: 'azure',
-    category: 'Azure',
-    url: azure,
     isIsometric: false
   },
   {
