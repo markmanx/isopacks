@@ -1,0 +1,25 @@
+{
+  "name": "cloud-icons",
+  "version": "0.0.1",
+  "description": "Icons for popular cloud services and general networking.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack && tsc --emitDeclarationOnly",
+  },
+  "author": "",
+  "license": "Varies",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "svg-url-loader": "^8.0.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

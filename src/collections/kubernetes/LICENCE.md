@@ -1,0 +1,1 @@
+See [this](https://github.com/kubernetes/community/tree/master/icons) community project for more information.

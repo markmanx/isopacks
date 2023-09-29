@@ -1,0 +1,1 @@
+See individual folders in the `./src/collections` directory for licence information.
