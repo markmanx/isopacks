@@ -4,7 +4,7 @@
   "description": "Icons for popular cloud services and general networking.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack && tsc --emitDeclarationOnly",
+    "build": "webpack && tsc --emitDeclarationOnly"
   },
   "author": "",
   "license": "Varies",

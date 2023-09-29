@@ -2,13 +2,16 @@
 A compilation of networking and cloud icons for use in diagrams.
 
 ## What's in it
-- General networking icons (e.g. server, switch, router).
-- Icons for popular cloud services (e.g. AWS, GCP, Azure, Kubernetes)
+The library contains:
+- General networking icons (e.g. server, switch, router) provided by the guys at [Isoflow.io](https://isoflow.io).
+- Icons for popular cloud services (e.g. AWS, GCP, Azure, Kubernetes).  These are official icons provided by the cloud providers (and in some cases, by the community) and may come with licensing restrictions.
+
+For a full list of icons, see the [this link]().
 
 ## How to use
 
 ### Import icons into a React app
-Icons can be imported as `base64` encoded strings (see below for more information on the tradeoffs between importing icons using this approach vs self-hosting the icon files).
+Icons can be imported as `base64` encoded strings.  See the section [Trade-off's between importing vs self-hosting icons](#) for more information.
 
 - `npm install isopacks`
 - Import the collection you want to use
@@ -23,6 +26,8 @@ const MyComponent = () => {
     )
 }
 ```
+
+### Self-hosting icons
 
 ### Importing icons directly
 You can import specific icon sets 
