@@ -4,6 +4,9 @@
   "private": false,
   "description": "Icons for popular cloud services and networking hardware.",
   "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/"
+  },
   "scripts": {
     "build": "webpack",
     "generate-collections-index": "ts-node --transpile-only ./src/tools/processCollections.ts && npm run lint:fix-generated",

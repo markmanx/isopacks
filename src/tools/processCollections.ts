@@ -10,13 +10,8 @@ interface CollectionConfig {
 const collectionsBase = path.join(__dirname, '../collections');
 const collections: CollectionConfig[] = [
   {
-    dirName: 'basic',
-    categoryName: 'Basic',
-    isIsometric: true
-  },
-  {
-    dirName: 'networking',
-    categoryName: 'Networking',
+    dirName: 'isoflow',
+    categoryName: 'Isoflow',
     isIsometric: true
   },
   {

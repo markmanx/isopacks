@@ -5,12 +5,11 @@ module.exports = {
   target: 'web',
   entry: {
     'index': './src/index.ts',
-    'collections/basic': './src/collections/basic/index.ts',
-    'collections/networking': './src/collections/networking/index.ts',
-    'collections/aws': './src/collections/aws/index.ts',
-    'collections/azure': './src/collections/azure/index.ts',
-    'collections/gcp': './src/collections/gcp/index.ts',
-    'collections/kubernetes': './src/collections/kubernetes/index.ts'
+    'isoflow': './src/collections/isoflow/index.ts',
+    'aws': './src/collections/aws/index.ts',
+    'azure': './src/collections/azure/index.ts',
+    'gcp': './src/collections/gcp/index.ts',
+    'kubernetes': './src/collections/kubernetes/index.ts'
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
