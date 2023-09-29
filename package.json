@@ -1,6 +1,7 @@
 {
   "name": "@isoflow/isopacks",
   "version": "0.0.2",
+  "private": false,
   "description": "Icons for popular cloud services and networking hardware.",
   "main": "./dist/index.js",
   "scripts": {
@@ -8,7 +9,7 @@
     "generate-collections-index": "ts-node --transpile-only ./src/tools/processCollections.ts && npm run lint:fix-generated",
     "lint:fix-generated": "eslint --fix ./src/collections/**/index.ts"
   },
-  "author": "",
+  "author": "Various",
   "license": "Varies",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.3",
