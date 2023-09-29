@@ -3,4 +3,5 @@ export interface Icon {
   name: string;
   category: string;
   url: string;
+  isIsometric: boolean;
 }

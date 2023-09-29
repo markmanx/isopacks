@@ -4,7 +4,9 @@
   "description": "Icons for popular cloud services and general networking.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack && tsc --emitDeclarationOnly"
+    "build": "webpack",
+    "generate-collections-index": "ts-node --transpile-only ./src/tools/processCollections.ts && npm run lint:fix-generated",
+    "lint:fix-generated": "eslint --fix ./src/collections/**/index.ts"
   },
   "author": "",
   "license": "Varies",
@@ -19,6 +21,7 @@
     "prettier": "^3.0.3",
     "svg-url-loader": "^8.0.0",
     "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "webpack-cli": "^5.1.4"
   }

@@ -320,2566 +320,2245 @@ import awsworkspaces from './icons/aws-workspaces.svg';
 import awsxray from './icons/aws-x-ray.svg';
 import aws from './icons/aws.svg';
 
-const category = 'AWS';
-
 const AWSIsopack: Icon[] = [
   {
     id: 'aws-activate',
     name: 'aws-activate',
-    category,
-    url: awsactivate.toString(),
+    category: 'AWS',
+    url: awsactivate,
     isIsometric: false
   },
-
   {
     id: 'aws-alexa-for-business',
     name: 'aws-alexa-for-business',
-    category,
-    url: awsalexaforbusiness.toString(),
+    category: 'AWS',
+    url: awsalexaforbusiness,
     isIsometric: false
   },
-
   {
     id: 'aws-amplify',
     name: 'aws-amplify',
-    category,
-    url: awsamplify.toString(),
+    category: 'AWS',
+    url: awsamplify,
     isIsometric: false
   },
-
   {
     id: 'aws-analytics',
     name: 'aws-analytics',
-    category,
-    url: awsanalytics.toString(),
+    category: 'AWS',
+    url: awsanalytics,
     isIsometric: false
   },
-
   {
     id: 'aws-apache-mxnet-on-aws',
     name: 'aws-apache-mxnet-on-aws',
-    category,
-    url: awsapachemxnetonaws.toString(),
+    category: 'AWS',
+    url: awsapachemxnetonaws,
     isIsometric: false
   },
-
   {
     id: 'aws-api-gateway',
     name: 'aws-api-gateway',
-    category,
-    url: awsapigateway.toString(),
+    category: 'AWS',
+    url: awsapigateway,
     isIsometric: false
   },
-
   {
     id: 'aws-app-mesh',
     name: 'aws-app-mesh',
-    category,
-    url: awsappmesh.toString(),
+    category: 'AWS',
+    url: awsappmesh,
     isIsometric: false
   },
-
   {
     id: 'aws-app-runner',
     name: 'aws-app-runner',
-    category,
-    url: awsapprunner.toString(),
+    category: 'AWS',
+    url: awsapprunner,
     isIsometric: false
   },
-
   {
     id: 'aws-appconfig',
     name: 'aws-appconfig',
-    category,
-    url: awsappconfig.toString(),
+    category: 'AWS',
+    url: awsappconfig,
     isIsometric: false
   },
-
   {
     id: 'aws-appflow',
     name: 'aws-appflow',
-    category,
-    url: awsappflow.toString(),
+    category: 'AWS',
+    url: awsappflow,
     isIsometric: false
   },
-
   {
     id: 'aws-application-auto-scaling',
     name: 'aws-application-auto-scaling',
-    category,
-    url: awsapplicationautoscaling.toString(),
+    category: 'AWS',
+    url: awsapplicationautoscaling,
     isIsometric: false
   },
-
   {
     id: 'aws-application-cost-profiler',
     name: 'aws-application-cost-profiler',
-    category,
-    url: awsapplicationcostprofiler.toString(),
+    category: 'AWS',
+    url: awsapplicationcostprofiler,
     isIsometric: false
   },
-
   {
     id: 'aws-application-discovery-service',
     name: 'aws-application-discovery-service',
-    category,
-    url: awsapplicationdiscoveryservice.toString(),
+    category: 'AWS',
+    url: awsapplicationdiscoveryservice,
     isIsometric: false
   },
-
   {
     id: 'aws-application-integration',
     name: 'aws-application-integration',
-    category,
-    url: awsapplicationintegration.toString(),
+    category: 'AWS',
+    url: awsapplicationintegration,
     isIsometric: false
   },
-
   {
     id: 'aws-application-migration-service',
     name: 'aws-application-migration-service',
-    category,
-    url: awsapplicationmigrationservice.toString(),
+    category: 'AWS',
+    url: awsapplicationmigrationservice,
     isIsometric: false
   },
-
   {
     id: 'aws-appstream',
     name: 'aws-appstream',
-    category,
-    url: awsappstream.toString(),
+    category: 'AWS',
+    url: awsappstream,
     isIsometric: false
   },
-
   {
     id: 'aws-appsync',
     name: 'aws-appsync',
-    category,
-    url: awsappsync.toString(),
+    category: 'AWS',
+    url: awsappsync,
     isIsometric: false
   },
-
   {
     id: 'aws-artifact',
     name: 'aws-artifact',
-    category,
-    url: awsartifact.toString(),
+    category: 'AWS',
+    url: awsartifact,
     isIsometric: false
   },
-
   {
     id: 'aws-athena',
     name: 'aws-athena',
-    category,
-    url: awsathena.toString(),
+    category: 'AWS',
+    url: awsathena,
     isIsometric: false
   },
-
   {
     id: 'aws-audit-manager',
     name: 'aws-audit-manager',
-    category,
-    url: awsauditmanager.toString(),
+    category: 'AWS',
+    url: awsauditmanager,
     isIsometric: false
   },
-
   {
     id: 'aws-augmented-ai-a2i',
     name: 'aws-augmented-ai-a2i',
-    category,
-    url: awsaugmentedaia2i.toString(),
+    category: 'AWS',
+    url: awsaugmentedaia2i,
     isIsometric: false
   },
-
   {
     id: 'aws-aurora',
     name: 'aws-aurora',
-    category,
-    url: awsaurora.toString(),
+    category: 'AWS',
+    url: awsaurora,
     isIsometric: false
   },
-
   {
     id: 'aws-auto-scaling',
     name: 'aws-auto-scaling',
-    category,
-    url: awsautoscaling.toString(),
+    category: 'AWS',
+    url: awsautoscaling,
     isIsometric: false
   },
-
   {
     id: 'aws-backint-agent',
     name: 'aws-backint-agent',
-    category,
-    url: awsbackintagent.toString(),
+    category: 'AWS',
+    url: awsbackintagent,
     isIsometric: false
   },
-
   {
     id: 'aws-backup',
     name: 'aws-backup',
-    category,
-    url: awsbackup.toString(),
+    category: 'AWS',
+    url: awsbackup,
     isIsometric: false
   },
-
   {
     id: 'aws-batch',
     name: 'aws-batch',
-    category,
-    url: awsbatch.toString(),
+    category: 'AWS',
+    url: awsbatch,
     isIsometric: false
   },
-
   {
     id: 'aws-billing-conductor',
     name: 'aws-billing-conductor',
-    category,
-    url: awsbillingconductor.toString(),
+    category: 'AWS',
+    url: awsbillingconductor,
     isIsometric: false
   },
-
   {
     id: 'aws-blockchain',
     name: 'aws-blockchain',
-    category,
-    url: awsblockchain.toString(),
+    category: 'AWS',
+    url: awsblockchain,
     isIsometric: false
   },
-
   {
     id: 'aws-bottlerocket',
     name: 'aws-bottlerocket',
-    category,
-    url: awsbottlerocket.toString(),
+    category: 'AWS',
+    url: awsbottlerocket,
     isIsometric: false
   },
-
   {
     id: 'aws-braket',
     name: 'aws-braket',
-    category,
-    url: awsbraket.toString(),
+    category: 'AWS',
+    url: awsbraket,
     isIsometric: false
   },
-
   {
     id: 'aws-budgets',
     name: 'aws-budgets',
-    category,
-    url: awsbudgets.toString(),
+    category: 'AWS',
+    url: awsbudgets,
     isIsometric: false
   },
-
   {
     id: 'aws-business-applications',
     name: 'aws-business-applications',
-    category,
-    url: awsbusinessapplications.toString(),
+    category: 'AWS',
+    url: awsbusinessapplications,
     isIsometric: false
   },
-
   {
     id: 'aws-certificate-manager',
     name: 'aws-certificate-manager',
-    category,
-    url: awscertificatemanager.toString(),
+    category: 'AWS',
+    url: awscertificatemanager,
     isIsometric: false
   },
-
   {
     id: 'aws-chatbot',
     name: 'aws-chatbot',
-    category,
-    url: awschatbot.toString(),
+    category: 'AWS',
+    url: awschatbot,
     isIsometric: false
   },
-
   {
     id: 'aws-chime-sdk',
     name: 'aws-chime-sdk',
-    category,
-    url: awschimesdk.toString(),
+    category: 'AWS',
+    url: awschimesdk,
     isIsometric: false
   },
-
   {
     id: 'aws-chime-voice-connector',
     name: 'aws-chime-voice-connector',
-    category,
-    url: awschimevoiceconnector.toString(),
+    category: 'AWS',
+    url: awschimevoiceconnector,
     isIsometric: false
   },
-
   {
     id: 'aws-chime',
     name: 'aws-chime',
-    category,
-    url: awschime.toString(),
+    category: 'AWS',
+    url: awschime,
     isIsometric: false
   },
-
   {
     id: 'aws-client-vpn',
     name: 'aws-client-vpn',
-    category,
-    url: awsclientvpn.toString(),
+    category: 'AWS',
+    url: awsclientvpn,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud-control-api',
     name: 'aws-cloud-control-api',
-    category,
-    url: awscloudcontrolapi.toString(),
+    category: 'AWS',
+    url: awscloudcontrolapi,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud-development-kit',
     name: 'aws-cloud-development-kit',
-    category,
-    url: awsclouddevelopmentkit.toString(),
+    category: 'AWS',
+    url: awsclouddevelopmentkit,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud-directory',
     name: 'aws-cloud-directory',
-    category,
-    url: awsclouddirectory.toString(),
+    category: 'AWS',
+    url: awsclouddirectory,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud-financial-management',
     name: 'aws-cloud-financial-management',
-    category,
-    url: awscloudfinancialmanagement.toString(),
+    category: 'AWS',
+    url: awscloudfinancialmanagement,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud-map',
     name: 'aws-cloud-map',
-    category,
-    url: awscloudmap.toString(),
+    category: 'AWS',
+    url: awscloudmap,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud-wan',
     name: 'aws-cloud-wan',
-    category,
-    url: awscloudwan.toString(),
+    category: 'AWS',
+    url: awscloudwan,
     isIsometric: false
   },
-
   {
     id: 'aws-cloud9',
     name: 'aws-cloud9',
-    category,
-    url: awscloud9.toString(),
+    category: 'AWS',
+    url: awscloud9,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudendure-disaster-recovery',
     name: 'aws-cloudendure-disaster-recovery',
-    category,
-    url: awscloudenduredisasterrecovery.toString(),
+    category: 'AWS',
+    url: awscloudenduredisasterrecovery,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudformation',
     name: 'aws-cloudformation',
-    category,
-    url: awscloudformation.toString(),
+    category: 'AWS',
+    url: awscloudformation,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudfront',
     name: 'aws-cloudfront',
-    category,
-    url: awscloudfront.toString(),
+    category: 'AWS',
+    url: awscloudfront,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudhsm',
     name: 'aws-cloudhsm',
-    category,
-    url: awscloudhsm.toString(),
+    category: 'AWS',
+    url: awscloudhsm,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudsearch',
     name: 'aws-cloudsearch',
-    category,
-    url: awscloudsearch.toString(),
+    category: 'AWS',
+    url: awscloudsearch,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudshell',
     name: 'aws-cloudshell',
-    category,
-    url: awscloudshell.toString(),
+    category: 'AWS',
+    url: awscloudshell,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudtrail',
     name: 'aws-cloudtrail',
-    category,
-    url: awscloudtrail.toString(),
+    category: 'AWS',
+    url: awscloudtrail,
     isIsometric: false
   },
-
   {
     id: 'aws-cloudwatch',
     name: 'aws-cloudwatch',
-    category,
-    url: awscloudwatch.toString(),
+    category: 'AWS',
+    url: awscloudwatch,
     isIsometric: false
   },
-
   {
     id: 'aws-codeartifact',
     name: 'aws-codeartifact',
-    category,
-    url: awscodeartifact.toString(),
+    category: 'AWS',
+    url: awscodeartifact,
     isIsometric: false
   },
-
   {
     id: 'aws-codebuild',
     name: 'aws-codebuild',
-    category,
-    url: awscodebuild.toString(),
+    category: 'AWS',
+    url: awscodebuild,
     isIsometric: false
   },
-
   {
     id: 'aws-codecommit',
     name: 'aws-codecommit',
-    category,
-    url: awscodecommit.toString(),
+    category: 'AWS',
+    url: awscodecommit,
     isIsometric: false
   },
-
   {
     id: 'aws-codedeploy',
     name: 'aws-codedeploy',
-    category,
-    url: awscodedeploy.toString(),
+    category: 'AWS',
+    url: awscodedeploy,
     isIsometric: false
   },
-
   {
     id: 'aws-codeguru',
     name: 'aws-codeguru',
-    category,
-    url: awscodeguru.toString(),
+    category: 'AWS',
+    url: awscodeguru,
     isIsometric: false
   },
-
   {
     id: 'aws-codepipeline',
     name: 'aws-codepipeline',
-    category,
-    url: awscodepipeline.toString(),
+    category: 'AWS',
+    url: awscodepipeline,
     isIsometric: false
   },
-
   {
     id: 'aws-codestar',
     name: 'aws-codestar',
-    category,
-    url: awscodestar.toString(),
+    category: 'AWS',
+    url: awscodestar,
     isIsometric: false
   },
-
   {
     id: 'aws-codewhisperer',
     name: 'aws-codewhisperer',
-    category,
-    url: awscodewhisperer.toString(),
+    category: 'AWS',
+    url: awscodewhisperer,
     isIsometric: false
   },
-
   {
     id: 'aws-cognito',
     name: 'aws-cognito',
-    category,
-    url: awscognito.toString(),
+    category: 'AWS',
+    url: awscognito,
     isIsometric: false
   },
-
   {
     id: 'aws-command-line-interface',
     name: 'aws-command-line-interface',
-    category,
-    url: awscommandlineinterface.toString(),
+    category: 'AWS',
+    url: awscommandlineinterface,
     isIsometric: false
   },
-
   {
     id: 'aws-comprehend-medical',
     name: 'aws-comprehend-medical',
-    category,
-    url: awscomprehendmedical.toString(),
+    category: 'AWS',
+    url: awscomprehendmedical,
     isIsometric: false
   },
-
   {
     id: 'aws-comprehend',
     name: 'aws-comprehend',
-    category,
-    url: awscomprehend.toString(),
+    category: 'AWS',
+    url: awscomprehend,
     isIsometric: false
   },
-
   {
     id: 'aws-compute-optimizer',
     name: 'aws-compute-optimizer',
-    category,
-    url: awscomputeoptimizer.toString(),
+    category: 'AWS',
+    url: awscomputeoptimizer,
     isIsometric: false
   },
-
   {
     id: 'aws-compute',
     name: 'aws-compute',
-    category,
-    url: awscompute.toString(),
+    category: 'AWS',
+    url: awscompute,
     isIsometric: false
   },
-
   {
     id: 'aws-config',
     name: 'aws-config',
-    category,
-    url: awsconfig.toString(),
+    category: 'AWS',
+    url: awsconfig,
     isIsometric: false
   },
-
   {
     id: 'aws-connect',
     name: 'aws-connect',
-    category,
-    url: awsconnect.toString(),
+    category: 'AWS',
+    url: awsconnect,
     isIsometric: false
   },
-
   {
     id: 'aws-console-mobile-application',
     name: 'aws-console-mobile-application',
-    category,
-    url: awsconsolemobileapplication.toString(),
+    category: 'AWS',
+    url: awsconsolemobileapplication,
     isIsometric: false
   },
-
   {
     id: 'aws-containers',
     name: 'aws-containers',
-    category,
-    url: awscontainers.toString(),
+    category: 'AWS',
+    url: awscontainers,
     isIsometric: false
   },
-
   {
     id: 'aws-control-tower',
     name: 'aws-control-tower',
-    category,
-    url: awscontroltower.toString(),
+    category: 'AWS',
+    url: awscontroltower,
     isIsometric: false
   },
-
   {
     id: 'aws-corretto',
     name: 'aws-corretto',
-    category,
-    url: awscorretto.toString(),
+    category: 'AWS',
+    url: awscorretto,
     isIsometric: false
   },
-
   {
     id: 'aws-cost-and-usage-report',
     name: 'aws-cost-and-usage-report',
-    category,
-    url: awscostandusagereport.toString(),
+    category: 'AWS',
+    url: awscostandusagereport,
     isIsometric: false
   },
-
   {
     id: 'aws-cost-explorer',
     name: 'aws-cost-explorer',
-    category,
-    url: awscostexplorer.toString(),
+    category: 'AWS',
+    url: awscostexplorer,
     isIsometric: false
   },
-
   {
     id: 'aws-customer-enablement',
     name: 'aws-customer-enablement',
-    category,
-    url: awscustomerenablement.toString(),
+    category: 'AWS',
+    url: awscustomerenablement,
     isIsometric: false
   },
-
   {
     id: 'aws-data-exchange',
     name: 'aws-data-exchange',
-    category,
-    url: awsdataexchange.toString(),
+    category: 'AWS',
+    url: awsdataexchange,
     isIsometric: false
   },
-
   {
     id: 'aws-data-pipeline',
     name: 'aws-data-pipeline',
-    category,
-    url: awsdatapipeline.toString(),
+    category: 'AWS',
+    url: awsdatapipeline,
     isIsometric: false
   },
-
   {
     id: 'aws-database-migration-service',
     name: 'aws-database-migration-service',
-    category,
-    url: awsdatabasemigrationservice.toString(),
+    category: 'AWS',
+    url: awsdatabasemigrationservice,
     isIsometric: false
   },
-
   {
     id: 'aws-database',
     name: 'aws-database',
-    category,
-    url: awsdatabase.toString(),
+    category: 'AWS',
+    url: awsdatabase,
     isIsometric: false
   },
-
   {
     id: 'aws-datasync',
     name: 'aws-datasync',
-    category,
-    url: awsdatasync.toString(),
+    category: 'AWS',
+    url: awsdatasync,
     isIsometric: false
   },
-
   {
     id: 'aws-deep-learning-amis',
     name: 'aws-deep-learning-amis',
-    category,
-    url: awsdeeplearningamis.toString(),
+    category: 'AWS',
+    url: awsdeeplearningamis,
     isIsometric: false
   },
-
   {
     id: 'aws-deep-learning-containers',
     name: 'aws-deep-learning-containers',
-    category,
-    url: awsdeeplearningcontainers.toString(),
+    category: 'AWS',
+    url: awsdeeplearningcontainers,
     isIsometric: false
   },
-
   {
     id: 'aws-deepcomposer',
     name: 'aws-deepcomposer',
-    category,
-    url: awsdeepcomposer.toString(),
+    category: 'AWS',
+    url: awsdeepcomposer,
     isIsometric: false
   },
-
   {
     id: 'aws-deeplens',
     name: 'aws-deeplens',
-    category,
-    url: awsdeeplens.toString(),
+    category: 'AWS',
+    url: awsdeeplens,
     isIsometric: false
   },
-
   {
     id: 'aws-deepracer',
     name: 'aws-deepracer',
-    category,
-    url: awsdeepracer.toString(),
+    category: 'AWS',
+    url: awsdeepracer,
     isIsometric: false
   },
-
   {
     id: 'aws-detective',
     name: 'aws-detective',
-    category,
-    url: awsdetective.toString(),
+    category: 'AWS',
+    url: awsdetective,
     isIsometric: false
   },
-
   {
     id: 'aws-developer-tools',
     name: 'aws-developer-tools',
-    category,
-    url: awsdevelopertools.toString(),
+    category: 'AWS',
+    url: awsdevelopertools,
     isIsometric: false
   },
-
   {
     id: 'aws-device-farm',
     name: 'aws-device-farm',
-    category,
-    url: awsdevicefarm.toString(),
+    category: 'AWS',
+    url: awsdevicefarm,
     isIsometric: false
   },
-
   {
     id: 'aws-devops-guru',
     name: 'aws-devops-guru',
-    category,
-    url: awsdevopsguru.toString(),
+    category: 'AWS',
+    url: awsdevopsguru,
     isIsometric: false
   },
-
   {
     id: 'aws-direct-connect',
     name: 'aws-direct-connect',
-    category,
-    url: awsdirectconnect.toString(),
+    category: 'AWS',
+    url: awsdirectconnect,
     isIsometric: false
   },
-
   {
     id: 'aws-directory-service',
     name: 'aws-directory-service',
-    category,
-    url: awsdirectoryservice.toString(),
+    category: 'AWS',
+    url: awsdirectoryservice,
     isIsometric: false
   },
-
   {
     id: 'aws-distro-for-opentelemetry',
     name: 'aws-distro-for-opentelemetry',
-    category,
-    url: awsdistroforopentelemetry.toString(),
+    category: 'AWS',
+    url: awsdistroforopentelemetry,
     isIsometric: false
   },
-
   {
     id: 'aws-documentdb',
     name: 'aws-documentdb',
-    category,
-    url: awsdocumentdb.toString(),
+    category: 'AWS',
+    url: awsdocumentdb,
     isIsometric: false
   },
-
   {
     id: 'aws-dynamodb',
     name: 'aws-dynamodb',
-    category,
-    url: awsdynamodb.toString(),
+    category: 'AWS',
+    url: awsdynamodb,
     isIsometric: false
   },
-
   {
     id: 'aws-ec2-auto-scaling',
     name: 'aws-ec2-auto-scaling',
-    category,
-    url: awsec2autoscaling.toString(),
+    category: 'AWS',
+    url: awsec2autoscaling,
     isIsometric: false
   },
-
   {
     id: 'aws-ec2-image-builder',
     name: 'aws-ec2-image-builder',
-    category,
-    url: awsec2imagebuilder.toString(),
+    category: 'AWS',
+    url: awsec2imagebuilder,
     isIsometric: false
   },
-
   {
     id: 'aws-ec2-m5n',
     name: 'aws-ec2-m5n',
-    category,
-    url: awsec2m5n.toString(),
+    category: 'AWS',
+    url: awsec2m5n,
     isIsometric: false
   },
-
   {
     id: 'aws-ec2-r5n',
     name: 'aws-ec2-r5n',
-    category,
-    url: awsec2r5n.toString(),
+    category: 'AWS',
+    url: awsec2r5n,
     isIsometric: false
   },
-
   {
     id: 'aws-ec2',
     name: 'aws-ec2',
-    category,
-    url: awsec2.toString(),
+    category: 'AWS',
+    url: awsec2,
     isIsometric: false
   },
-
   {
     id: 'aws-ecs-anywhere',
     name: 'aws-ecs-anywhere',
-    category,
-    url: awsecsanywhere.toString(),
+    category: 'AWS',
+    url: awsecsanywhere,
     isIsometric: false
   },
-
   {
     id: 'aws-efs',
     name: 'aws-efs',
-    category,
-    url: awsefs.toString(),
+    category: 'AWS',
+    url: awsefs,
     isIsometric: false
   },
-
   {
     id: 'aws-eks-anywhere',
     name: 'aws-eks-anywhere',
-    category,
-    url: awseksanywhere.toString(),
+    category: 'AWS',
+    url: awseksanywhere,
     isIsometric: false
   },
-
   {
     id: 'aws-eks-cloud',
     name: 'aws-eks-cloud',
-    category,
-    url: awsekscloud.toString(),
+    category: 'AWS',
+    url: awsekscloud,
     isIsometric: false
   },
-
   {
     id: 'aws-eks-distro',
     name: 'aws-eks-distro',
-    category,
-    url: awseksdistro.toString(),
+    category: 'AWS',
+    url: awseksdistro,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-beanstalk',
     name: 'aws-elastic-beanstalk',
-    category,
-    url: awselasticbeanstalk.toString(),
+    category: 'AWS',
+    url: awselasticbeanstalk,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-block-store',
     name: 'aws-elastic-block-store',
-    category,
-    url: awselasticblockstore.toString(),
+    category: 'AWS',
+    url: awselasticblockstore,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-container-kubernetes',
     name: 'aws-elastic-container-kubernetes',
-    category,
-    url: awselasticcontainerkubernetes.toString(),
+    category: 'AWS',
+    url: awselasticcontainerkubernetes,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-container-registry',
     name: 'aws-elastic-container-registry',
-    category,
-    url: awselasticcontainerregistry.toString(),
+    category: 'AWS',
+    url: awselasticcontainerregistry,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-container-service',
     name: 'aws-elastic-container-service',
-    category,
-    url: awselasticcontainerservice.toString(),
+    category: 'AWS',
+    url: awselasticcontainerservice,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-fabric-adapter',
     name: 'aws-elastic-fabric-adapter',
-    category,
-    url: awselasticfabricadapter.toString(),
+    category: 'AWS',
+    url: awselasticfabricadapter,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-inference',
     name: 'aws-elastic-inference',
-    category,
-    url: awselasticinference.toString(),
+    category: 'AWS',
+    url: awselasticinference,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-kubernetes-service',
     name: 'aws-elastic-kubernetes-service',
-    category,
-    url: awselastickubernetesservice.toString(),
+    category: 'AWS',
+    url: awselastickubernetesservice,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-load-balancing',
     name: 'aws-elastic-load-balancing',
-    category,
-    url: awselasticloadbalancing.toString(),
+    category: 'AWS',
+    url: awselasticloadbalancing,
     isIsometric: false
   },
-
   {
     id: 'aws-elastic-transcoder',
     name: 'aws-elastic-transcoder',
-    category,
-    url: awselastictranscoder.toString(),
+    category: 'AWS',
+    url: awselastictranscoder,
     isIsometric: false
   },
-
   {
     id: 'aws-elasticache',
     name: 'aws-elasticache',
-    category,
-    url: awselasticache.toString(),
+    category: 'AWS',
+    url: awselasticache,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-appliances-&-software',
     name: 'aws-elemental-appliances-&-software',
-    category,
-    url: awselementalappliancessoftware.toString(),
+    category: 'AWS',
+    url: awselementalappliancessoftware,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-conductor',
     name: 'aws-elemental-conductor',
-    category,
-    url: awselementalconductor.toString(),
+    category: 'AWS',
+    url: awselementalconductor,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-delta',
     name: 'aws-elemental-delta',
-    category,
-    url: awselementaldelta.toString(),
+    category: 'AWS',
+    url: awselementaldelta,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-link',
     name: 'aws-elemental-link',
-    category,
-    url: awselementallink.toString(),
+    category: 'AWS',
+    url: awselementallink,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-live',
     name: 'aws-elemental-live',
-    category,
-    url: awselementallive.toString(),
+    category: 'AWS',
+    url: awselementallive,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-mediaconnect',
     name: 'aws-elemental-mediaconnect',
-    category,
-    url: awselementalmediaconnect.toString(),
+    category: 'AWS',
+    url: awselementalmediaconnect,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-mediaconvert',
     name: 'aws-elemental-mediaconvert',
-    category,
-    url: awselementalmediaconvert.toString(),
+    category: 'AWS',
+    url: awselementalmediaconvert,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-medialive',
     name: 'aws-elemental-medialive',
-    category,
-    url: awselementalmedialive.toString(),
+    category: 'AWS',
+    url: awselementalmedialive,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-mediapackage',
     name: 'aws-elemental-mediapackage',
-    category,
-    url: awselementalmediapackage.toString(),
+    category: 'AWS',
+    url: awselementalmediapackage,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-mediastore',
     name: 'aws-elemental-mediastore',
-    category,
-    url: awselementalmediastore.toString(),
+    category: 'AWS',
+    url: awselementalmediastore,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-mediatailor',
     name: 'aws-elemental-mediatailor',
-    category,
-    url: awselementalmediatailor.toString(),
+    category: 'AWS',
+    url: awselementalmediatailor,
     isIsometric: false
   },
-
   {
     id: 'aws-elemental-server',
     name: 'aws-elemental-server',
-    category,
-    url: awselementalserver.toString(),
+    category: 'AWS',
+    url: awselementalserver,
     isIsometric: false
   },
-
   {
     id: 'aws-emr',
     name: 'aws-emr',
-    category,
-    url: awsemr.toString(),
+    category: 'AWS',
+    url: awsemr,
     isIsometric: false
   },
-
   {
     id: 'aws-end-user-computing',
     name: 'aws-end-user-computing',
-    category,
-    url: awsendusercomputing.toString(),
+    category: 'AWS',
+    url: awsendusercomputing,
     isIsometric: false
   },
-
   {
     id: 'aws-eventbridge',
     name: 'aws-eventbridge',
-    category,
-    url: awseventbridge.toString(),
+    category: 'AWS',
+    url: awseventbridge,
     isIsometric: false
   },
-
   {
     id: 'aws-express-workflows',
     name: 'aws-express-workflows',
-    category,
-    url: awsexpressworkflows.toString(),
+    category: 'AWS',
+    url: awsexpressworkflows,
     isIsometric: false
   },
-
   {
     id: 'aws-fargate',
     name: 'aws-fargate',
-    category,
-    url: awsfargate.toString(),
+    category: 'AWS',
+    url: awsfargate,
     isIsometric: false
   },
-
   {
     id: 'aws-fault-injection-simulator',
     name: 'aws-fault-injection-simulator',
-    category,
-    url: awsfaultinjectionsimulator.toString(),
+    category: 'AWS',
+    url: awsfaultinjectionsimulator,
     isIsometric: false
   },
-
   {
     id: 'aws-finspace',
     name: 'aws-finspace',
-    category,
-    url: awsfinspace.toString(),
+    category: 'AWS',
+    url: awsfinspace,
     isIsometric: false
   },
-
   {
     id: 'aws-firewall-manager',
     name: 'aws-firewall-manager',
-    category,
-    url: awsfirewallmanager.toString(),
+    category: 'AWS',
+    url: awsfirewallmanager,
     isIsometric: false
   },
-
   {
     id: 'aws-forecast',
     name: 'aws-forecast',
-    category,
-    url: awsforecast.toString(),
+    category: 'AWS',
+    url: awsforecast,
     isIsometric: false
   },
-
   {
     id: 'aws-fraud-detector',
     name: 'aws-fraud-detector',
-    category,
-    url: awsfrauddetector.toString(),
+    category: 'AWS',
+    url: awsfrauddetector,
     isIsometric: false
   },
-
   {
     id: 'aws-freertos',
     name: 'aws-freertos',
-    category,
-    url: awsfreertos.toString(),
+    category: 'AWS',
+    url: awsfreertos,
     isIsometric: false
   },
-
   {
     id: 'aws-front-end-web-mobile',
     name: 'aws-front-end-web-mobile',
-    category,
-    url: awsfrontendwebmobile.toString(),
+    category: 'AWS',
+    url: awsfrontendwebmobile,
     isIsometric: false
   },
-
   {
     id: 'aws-fsx-for-lustre',
     name: 'aws-fsx-for-lustre',
-    category,
-    url: awsfsxforlustre.toString(),
+    category: 'AWS',
+    url: awsfsxforlustre,
     isIsometric: false
   },
-
   {
     id: 'aws-fsx-for-netapp-ontap',
     name: 'aws-fsx-for-netapp-ontap',
-    category,
-    url: awsfsxfornetappontap.toString(),
+    category: 'AWS',
+    url: awsfsxfornetappontap,
     isIsometric: false
   },
-
   {
     id: 'aws-fsx-for-openzfs',
     name: 'aws-fsx-for-openzfs',
-    category,
-    url: awsfsxforopenzfs.toString(),
+    category: 'AWS',
+    url: awsfsxforopenzfs,
     isIsometric: false
   },
-
   {
     id: 'aws-fsx-for-wfs',
     name: 'aws-fsx-for-wfs',
-    category,
-    url: awsfsxforwfs.toString(),
+    category: 'AWS',
+    url: awsfsxforwfs,
     isIsometric: false
   },
-
   {
     id: 'aws-fsx',
     name: 'aws-fsx',
-    category,
-    url: awsfsx.toString(),
+    category: 'AWS',
+    url: awsfsx,
     isIsometric: false
   },
-
   {
     id: 'aws-game-tech',
     name: 'aws-game-tech',
-    category,
-    url: awsgametech.toString(),
+    category: 'AWS',
+    url: awsgametech,
     isIsometric: false
   },
-
   {
     id: 'aws-gamekit',
     name: 'aws-gamekit',
-    category,
-    url: awsgamekit.toString(),
+    category: 'AWS',
+    url: awsgamekit,
     isIsometric: false
   },
-
   {
     id: 'aws-gamelift',
     name: 'aws-gamelift',
-    category,
-    url: awsgamelift.toString(),
+    category: 'AWS',
+    url: awsgamelift,
     isIsometric: false
   },
-
   {
     id: 'aws-gamesparks',
     name: 'aws-gamesparks',
-    category,
-    url: awsgamesparks.toString(),
+    category: 'AWS',
+    url: awsgamesparks,
     isIsometric: false
   },
-
   {
     id: 'aws-genomics-cli',
     name: 'aws-genomics-cli',
-    category,
-    url: awsgenomicscli.toString(),
+    category: 'AWS',
+    url: awsgenomicscli,
     isIsometric: false
   },
-
   {
     id: 'aws-global-accelerator',
     name: 'aws-global-accelerator',
-    category,
-    url: awsglobalaccelerator.toString(),
+    category: 'AWS',
+    url: awsglobalaccelerator,
     isIsometric: false
   },
-
   {
     id: 'aws-glue-databrew',
     name: 'aws-glue-databrew',
-    category,
-    url: awsgluedatabrew.toString(),
+    category: 'AWS',
+    url: awsgluedatabrew,
     isIsometric: false
   },
-
   {
     id: 'aws-glue-elastic-views',
     name: 'aws-glue-elastic-views',
-    category,
-    url: awsglueelasticviews.toString(),
+    category: 'AWS',
+    url: awsglueelasticviews,
     isIsometric: false
   },
-
   {
     id: 'aws-glue',
     name: 'aws-glue',
-    category,
-    url: awsglue.toString(),
+    category: 'AWS',
+    url: awsglue,
     isIsometric: false
   },
-
   {
     id: 'aws-ground-station',
     name: 'aws-ground-station',
-    category,
-    url: awsgroundstation.toString(),
+    category: 'AWS',
+    url: awsgroundstation,
     isIsometric: false
   },
-
   {
     id: 'aws-guardduty',
     name: 'aws-guardduty',
-    category,
-    url: awsguardduty.toString(),
+    category: 'AWS',
+    url: awsguardduty,
     isIsometric: false
   },
-
   {
     id: 'aws-healthlake',
     name: 'aws-healthlake',
-    category,
-    url: awshealthlake.toString(),
+    category: 'AWS',
+    url: awshealthlake,
     isIsometric: false
   },
-
   {
     id: 'aws-honeycode',
     name: 'aws-honeycode',
-    category,
-    url: awshoneycode.toString(),
+    category: 'AWS',
+    url: awshoneycode,
     isIsometric: false
   },
-
   {
     id: 'aws-iam-identity-center',
     name: 'aws-iam-identity-center',
-    category,
-    url: awsiamidentitycenter.toString(),
+    category: 'AWS',
+    url: awsiamidentitycenter,
     isIsometric: false
   },
-
   {
     id: 'aws-identity-and-access-management',
     name: 'aws-identity-and-access-management',
-    category,
-    url: awsidentityandaccessmanagement.toString(),
+    category: 'AWS',
+    url: awsidentityandaccessmanagement,
     isIsometric: false
   },
-
   {
     id: 'aws-inspector',
     name: 'aws-inspector',
-    category,
-    url: awsinspector.toString(),
+    category: 'AWS',
+    url: awsinspector,
     isIsometric: false
   },
-
   {
     id: 'aws-interactive-video-service',
     name: 'aws-interactive-video-service',
-    category,
-    url: awsinteractivevideoservice.toString(),
+    category: 'AWS',
+    url: awsinteractivevideoservice,
     isIsometric: false
   },
-
   {
     id: 'aws-internet-of-things',
     name: 'aws-internet-of-things',
-    category,
-    url: awsinternetofthings.toString(),
+    category: 'AWS',
+    url: awsinternetofthings,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-1-click',
     name: 'aws-iot-1-click',
-    category,
-    url: awsiot1click.toString(),
+    category: 'AWS',
+    url: awsiot1click,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-analytics',
     name: 'aws-iot-analytics',
-    category,
-    url: awsiotanalytics.toString(),
+    category: 'AWS',
+    url: awsiotanalytics,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-button',
     name: 'aws-iot-button',
-    category,
-    url: awsiotbutton.toString(),
+    category: 'AWS',
+    url: awsiotbutton,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-core',
     name: 'aws-iot-core',
-    category,
-    url: awsiotcore.toString(),
+    category: 'AWS',
+    url: awsiotcore,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-device-defender',
     name: 'aws-iot-device-defender',
-    category,
-    url: awsiotdevicedefender.toString(),
+    category: 'AWS',
+    url: awsiotdevicedefender,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-device-management',
     name: 'aws-iot-device-management',
-    category,
-    url: awsiotdevicemanagement.toString(),
+    category: 'AWS',
+    url: awsiotdevicemanagement,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-edukit',
     name: 'aws-iot-edukit',
-    category,
-    url: awsiotedukit.toString(),
+    category: 'AWS',
+    url: awsiotedukit,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-events',
     name: 'aws-iot-events',
-    category,
-    url: awsiotevents.toString(),
+    category: 'AWS',
+    url: awsiotevents,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-expresslink',
     name: 'aws-iot-expresslink',
-    category,
-    url: awsiotexpresslink.toString(),
+    category: 'AWS',
+    url: awsiotexpresslink,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-fleetwise',
     name: 'aws-iot-fleetwise',
-    category,
-    url: awsiotfleetwise.toString(),
+    category: 'AWS',
+    url: awsiotfleetwise,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-greengrass',
     name: 'aws-iot-greengrass',
-    category,
-    url: awsiotgreengrass.toString(),
+    category: 'AWS',
+    url: awsiotgreengrass,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-roborunner',
     name: 'aws-iot-roborunner',
-    category,
-    url: awsiotroborunner.toString(),
+    category: 'AWS',
+    url: awsiotroborunner,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-sitewise',
     name: 'aws-iot-sitewise',
-    category,
-    url: awsiotsitewise.toString(),
+    category: 'AWS',
+    url: awsiotsitewise,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-things-graph',
     name: 'aws-iot-things-graph',
-    category,
-    url: awsiotthingsgraph.toString(),
+    category: 'AWS',
+    url: awsiotthingsgraph,
     isIsometric: false
   },
-
   {
     id: 'aws-iot-twinmaker',
     name: 'aws-iot-twinmaker',
-    category,
-    url: awsiottwinmaker.toString(),
+    category: 'AWS',
+    url: awsiottwinmaker,
     isIsometric: false
   },
-
   {
     id: 'aws-iq',
     name: 'aws-iq',
-    category,
-    url: awsiq.toString(),
+    category: 'AWS',
+    url: awsiq,
     isIsometric: false
   },
-
   {
     id: 'aws-kendra',
     name: 'aws-kendra',
-    category,
-    url: awskendra.toString(),
+    category: 'AWS',
+    url: awskendra,
     isIsometric: false
   },
-
   {
     id: 'aws-key-management-service',
     name: 'aws-key-management-service',
-    category,
-    url: awskeymanagementservice.toString(),
+    category: 'AWS',
+    url: awskeymanagementservice,
     isIsometric: false
   },
-
   {
     id: 'aws-keyspaces',
     name: 'aws-keyspaces',
-    category,
-    url: awskeyspaces.toString(),
+    category: 'AWS',
+    url: awskeyspaces,
     isIsometric: false
   },
-
   {
     id: 'aws-kinesis-data-analytics',
     name: 'aws-kinesis-data-analytics',
-    category,
-    url: awskinesisdataanalytics.toString(),
+    category: 'AWS',
+    url: awskinesisdataanalytics,
     isIsometric: false
   },
-
   {
     id: 'aws-kinesis-data-streams',
     name: 'aws-kinesis-data-streams',
-    category,
-    url: awskinesisdatastreams.toString(),
+    category: 'AWS',
+    url: awskinesisdatastreams,
     isIsometric: false
   },
-
   {
     id: 'aws-kinesis-firehose',
     name: 'aws-kinesis-firehose',
-    category,
-    url: awskinesisfirehose.toString(),
+    category: 'AWS',
+    url: awskinesisfirehose,
     isIsometric: false
   },
-
   {
     id: 'aws-kinesis-video-streams',
     name: 'aws-kinesis-video-streams',
-    category,
-    url: awskinesisvideostreams.toString(),
+    category: 'AWS',
+    url: awskinesisvideostreams,
     isIsometric: false
   },
-
   {
     id: 'aws-kinesis',
     name: 'aws-kinesis',
-    category,
-    url: awskinesis.toString(),
+    category: 'AWS',
+    url: awskinesis,
     isIsometric: false
   },
-
   {
     id: 'aws-lake-formation',
     name: 'aws-lake-formation',
-    category,
-    url: awslakeformation.toString(),
+    category: 'AWS',
+    url: awslakeformation,
     isIsometric: false
   },
-
   {
     id: 'aws-lambda',
     name: 'aws-lambda',
-    category,
-    url: awslambda.toString(),
+    category: 'AWS',
+    url: awslambda,
     isIsometric: false
   },
-
   {
     id: 'aws-launch-wizard',
     name: 'aws-launch-wizard',
-    category,
-    url: awslaunchwizard.toString(),
+    category: 'AWS',
+    url: awslaunchwizard,
     isIsometric: false
   },
-
   {
     id: 'aws-lex',
     name: 'aws-lex',
-    category,
-    url: awslex.toString(),
+    category: 'AWS',
+    url: awslex,
     isIsometric: false
   },
-
   {
     id: 'aws-license-manager',
     name: 'aws-license-manager',
-    category,
-    url: awslicensemanager.toString(),
+    category: 'AWS',
+    url: awslicensemanager,
     isIsometric: false
   },
-
   {
     id: 'aws-lightsail',
     name: 'aws-lightsail',
-    category,
-    url: awslightsail.toString(),
+    category: 'AWS',
+    url: awslightsail,
     isIsometric: false
   },
-
   {
     id: 'aws-local-zones',
     name: 'aws-local-zones',
-    category,
-    url: awslocalzones.toString(),
+    category: 'AWS',
+    url: awslocalzones,
     isIsometric: false
   },
-
   {
     id: 'aws-location-service',
     name: 'aws-location-service',
-    category,
-    url: awslocationservice.toString(),
+    category: 'AWS',
+    url: awslocationservice,
     isIsometric: false
   },
-
   {
     id: 'aws-lookout-for-equipment',
     name: 'aws-lookout-for-equipment',
-    category,
-    url: awslookoutforequipment.toString(),
+    category: 'AWS',
+    url: awslookoutforequipment,
     isIsometric: false
   },
-
   {
     id: 'aws-lookout-for-metrics',
     name: 'aws-lookout-for-metrics',
-    category,
-    url: awslookoutformetrics.toString(),
+    category: 'AWS',
+    url: awslookoutformetrics,
     isIsometric: false
   },
-
   {
     id: 'aws-lookout-for-vision',
     name: 'aws-lookout-for-vision',
-    category,
-    url: awslookoutforvision.toString(),
+    category: 'AWS',
+    url: awslookoutforvision,
     isIsometric: false
   },
-
   {
     id: 'aws-machine-learning',
     name: 'aws-machine-learning',
-    category,
-    url: awsmachinelearning.toString(),
+    category: 'AWS',
+    url: awsmachinelearning,
     isIsometric: false
   },
-
   {
     id: 'aws-macie',
     name: 'aws-macie',
-    category,
-    url: awsmacie.toString(),
+    category: 'AWS',
+    url: awsmacie,
     isIsometric: false
   },
-
   {
     id: 'aws-mainframe-modernization',
     name: 'aws-mainframe-modernization',
-    category,
-    url: awsmainframemodernization.toString(),
+    category: 'AWS',
+    url: awsmainframemodernization,
     isIsometric: false
   },
-
   {
     id: 'aws-managed-blockchain',
     name: 'aws-managed-blockchain',
-    category,
-    url: awsmanagedblockchain.toString(),
+    category: 'AWS',
+    url: awsmanagedblockchain,
     isIsometric: false
   },
-
   {
     id: 'aws-managed-grafana',
     name: 'aws-managed-grafana',
-    category,
-    url: awsmanagedgrafana.toString(),
+    category: 'AWS',
+    url: awsmanagedgrafana,
     isIsometric: false
   },
-
   {
     id: 'aws-managed-service-for-prometheus',
     name: 'aws-managed-service-for-prometheus',
-    category,
-    url: awsmanagedserviceforprometheus.toString(),
+    category: 'AWS',
+    url: awsmanagedserviceforprometheus,
     isIsometric: false
   },
-
   {
     id: 'aws-managed-services',
     name: 'aws-managed-services',
-    category,
-    url: awsmanagedservices.toString(),
+    category: 'AWS',
+    url: awsmanagedservices,
     isIsometric: false
   },
-
   {
     id: 'aws-managed-streaming-for-apache-kafka',
     name: 'aws-managed-streaming-for-apache-kafka',
-    category,
-    url: awsmanagedstreamingforapachekafka.toString(),
+    category: 'AWS',
+    url: awsmanagedstreamingforapachekafka,
     isIsometric: false
   },
-
   {
     id: 'aws-managed-workflows-for-apache-airflow',
     name: 'aws-managed-workflows-for-apache-airflow',
-    category,
-    url: awsmanagedworkflowsforapacheairflow.toString(),
+    category: 'AWS',
+    url: awsmanagedworkflowsforapacheairflow,
     isIsometric: false
   },
-
   {
     id: 'aws-management-console',
     name: 'aws-management-console',
-    category,
-    url: awsmanagementconsole.toString(),
+    category: 'AWS',
+    url: awsmanagementconsole,
     isIsometric: false
   },
-
   {
     id: 'aws-management-governance',
     name: 'aws-management-governance',
-    category,
-    url: awsmanagementgovernance.toString(),
+    category: 'AWS',
+    url: awsmanagementgovernance,
     isIsometric: false
   },
-
   {
     id: 'aws-marketplace',
     name: 'aws-marketplace',
-    category,
-    url: awsmarketplace.toString(),
+    category: 'AWS',
+    url: awsmarketplace,
     isIsometric: false
   },
-
   {
     id: 'aws-media-services',
     name: 'aws-media-services',
-    category,
-    url: awsmediaservices.toString(),
+    category: 'AWS',
+    url: awsmediaservices,
     isIsometric: false
   },
-
   {
     id: 'aws-memorydb-for-redis',
     name: 'aws-memorydb-for-redis',
-    category,
-    url: awsmemorydbforredis.toString(),
+    category: 'AWS',
+    url: awsmemorydbforredis,
     isIsometric: false
   },
-
   {
     id: 'aws-migration-evaluator',
     name: 'aws-migration-evaluator',
-    category,
-    url: awsmigrationevaluator.toString(),
+    category: 'AWS',
+    url: awsmigrationevaluator,
     isIsometric: false
   },
-
   {
     id: 'aws-migration-hub',
     name: 'aws-migration-hub',
-    category,
-    url: awsmigrationhub.toString(),
+    category: 'AWS',
+    url: awsmigrationhub,
     isIsometric: false
   },
-
   {
     id: 'aws-migration-transfer',
     name: 'aws-migration-transfer',
-    category,
-    url: awsmigrationtransfer.toString(),
+    category: 'AWS',
+    url: awsmigrationtransfer,
     isIsometric: false
   },
-
   {
     id: 'aws-monitron',
     name: 'aws-monitron',
-    category,
-    url: awsmonitron.toString(),
+    category: 'AWS',
+    url: awsmonitron,
     isIsometric: false
   },
-
   {
     id: 'aws-mq',
     name: 'aws-mq',
-    category,
-    url: awsmq.toString(),
+    category: 'AWS',
+    url: awsmq,
     isIsometric: false
   },
-
   {
     id: 'aws-neptune',
     name: 'aws-neptune',
-    category,
-    url: awsneptune.toString(),
+    category: 'AWS',
+    url: awsneptune,
     isIsometric: false
   },
-
   {
     id: 'aws-network-firewall',
     name: 'aws-network-firewall',
-    category,
-    url: awsnetworkfirewall.toString(),
+    category: 'AWS',
+    url: awsnetworkfirewall,
     isIsometric: false
   },
-
   {
     id: 'aws-networking-content-delivery',
     name: 'aws-networking-content-delivery',
-    category,
-    url: awsnetworkingcontentdelivery.toString(),
+    category: 'AWS',
+    url: awsnetworkingcontentdelivery,
     isIsometric: false
   },
-
   {
     id: 'aws-neuron',
     name: 'aws-neuron',
-    category,
-    url: awsneuron.toString(),
+    category: 'AWS',
+    url: awsneuron,
     isIsometric: false
   },
-
   {
     id: 'aws-nice-dcv',
     name: 'aws-nice-dcv',
-    category,
-    url: awsnicedcv.toString(),
+    category: 'AWS',
+    url: awsnicedcv,
     isIsometric: false
   },
-
   {
     id: 'aws-nice-enginframe',
     name: 'aws-nice-enginframe',
-    category,
-    url: awsniceenginframe.toString(),
+    category: 'AWS',
+    url: awsniceenginframe,
     isIsometric: false
   },
-
   {
     id: 'aws-nimble-studio',
     name: 'aws-nimble-studio',
-    category,
-    url: awsnimblestudio.toString(),
+    category: 'AWS',
+    url: awsnimblestudio,
     isIsometric: false
   },
-
   {
     id: 'aws-nitro-enclaves',
     name: 'aws-nitro-enclaves',
-    category,
-    url: awsnitroenclaves.toString(),
+    category: 'AWS',
+    url: awsnitroenclaves,
     isIsometric: false
   },
-
   {
     id: 'aws-open-3d-engine',
     name: 'aws-open-3d-engine',
-    category,
-    url: awsopen3dengine.toString(),
+    category: 'AWS',
+    url: awsopen3dengine,
     isIsometric: false
   },
-
   {
     id: 'aws-opensearch-service',
     name: 'aws-opensearch-service',
-    category,
-    url: awsopensearchservice.toString(),
+    category: 'AWS',
+    url: awsopensearchservice,
     isIsometric: false
   },
-
   {
     id: 'aws-opsworks',
     name: 'aws-opsworks',
-    category,
-    url: awsopsworks.toString(),
+    category: 'AWS',
+    url: awsopsworks,
     isIsometric: false
   },
-
   {
     id: 'aws-organizations',
     name: 'aws-organizations',
-    category,
-    url: awsorganizations.toString(),
+    category: 'AWS',
+    url: awsorganizations,
     isIsometric: false
   },
-
   {
     id: 'aws-outposts-family',
     name: 'aws-outposts-family',
-    category,
-    url: awsoutpostsfamily.toString(),
+    category: 'AWS',
+    url: awsoutpostsfamily,
     isIsometric: false
   },
-
   {
     id: 'aws-outposts-rack',
     name: 'aws-outposts-rack',
-    category,
-    url: awsoutpostsrack.toString(),
+    category: 'AWS',
+    url: awsoutpostsrack,
     isIsometric: false
   },
-
   {
     id: 'aws-outposts-servers',
     name: 'aws-outposts-servers',
-    category,
-    url: awsoutpostsservers.toString(),
+    category: 'AWS',
+    url: awsoutpostsservers,
     isIsometric: false
   },
-
   {
     id: 'aws-panorama',
     name: 'aws-panorama',
-    category,
-    url: awspanorama.toString(),
+    category: 'AWS',
+    url: awspanorama,
     isIsometric: false
   },
-
   {
     id: 'aws-parallelcluster',
     name: 'aws-parallelcluster',
-    category,
-    url: awsparallelcluster.toString(),
+    category: 'AWS',
+    url: awsparallelcluster,
     isIsometric: false
   },
-
   {
     id: 'aws-personal-health-dashboard',
     name: 'aws-personal-health-dashboard',
-    category,
-    url: awspersonalhealthdashboard.toString(),
+    category: 'AWS',
+    url: awspersonalhealthdashboard,
     isIsometric: false
   },
-
   {
     id: 'aws-personalize',
     name: 'aws-personalize',
-    category,
-    url: awspersonalize.toString(),
+    category: 'AWS',
+    url: awspersonalize,
     isIsometric: false
   },
-
   {
     id: 'aws-pinpoint-apis',
     name: 'aws-pinpoint-apis',
-    category,
-    url: awspinpointapis.toString(),
+    category: 'AWS',
+    url: awspinpointapis,
     isIsometric: false
   },
-
   {
     id: 'aws-pinpoint',
     name: 'aws-pinpoint',
-    category,
-    url: awspinpoint.toString(),
+    category: 'AWS',
+    url: awspinpoint,
     isIsometric: false
   },
-
   {
     id: 'aws-polly',
     name: 'aws-polly',
-    category,
-    url: awspolly.toString(),
+    category: 'AWS',
+    url: awspolly,
     isIsometric: false
   },
-
   {
     id: 'aws-private-5g',
     name: 'aws-private-5g',
-    category,
-    url: awsprivate5g.toString(),
+    category: 'AWS',
+    url: awsprivate5g,
     isIsometric: false
   },
-
   {
     id: 'aws-privatelink',
     name: 'aws-privatelink',
-    category,
-    url: awsprivatelink.toString(),
+    category: 'AWS',
+    url: awsprivatelink,
     isIsometric: false
   },
-
   {
     id: 'aws-professional-services',
     name: 'aws-professional-services',
-    category,
-    url: awsprofessionalservices.toString(),
+    category: 'AWS',
+    url: awsprofessionalservices,
     isIsometric: false
   },
-
   {
     id: 'aws-proton',
     name: 'aws-proton',
-    category,
-    url: awsproton.toString(),
+    category: 'AWS',
+    url: awsproton,
     isIsometric: false
   },
-
   {
     id: 'aws-quantum-ledger-database',
     name: 'aws-quantum-ledger-database',
-    category,
-    url: awsquantumledgerdatabase.toString(),
+    category: 'AWS',
+    url: awsquantumledgerdatabase,
     isIsometric: false
   },
-
   {
     id: 'aws-quantum-technologies',
     name: 'aws-quantum-technologies',
-    category,
-    url: awsquantumtechnologies.toString(),
+    category: 'AWS',
+    url: awsquantumtechnologies,
     isIsometric: false
   },
-
   {
     id: 'aws-quicksight',
     name: 'aws-quicksight',
-    category,
-    url: awsquicksight.toString(),
+    category: 'AWS',
+    url: awsquicksight,
     isIsometric: false
   },
-
   {
     id: 'aws-rds-on-vmware',
     name: 'aws-rds-on-vmware',
-    category,
-    url: awsrdsonvmware.toString(),
+    category: 'AWS',
+    url: awsrdsonvmware,
     isIsometric: false
   },
-
   {
     id: 'aws-rds',
     name: 'aws-rds',
-    category,
-    url: awsrds.toString(),
+    category: 'AWS',
+    url: awsrds,
     isIsometric: false
   },
-
   {
     id: 'aws-red-hat-openshift',
     name: 'aws-red-hat-openshift',
-    category,
-    url: awsredhatopenshift.toString(),
+    category: 'AWS',
+    url: awsredhatopenshift,
     isIsometric: false
   },
-
   {
     id: 'aws-redshift',
     name: 'aws-redshift',
-    category,
-    url: awsredshift.toString(),
+    category: 'AWS',
+    url: awsredshift,
     isIsometric: false
   },
-
   {
     id: 'aws-rekognition',
     name: 'aws-rekognition',
-    category,
-    url: awsrekognition.toString(),
+    category: 'AWS',
+    url: awsrekognition,
     isIsometric: false
   },
-
   {
     id: 'aws-repost',
     name: 'aws-repost',
-    category,
-    url: awsrepost.toString(),
+    category: 'AWS',
+    url: awsrepost,
     isIsometric: false
   },
-
   {
     id: 'aws-reserved-instance-reporting',
     name: 'aws-reserved-instance-reporting',
-    category,
-    url: awsreservedinstancereporting.toString(),
+    category: 'AWS',
+    url: awsreservedinstancereporting,
     isIsometric: false
   },
-
   {
     id: 'aws-resilience-hub',
     name: 'aws-resilience-hub',
-    category,
-    url: awsresiliencehub.toString(),
+    category: 'AWS',
+    url: awsresiliencehub,
     isIsometric: false
   },
-
   {
     id: 'aws-resource-access-manager',
     name: 'aws-resource-access-manager',
-    category,
-    url: awsresourceaccessmanager.toString(),
+    category: 'AWS',
+    url: awsresourceaccessmanager,
     isIsometric: false
   },
-
   {
     id: 'aws-robomaker',
     name: 'aws-robomaker',
-    category,
-    url: awsrobomaker.toString(),
+    category: 'AWS',
+    url: awsrobomaker,
     isIsometric: false
   },
-
   {
     id: 'aws-robotics',
     name: 'aws-robotics',
-    category,
-    url: awsrobotics.toString(),
+    category: 'AWS',
+    url: awsrobotics,
     isIsometric: false
   },
-
   {
     id: 'aws-route-53',
     name: 'aws-route-53',
-    category,
-    url: awsroute53.toString(),
+    category: 'AWS',
+    url: awsroute53,
     isIsometric: false
   },
-
   {
     id: 'aws-s3-on-outposts',
     name: 'aws-s3-on-outposts',
-    category,
-    url: awss3onoutposts.toString(),
+    category: 'AWS',
+    url: awss3onoutposts,
     isIsometric: false
   },
-
   {
     id: 'aws-sagemaker-ground-truth',
     name: 'aws-sagemaker-ground-truth',
-    category,
-    url: awssagemakergroundtruth.toString(),
+    category: 'AWS',
+    url: awssagemakergroundtruth,
     isIsometric: false
   },
-
   {
     id: 'aws-sagemaker-studio-lab',
     name: 'aws-sagemaker-studio-lab',
-    category,
-    url: awssagemakerstudiolab.toString(),
+    category: 'AWS',
+    url: awssagemakerstudiolab,
     isIsometric: false
   },
-
   {
     id: 'aws-sagemaker',
     name: 'aws-sagemaker',
-    category,
-    url: awssagemaker.toString(),
+    category: 'AWS',
+    url: awssagemaker,
     isIsometric: false
   },
-
   {
     id: 'aws-satellite',
     name: 'aws-satellite',
-    category,
-    url: awssatellite.toString(),
+    category: 'AWS',
+    url: awssatellite,
     isIsometric: false
   },
-
   {
     id: 'aws-savings-plans',
     name: 'aws-savings-plans',
-    category,
-    url: awssavingsplans.toString(),
+    category: 'AWS',
+    url: awssavingsplans,
     isIsometric: false
   },
-
   {
     id: 'aws-secrets-manager',
     name: 'aws-secrets-manager',
-    category,
-    url: awssecretsmanager.toString(),
+    category: 'AWS',
+    url: awssecretsmanager,
     isIsometric: false
   },
-
   {
     id: 'aws-security-hub',
     name: 'aws-security-hub',
-    category,
-    url: awssecurityhub.toString(),
+    category: 'AWS',
+    url: awssecurityhub,
     isIsometric: false
   },
-
   {
     id: 'aws-security-identity-compliance',
     name: 'aws-security-identity-compliance',
-    category,
-    url: awssecurityidentitycompliance.toString(),
+    category: 'AWS',
+    url: awssecurityidentitycompliance,
     isIsometric: false
   },
-
   {
     id: 'aws-server-migration-service',
     name: 'aws-server-migration-service',
-    category,
-    url: awsservermigrationservice.toString(),
+    category: 'AWS',
+    url: awsservermigrationservice,
     isIsometric: false
   },
-
   {
     id: 'aws-serverless-application-repository',
     name: 'aws-serverless-application-repository',
-    category,
-    url: awsserverlessapplicationrepository.toString(),
+    category: 'AWS',
+    url: awsserverlessapplicationrepository,
     isIsometric: false
   },
-
   {
     id: 'aws-serverless',
     name: 'aws-serverless',
-    category,
-    url: awsserverless.toString(),
+    category: 'AWS',
+    url: awsserverless,
     isIsometric: false
   },
-
   {
     id: 'aws-service-catalog',
     name: 'aws-service-catalog',
-    category,
-    url: awsservicecatalog.toString(),
+    category: 'AWS',
+    url: awsservicecatalog,
     isIsometric: false
   },
-
   {
     id: 'aws-shield',
     name: 'aws-shield',
-    category,
-    url: awsshield.toString(),
+    category: 'AWS',
+    url: awsshield,
     isIsometric: false
   },
-
   {
     id: 'aws-signer',
     name: 'aws-signer',
-    category,
-    url: awssigner.toString(),
+    category: 'AWS',
+    url: awssigner,
     isIsometric: false
   },
-
   {
     id: 'aws-simple-email-service',
     name: 'aws-simple-email-service',
-    category,
-    url: awssimpleemailservice.toString(),
+    category: 'AWS',
+    url: awssimpleemailservice,
     isIsometric: false
   },
-
   {
     id: 'aws-simple-notification-service',
     name: 'aws-simple-notification-service',
-    category,
-    url: awssimplenotificationservice.toString(),
+    category: 'AWS',
+    url: awssimplenotificationservice,
     isIsometric: false
   },
-
   {
     id: 'aws-simple-queue-service',
     name: 'aws-simple-queue-service',
-    category,
-    url: awssimplequeueservice.toString(),
+    category: 'AWS',
+    url: awssimplequeueservice,
     isIsometric: false
   },
-
   {
     id: 'aws-simple-storage-service-glacier',
     name: 'aws-simple-storage-service-glacier',
-    category,
-    url: awssimplestorageserviceglacier.toString(),
+    category: 'AWS',
+    url: awssimplestorageserviceglacier,
     isIsometric: false
   },
-
   {
     id: 'aws-simple-storage-service',
     name: 'aws-simple-storage-service',
-    category,
-    url: awssimplestorageservice.toString(),
+    category: 'AWS',
+    url: awssimplestorageservice,
     isIsometric: false
   },
-
   {
     id: 'aws-site-to-site-vpn',
     name: 'aws-site-to-site-vpn',
-    category,
-    url: awssitetositevpn.toString(),
+    category: 'AWS',
+    url: awssitetositevpn,
     isIsometric: false
   },
-
   {
     id: 'aws-snowball-edge',
     name: 'aws-snowball-edge',
-    category,
-    url: awssnowballedge.toString(),
+    category: 'AWS',
+    url: awssnowballedge,
     isIsometric: false
   },
-
   {
     id: 'aws-snowball',
     name: 'aws-snowball',
-    category,
-    url: awssnowball.toString(),
+    category: 'AWS',
+    url: awssnowball,
     isIsometric: false
   },
-
   {
     id: 'aws-snowcone',
     name: 'aws-snowcone',
-    category,
-    url: awssnowcone.toString(),
+    category: 'AWS',
+    url: awssnowcone,
     isIsometric: false
   },
-
   {
     id: 'aws-snowmobile',
     name: 'aws-snowmobile',
-    category,
-    url: awssnowmobile.toString(),
+    category: 'AWS',
+    url: awssnowmobile,
     isIsometric: false
   },
-
   {
     id: 'aws-step-functions',
     name: 'aws-step-functions',
-    category,
-    url: awsstepfunctions.toString(),
+    category: 'AWS',
+    url: awsstepfunctions,
     isIsometric: false
   },
-
   {
     id: 'aws-storage-gateway',
     name: 'aws-storage-gateway',
-    category,
-    url: awsstoragegateway.toString(),
+    category: 'AWS',
+    url: awsstoragegateway,
     isIsometric: false
   },
-
   {
     id: 'aws-storage',
     name: 'aws-storage',
-    category,
-    url: awsstorage.toString(),
+    category: 'AWS',
+    url: awsstorage,
     isIsometric: false
   },
-
   {
     id: 'aws-sumerian',
     name: 'aws-sumerian',
-    category,
-    url: awssumerian.toString(),
+    category: 'AWS',
+    url: awssumerian,
     isIsometric: false
   },
-
   {
     id: 'aws-support',
     name: 'aws-support',
-    category,
-    url: awssupport.toString(),
+    category: 'AWS',
+    url: awssupport,
     isIsometric: false
   },
-
   {
     id: 'aws-systems-manager-incident-manager',
     name: 'aws-systems-manager-incident-manager',
-    category,
-    url: awssystemsmanagerincidentmanager.toString(),
+    category: 'AWS',
+    url: awssystemsmanagerincidentmanager,
     isIsometric: false
   },
-
   {
     id: 'aws-systems-manager',
     name: 'aws-systems-manager',
-    category,
-    url: awssystemsmanager.toString(),
+    category: 'AWS',
+    url: awssystemsmanager,
     isIsometric: false
   },
-
   {
     id: 'aws-tensorflow-on-aws',
     name: 'aws-tensorflow-on-aws',
-    category,
-    url: awstensorflowonaws.toString(),
+    category: 'AWS',
+    url: awstensorflowonaws,
     isIsometric: false
   },
-
   {
     id: 'aws-textract',
     name: 'aws-textract',
-    category,
-    url: awstextract.toString(),
+    category: 'AWS',
+    url: awstextract,
     isIsometric: false
   },
-
   {
     id: 'aws-thinkbox-deadline',
     name: 'aws-thinkbox-deadline',
-    category,
-    url: awsthinkboxdeadline.toString(),
+    category: 'AWS',
+    url: awsthinkboxdeadline,
     isIsometric: false
   },
-
   {
     id: 'aws-thinkbox-frost',
     name: 'aws-thinkbox-frost',
-    category,
-    url: awsthinkboxfrost.toString(),
+    category: 'AWS',
+    url: awsthinkboxfrost,
     isIsometric: false
   },
-
   {
     id: 'aws-thinkbox-krakatoa',
     name: 'aws-thinkbox-krakatoa',
-    category,
-    url: awsthinkboxkrakatoa.toString(),
+    category: 'AWS',
+    url: awsthinkboxkrakatoa,
     isIsometric: false
   },
-
   {
     id: 'aws-thinkbox-sequoia',
     name: 'aws-thinkbox-sequoia',
-    category,
-    url: awsthinkboxsequoia.toString(),
+    category: 'AWS',
+    url: awsthinkboxsequoia,
     isIsometric: false
   },
-
   {
     id: 'aws-thinkbox-stoke',
     name: 'aws-thinkbox-stoke',
-    category,
-    url: awsthinkboxstoke.toString(),
+    category: 'AWS',
+    url: awsthinkboxstoke,
     isIsometric: false
   },
-
   {
     id: 'aws-thinkbox-xmesh',
     name: 'aws-thinkbox-xmesh',
-    category,
-    url: awsthinkboxxmesh.toString(),
+    category: 'AWS',
+    url: awsthinkboxxmesh,
     isIsometric: false
   },
-
   {
     id: 'aws-timestream',
     name: 'aws-timestream',
-    category,
-    url: awstimestream.toString(),
+    category: 'AWS',
+    url: awstimestream,
     isIsometric: false
   },
-
   {
     id: 'aws-tools-and-sdks',
     name: 'aws-tools-and-sdks',
-    category,
-    url: awstoolsandsdks.toString(),
+    category: 'AWS',
+    url: awstoolsandsdks,
     isIsometric: false
   },
-
   {
     id: 'aws-torchserve',
     name: 'aws-torchserve',
-    category,
-    url: awstorchserve.toString(),
+    category: 'AWS',
+    url: awstorchserve,
     isIsometric: false
   },
-
   {
     id: 'aws-training-certification',
     name: 'aws-training-certification',
-    category,
-    url: awstrainingcertification.toString(),
+    category: 'AWS',
+    url: awstrainingcertification,
     isIsometric: false
   },
-
   {
     id: 'aws-transcribe',
     name: 'aws-transcribe',
-    category,
-    url: awstranscribe.toString(),
+    category: 'AWS',
+    url: awstranscribe,
     isIsometric: false
   },
-
   {
     id: 'aws-transfer-family',
     name: 'aws-transfer-family',
-    category,
-    url: awstransferfamily.toString(),
+    category: 'AWS',
+    url: awstransferfamily,
     isIsometric: false
   },
-
   {
     id: 'aws-transit-gateway',
     name: 'aws-transit-gateway',
-    category,
-    url: awstransitgateway.toString(),
+    category: 'AWS',
+    url: awstransitgateway,
     isIsometric: false
   },
-
   {
     id: 'aws-translate',
     name: 'aws-translate',
-    category,
-    url: awstranslate.toString(),
+    category: 'AWS',
+    url: awstranslate,
     isIsometric: false
   },
-
   {
     id: 'aws-trusted-advisor',
     name: 'aws-trusted-advisor',
-    category,
-    url: awstrustedadvisor.toString(),
+    category: 'AWS',
+    url: awstrustedadvisor,
     isIsometric: false
   },
-
   {
     id: 'aws-vmware-cloud-on-aws',
     name: 'aws-vmware-cloud-on-aws',
-    category,
-    url: awsvmwarecloudonaws.toString(),
+    category: 'AWS',
+    url: awsvmwarecloudonaws,
     isIsometric: false
   },
-
   {
     id: 'aws-vr-ar',
     name: 'aws-vr-ar',
-    category,
-    url: awsvrar.toString(),
+    category: 'AWS',
+    url: awsvrar,
     isIsometric: false
   },
-
   {
     id: 'aws-waf',
     name: 'aws-waf',
-    category,
-    url: awswaf.toString(),
+    category: 'AWS',
+    url: awswaf,
     isIsometric: false
   },
-
   {
     id: 'aws-wavelength',
     name: 'aws-wavelength',
-    category,
-    url: awswavelength.toString(),
+    category: 'AWS',
+    url: awswavelength,
     isIsometric: false
   },
-
   {
     id: 'aws-well-architected-tool',
     name: 'aws-well-architected-tool',
-    category,
-    url: awswellarchitectedtool.toString(),
+    category: 'AWS',
+    url: awswellarchitectedtool,
     isIsometric: false
   },
-
   {
     id: 'aws-workdocs-sdk',
     name: 'aws-workdocs-sdk',
-    category,
-    url: awsworkdocssdk.toString(),
+    category: 'AWS',
+    url: awsworkdocssdk,
     isIsometric: false
   },
-
   {
     id: 'aws-workdocs',
     name: 'aws-workdocs',
-    category,
-    url: awsworkdocs.toString(),
+    category: 'AWS',
+    url: awsworkdocs,
     isIsometric: false
   },
-
   {
     id: 'aws-worklink',
     name: 'aws-worklink',
-    category,
-    url: awsworklink.toString(),
+    category: 'AWS',
+    url: awsworklink,
     isIsometric: false
   },
-
   {
     id: 'aws-workmail',
     name: 'aws-workmail',
-    category,
-    url: awsworkmail.toString(),
+    category: 'AWS',
+    url: awsworkmail,
     isIsometric: false
   },
-
   {
     id: 'aws-workspaces-web',
     name: 'aws-workspaces-web',
-    category,
-    url: awsworkspacesweb.toString(),
+    category: 'AWS',
+    url: awsworkspacesweb,
     isIsometric: false
   },
-
   {
     id: 'aws-workspaces',
     name: 'aws-workspaces',
-    category,
-    url: awsworkspaces.toString(),
+    category: 'AWS',
+    url: awsworkspaces,
     isIsometric: false
   },
-
   {
     id: 'aws-x-ray',
     name: 'aws-x-ray',
-    category,
-    url: awsxray.toString(),
+    category: 'AWS',
+    url: awsxray,
     isIsometric: false
   },
-
   {
     id: 'aws',
     name: 'aws',
-    category,
-    url: aws.toString(),
+    category: 'AWS',
+    url: aws,
     isIsometric: false
   }
 ];

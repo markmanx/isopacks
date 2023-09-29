@@ -1,4 +1,4 @@
-import type { IconInput } from 'src/types';
+import type { Icon } from '../../types';
 import azureaadlicenses from './icons/azure-aad-licenses.svg';
 import azureabsmember from './icons/azure-abs-member.svg';
 import azureacssolutionsbuilder from './icons/azure-acs-solutions-builder.svg';
@@ -448,3590 +448,3141 @@ import azureworkspaces from './icons/azure-workspaces.svg';
 import azure from './icons/azure.svg';
 import azureattestation from './icons/azureattestation.svg';
 
-const category = 'Azure';
-
-const AzureIsopack: IconInput[] = [
+const AzureIsopack: Icon[] = [
   {
     id: 'azure-aad-licenses',
     name: 'azure-aad-licenses',
-    category,
-    url: azureaadlicenses.toString(),
+    category: 'Azure',
+    url: azureaadlicenses,
     isIsometric: false
   },
-
   {
     id: 'azure-abs-member',
     name: 'azure-abs-member',
-    category,
-    url: azureabsmember.toString(),
-    isIsometric: true
+    category: 'Azure',
+    url: azureabsmember,
+    isIsometric: false
   },
-
   {
     id: 'azure-acs-solutions-builder',
     name: 'azure-acs-solutions-builder',
-    category,
-    url: azureacssolutionsbuilder.toString(),
+    category: 'Azure',
+    url: azureacssolutionsbuilder,
     isIsometric: false
   },
-
   {
     id: 'azure-active-directory-connect-health',
     name: 'azure-active-directory-connect-health',
-    category,
-    url: azureactivedirectoryconnecthealth.toString(),
+    category: 'Azure',
+    url: azureactivedirectoryconnecthealth,
     isIsometric: false
   },
-
   {
     id: 'azure-active-directory',
     name: 'azure-active-directory',
-    category,
-    url: azureactivedirectory.toString(),
+    category: 'Azure',
+    url: azureactivedirectory,
     isIsometric: false
   },
-
   {
     id: 'azure-activity-log',
     name: 'azure-activity-log',
-    category,
-    url: azureactivitylog.toString(),
+    category: 'Azure',
+    url: azureactivitylog,
     isIsometric: false
   },
-
   {
     id: 'azure-ad-b2c',
     name: 'azure-ad-b2c',
-    category,
-    url: azureadb2c.toString(),
+    category: 'Azure',
+    url: azureadb2c,
     isIsometric: false
   },
-
   {
     id: 'azure-ad-domain-services',
     name: 'azure-ad-domain-services',
-    category,
-    url: azureaddomainservices.toString(),
+    category: 'Azure',
+    url: azureaddomainservices,
     isIsometric: false
   },
-
   {
     id: 'azure-ad-identity-protection',
     name: 'azure-ad-identity-protection',
-    category,
-    url: azureadidentityprotection.toString(),
+    category: 'Azure',
+    url: azureadidentityprotection,
     isIsometric: false
   },
-
   {
     id: 'azure-ad-privilege-identity-management',
     name: 'azure-ad-privilege-identity-management',
-    category,
-    url: azureadprivilegeidentitymanagement.toString(),
+    category: 'Azure',
+    url: azureadprivilegeidentitymanagement,
     isIsometric: false
   },
-
   {
     id: 'azure-ad-roles-and-administrators',
     name: 'azure-ad-roles-and-administrators',
-    category,
-    url: azureadrolesandadministrators.toString(),
+    category: 'Azure',
+    url: azureadrolesandadministrators,
     isIsometric: false
   },
-
   {
     id: 'azure-advisor',
     name: 'azure-advisor',
-    category,
-    url: azureadvisor.toString(),
+    category: 'Azure',
+    url: azureadvisor,
     isIsometric: false
   },
-
   {
     id: 'azure-alerts',
     name: 'azure-alerts',
-    category,
-    url: azurealerts.toString(),
+    category: 'Azure',
+    url: azurealerts,
     isIsometric: false
   },
-
   {
     id: 'azure-all-resources',
     name: 'azure-all-resources',
-    category,
-    url: azureallresources.toString(),
+    category: 'Azure',
+    url: azureallresources,
     isIsometric: false
   },
-
   {
     id: 'azure-analysis-services',
     name: 'azure-analysis-services',
-    category,
-    url: azureanalysisservices.toString(),
+    category: 'Azure',
+    url: azureanalysisservices,
     isIsometric: false
   },
-
   {
     id: 'azure-api-connections',
     name: 'azure-api-connections',
-    category,
-    url: azureapiconnections.toString(),
+    category: 'Azure',
+    url: azureapiconnections,
     isIsometric: false
   },
-
   {
     id: 'azure-api-for-fhir',
     name: 'azure-api-for-fhir',
-    category,
-    url: azureapiforfhir.toString(),
+    category: 'Azure',
+    url: azureapiforfhir,
     isIsometric: false
   },
-
   {
     id: 'azure-api-management-services',
     name: 'azure-api-management-services',
-    category,
-    url: azureapimanagementservices.toString(),
+    category: 'Azure',
+    url: azureapimanagementservices,
     isIsometric: false
   },
-
   {
     id: 'azure-api-proxy',
     name: 'azure-api-proxy',
-    category,
-    url: azureapiproxy.toString(),
+    category: 'Azure',
+    url: azureapiproxy,
     isIsometric: false
   },
-
   {
     id: 'azure-app-configuration',
     name: 'azure-app-configuration',
-    category,
-    url: azureappconfiguration.toString(),
+    category: 'Azure',
+    url: azureappconfiguration,
     isIsometric: false
   },
-
   {
     id: 'azure-app-registrations',
     name: 'azure-app-registrations',
-    category,
-    url: azureappregistrations.toString(),
+    category: 'Azure',
+    url: azureappregistrations,
     isIsometric: false
   },
-
   {
     id: 'azure-app-service-certificates',
     name: 'azure-app-service-certificates',
-    category,
-    url: azureappservicecertificates.toString(),
+    category: 'Azure',
+    url: azureappservicecertificates,
     isIsometric: false
   },
-
   {
     id: 'azure-app-service-domains',
     name: 'azure-app-service-domains',
-    category,
-    url: azureappservicedomains.toString(),
+    category: 'Azure',
+    url: azureappservicedomains,
     isIsometric: false
   },
-
   {
     id: 'azure-app-service-environments',
     name: 'azure-app-service-environments',
-    category,
-    url: azureappserviceenvironments.toString(),
+    category: 'Azure',
+    url: azureappserviceenvironments,
     isIsometric: false
   },
-
   {
     id: 'azure-app-service-plans',
     name: 'azure-app-service-plans',
-    category,
-    url: azureappserviceplans.toString(),
+    category: 'Azure',
+    url: azureappserviceplans,
     isIsometric: false
   },
-
   {
     id: 'azure-app-services',
     name: 'azure-app-services',
-    category,
-    url: azureappservices.toString(),
+    category: 'Azure',
+    url: azureappservices,
     isIsometric: false
   },
-
   {
     id: 'azure-applens',
     name: 'azure-applens',
-    category,
-    url: azureapplens.toString(),
+    category: 'Azure',
+    url: azureapplens,
     isIsometric: false
   },
-
   {
     id: 'azure-application-gateways',
     name: 'azure-application-gateways',
-    category,
-    url: azureapplicationgateways.toString(),
+    category: 'Azure',
+    url: azureapplicationgateways,
     isIsometric: false
   },
-
   {
     id: 'azure-application-insights',
     name: 'azure-application-insights',
-    category,
-    url: azureapplicationinsights.toString(),
+    category: 'Azure',
+    url: azureapplicationinsights,
     isIsometric: false
   },
-
   {
     id: 'azure-application-security-groups',
     name: 'azure-application-security-groups',
-    category,
-    url: azureapplicationsecuritygroups.toString(),
+    category: 'Azure',
+    url: azureapplicationsecuritygroups,
     isIsometric: false
   },
-
   {
     id: 'azure-applied-ai',
     name: 'azure-applied-ai',
-    category,
-    url: azureappliedai.toString(),
+    category: 'Azure',
+    url: azureappliedai,
     isIsometric: false
   },
-
   {
     id: 'azure-aquila',
     name: 'azure-aquila',
-    category,
-    url: azureaquila.toString(),
+    category: 'Azure',
+    url: azureaquila,
     isIsometric: false
   },
-
   {
     id: 'azure-arc',
     name: 'azure-arc',
-    category,
-    url: azurearc.toString(),
+    category: 'Azure',
+    url: azurearc,
     isIsometric: false
   },
-
   {
     id: 'azure-automanaged-vm',
     name: 'azure-automanaged-vm',
-    category,
-    url: azureautomanagedvm.toString(),
+    category: 'Azure',
+    url: azureautomanagedvm,
     isIsometric: false
   },
-
   {
     id: 'azure-automation-accounts',
     name: 'azure-automation-accounts',
-    category,
-    url: azureautomationaccounts.toString(),
+    category: 'Azure',
+    url: azureautomationaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-availability-sets',
     name: 'azure-availability-sets',
-    category,
-    url: azureavailabilitysets.toString(),
+    category: 'Azure',
+    url: azureavailabilitysets,
     isIsometric: false
   },
-
   {
     id: 'azure-avs-vm',
     name: 'azure-avs-vm',
-    category,
-    url: azureavsvm.toString(),
+    category: 'Azure',
+    url: azureavsvm,
     isIsometric: false
   },
-
   {
     id: 'azure-avs',
     name: 'azure-avs',
-    category,
-    url: azureavs.toString(),
+    category: 'Azure',
+    url: azureavs,
     isIsometric: false
   },
-
   {
     id: 'azure-azurite',
     name: 'azure-azurite',
-    category,
-    url: azureazurite.toString(),
+    category: 'Azure',
+    url: azureazurite,
     isIsometric: false
   },
-
   {
     id: 'azure-backlog',
     name: 'azure-backlog',
-    category,
-    url: azurebacklog.toString(),
+    category: 'Azure',
+    url: azurebacklog,
     isIsometric: false
   },
-
   {
     id: 'azure-backup-center',
     name: 'azure-backup-center',
-    category,
-    url: azurebackupcenter.toString(),
+    category: 'Azure',
+    url: azurebackupcenter,
     isIsometric: false
   },
-
   {
     id: 'azure-bare-metal-infrastructure',
     name: 'azure-bare-metal-infrastructure',
-    category,
-    url: azurebaremetalinfrastructure.toString(),
+    category: 'Azure',
+    url: azurebaremetalinfrastructure,
     isIsometric: false
   },
-
   {
     id: 'azure-bastions',
     name: 'azure-bastions',
-    category,
-    url: azurebastions.toString(),
+    category: 'Azure',
+    url: azurebastions,
     isIsometric: false
   },
-
   {
     id: 'azure-batch-accounts',
     name: 'azure-batch-accounts',
-    category,
-    url: azurebatchaccounts.toString(),
+    category: 'Azure',
+    url: azurebatchaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-batch-ai',
     name: 'azure-batch-ai',
-    category,
-    url: azurebatchai.toString(),
+    category: 'Azure',
+    url: azurebatchai,
     isIsometric: false
   },
-
   {
     id: 'azure-biz-talk',
     name: 'azure-biz-talk',
-    category,
-    url: azurebiztalk.toString(),
+    category: 'Azure',
+    url: azurebiztalk,
     isIsometric: false
   },
-
   {
     id: 'azure-blob-block',
     name: 'azure-blob-block',
-    category,
-    url: azureblobblock.toString(),
+    category: 'Azure',
+    url: azureblobblock,
     isIsometric: false
   },
-
   {
     id: 'azure-blob-page',
     name: 'azure-blob-page',
-    category,
-    url: azureblobpage.toString(),
+    category: 'Azure',
+    url: azureblobpage,
     isIsometric: false
   },
-
   {
     id: 'azure-blockchain-applications',
     name: 'azure-blockchain-applications',
-    category,
-    url: azureblockchainapplications.toString(),
+    category: 'Azure',
+    url: azureblockchainapplications,
     isIsometric: false
   },
-
   {
     id: 'azure-blockchain-service',
     name: 'azure-blockchain-service',
-    category,
-    url: azureblockchainservice.toString(),
+    category: 'Azure',
+    url: azureblockchainservice,
     isIsometric: false
   },
-
   {
     id: 'azure-blueprints',
     name: 'azure-blueprints',
-    category,
-    url: azureblueprints.toString(),
+    category: 'Azure',
+    url: azureblueprints,
     isIsometric: false
   },
-
   {
     id: 'azure-bot-services',
     name: 'azure-bot-services',
-    category,
-    url: azurebotservices.toString(),
+    category: 'Azure',
+    url: azurebotservices,
     isIsometric: false
   },
-
   {
     id: 'azure-branch',
     name: 'azure-branch',
-    category,
-    url: azurebranch.toString(),
+    category: 'Azure',
+    url: azurebranch,
     isIsometric: false
   },
-
   {
     id: 'azure-browser',
     name: 'azure-browser',
-    category,
-    url: azurebrowser.toString(),
+    category: 'Azure',
+    url: azurebrowser,
     isIsometric: false
   },
-
   {
     id: 'azure-bug',
     name: 'azure-bug',
-    category,
-    url: azurebug.toString(),
+    category: 'Azure',
+    url: azurebug,
     isIsometric: false
   },
-
   {
     id: 'azure-builds',
     name: 'azure-builds',
-    category,
-    url: azurebuilds.toString(),
+    category: 'Azure',
+    url: azurebuilds,
     isIsometric: false
   },
-
   {
     id: 'azure-cache-redis',
     name: 'azure-cache-redis',
-    category,
-    url: azurecacheredis.toString(),
+    category: 'Azure',
+    url: azurecacheredis,
     isIsometric: false
   },
-
   {
     id: 'azure-cache',
     name: 'azure-cache',
-    category,
-    url: azurecache.toString(),
+    category: 'Azure',
+    url: azurecache,
     isIsometric: false
   },
-
   {
     id: 'azure-capacity',
     name: 'azure-capacity',
-    category,
-    url: azurecapacity.toString(),
+    category: 'Azure',
+    url: azurecapacity,
     isIsometric: false
   },
-
   {
     id: 'azure-cdn-profiles',
     name: 'azure-cdn-profiles',
-    category,
-    url: azurecdnprofiles.toString(),
+    category: 'Azure',
+    url: azurecdnprofiles,
     isIsometric: false
   },
-
   {
     id: 'azure-ceres',
     name: 'azure-ceres',
-    category,
-    url: azureceres.toString(),
+    category: 'Azure',
+    url: azureceres,
     isIsometric: false
   },
-
   {
     id: 'azure-chaos-studio',
     name: 'azure-chaos-studio',
-    category,
-    url: azurechaosstudio.toString(),
+    category: 'Azure',
+    url: azurechaosstudio,
     isIsometric: false
   },
-
   {
     id: 'azure-client-apps',
     name: 'azure-client-apps',
-    category,
-    url: azureclientapps.toString(),
+    category: 'Azure',
+    url: azureclientapps,
     isIsometric: false
   },
-
   {
     id: 'azure-cloud-services-classic',
     name: 'azure-cloud-services-classic',
-    category,
-    url: azurecloudservicesclassic.toString(),
+    category: 'Azure',
+    url: azurecloudservicesclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-cloud-services-extended-support',
     name: 'azure-cloud-services-extended-support',
-    category,
-    url: azurecloudservicesextendedsupport.toString(),
+    category: 'Azure',
+    url: azurecloudservicesextendedsupport,
     isIsometric: false
   },
-
   {
     id: 'azure-cloud-shell',
     name: 'azure-cloud-shell',
-    category,
-    url: azurecloudshell.toString(),
+    category: 'Azure',
+    url: azurecloudshell,
     isIsometric: false
   },
-
   {
     id: 'azure-cloudtest',
     name: 'azure-cloudtest',
-    category,
-    url: azurecloudtest.toString(),
+    category: 'Azure',
+    url: azurecloudtest,
     isIsometric: false
   },
-
   {
     id: 'azure-code',
     name: 'azure-code',
-    category,
-    url: azurecode.toString(),
+    category: 'Azure',
+    url: azurecode,
     isIsometric: false
   },
-
   {
     id: 'azure-cognitive-services',
     name: 'azure-cognitive-services',
-    category,
-    url: azurecognitiveservices.toString(),
+    category: 'Azure',
+    url: azurecognitiveservices,
     isIsometric: false
   },
-
   {
     id: 'azure-collaborative-service',
     name: 'azure-collaborative-service',
-    category,
-    url: azurecollaborativeservice.toString(),
+    category: 'Azure',
+    url: azurecollaborativeservice,
     isIsometric: false
   },
-
   {
     id: 'azure-commit',
     name: 'azure-commit',
-    category,
-    url: azurecommit.toString(),
+    category: 'Azure',
+    url: azurecommit,
     isIsometric: false
   },
-
   {
     id: 'azure-communication-services',
     name: 'azure-communication-services',
-    category,
-    url: azurecommunicationservices.toString(),
+    category: 'Azure',
+    url: azurecommunicationservices,
     isIsometric: false
   },
-
   {
     id: 'azure-compliance-center',
     name: 'azure-compliance-center',
-    category,
-    url: azurecompliancecenter.toString(),
+    category: 'Azure',
+    url: azurecompliancecenter,
     isIsometric: false
   },
-
   {
     id: 'azure-compliance',
     name: 'azure-compliance',
-    category,
-    url: azurecompliance.toString(),
+    category: 'Azure',
+    url: azurecompliance,
     isIsometric: false
   },
-
   {
     id: 'azure-compute-galleries',
     name: 'azure-compute-galleries',
-    category,
-    url: azurecomputegalleries.toString(),
+    category: 'Azure',
+    url: azurecomputegalleries,
     isIsometric: false
   },
-
   {
     id: 'azure-conditional-access',
     name: 'azure-conditional-access',
-    category,
-    url: azureconditionalaccess.toString(),
+    category: 'Azure',
+    url: azureconditionalaccess,
     isIsometric: false
   },
-
   {
     id: 'azure-confidential-ledger',
     name: 'azure-confidential-ledger',
-    category,
-    url: azureconfidentialledger.toString(),
+    category: 'Azure',
+    url: azureconfidentialledger,
     isIsometric: false
   },
-
   {
     id: 'azure-connected-cache',
     name: 'azure-connected-cache',
-    category,
-    url: azureconnectedcache.toString(),
+    category: 'Azure',
+    url: azureconnectedcache,
     isIsometric: false
   },
-
   {
     id: 'azure-connected-vehicle-platform',
     name: 'azure-connected-vehicle-platform',
-    category,
-    url: azureconnectedvehicleplatform.toString(),
+    category: 'Azure',
+    url: azureconnectedvehicleplatform,
     isIsometric: false
   },
-
   {
     id: 'azure-connections',
     name: 'azure-connections',
-    category,
-    url: azureconnections.toString(),
+    category: 'Azure',
+    url: azureconnections,
     isIsometric: false
   },
-
   {
     id: 'azure-consortium',
     name: 'azure-consortium',
-    category,
-    url: azureconsortium.toString(),
+    category: 'Azure',
+    url: azureconsortium,
     isIsometric: false
   },
-
   {
     id: 'azure-container-app-environments',
     name: 'azure-container-app-environments',
-    category,
-    url: azurecontainerappenvironments.toString(),
+    category: 'Azure',
+    url: azurecontainerappenvironments,
     isIsometric: false
   },
-
   {
     id: 'azure-container-instances',
     name: 'azure-container-instances',
-    category,
-    url: azurecontainerinstances.toString(),
+    category: 'Azure',
+    url: azurecontainerinstances,
     isIsometric: false
   },
-
   {
     id: 'azure-container-registries',
     name: 'azure-container-registries',
-    category,
-    url: azurecontainerregistries.toString(),
+    category: 'Azure',
+    url: azurecontainerregistries,
     isIsometric: false
   },
-
   {
     id: 'azure-controls-horizontal',
     name: 'azure-controls-horizontal',
-    category,
-    url: azurecontrolshorizontal.toString(),
+    category: 'Azure',
+    url: azurecontrolshorizontal,
     isIsometric: false
   },
-
   {
     id: 'azure-controls',
     name: 'azure-controls',
-    category,
-    url: azurecontrols.toString(),
+    category: 'Azure',
+    url: azurecontrols,
     isIsometric: false
   },
-
   {
     id: 'azure-cosmos-db',
     name: 'azure-cosmos-db',
-    category,
-    url: azurecosmosdb.toString(),
+    category: 'Azure',
+    url: azurecosmosdb,
     isIsometric: false
   },
-
   {
     id: 'azure-cost-alerts',
     name: 'azure-cost-alerts',
-    category,
-    url: azurecostalerts.toString(),
+    category: 'Azure',
+    url: azurecostalerts,
     isIsometric: false
   },
-
   {
     id: 'azure-cost-analysis',
     name: 'azure-cost-analysis',
-    category,
-    url: azurecostanalysis.toString(),
+    category: 'Azure',
+    url: azurecostanalysis,
     isIsometric: false
   },
-
   {
     id: 'azure-cost-budgets',
     name: 'azure-cost-budgets',
-    category,
-    url: azurecostbudgets.toString(),
+    category: 'Azure',
+    url: azurecostbudgets,
     isIsometric: false
   },
-
   {
     id: 'azure-cost-management-and-billing',
     name: 'azure-cost-management-and-billing',
-    category,
-    url: azurecostmanagementandbilling.toString(),
+    category: 'Azure',
+    url: azurecostmanagementandbilling,
     isIsometric: false
   },
-
   {
     id: 'azure-cost-management',
     name: 'azure-cost-management',
-    category,
-    url: azurecostmanagement.toString(),
+    category: 'Azure',
+    url: azurecostmanagement,
     isIsometric: false
   },
-
   {
     id: 'azure-counter',
     name: 'azure-counter',
-    category,
-    url: azurecounter.toString(),
+    category: 'Azure',
+    url: azurecounter,
     isIsometric: false
   },
-
   {
     id: 'azure-cubes',
     name: 'azure-cubes',
-    category,
-    url: azurecubes.toString(),
+    category: 'Azure',
+    url: azurecubes,
     isIsometric: false
   },
-
   {
     id: 'azure-custom-azure-ad-roles',
     name: 'azure-custom-azure-ad-roles',
-    category,
-    url: azurecustomazureadroles.toString(),
+    category: 'Azure',
+    url: azurecustomazureadroles,
     isIsometric: false
   },
-
   {
     id: 'azure-custom-ip-prefix',
     name: 'azure-custom-ip-prefix',
-    category,
-    url: azurecustomipprefix.toString(),
+    category: 'Azure',
+    url: azurecustomipprefix,
     isIsometric: false
   },
-
   {
     id: 'azure-customer-lockbox-for-microsoft-azure',
     name: 'azure-customer-lockbox-for-microsoft-azure',
-    category,
-    url: azurecustomerlockboxformicrosoftazure.toString(),
+    category: 'Azure',
+    url: azurecustomerlockboxformicrosoftazure,
     isIsometric: false
   },
-
   {
     id: 'azure-dashboard-hub',
     name: 'azure-dashboard-hub',
-    category,
-    url: azuredashboardhub.toString(),
+    category: 'Azure',
+    url: azuredashboardhub,
     isIsometric: false
   },
-
   {
     id: 'azure-dashboard',
     name: 'azure-dashboard',
-    category,
-    url: azuredashboard.toString(),
+    category: 'Azure',
+    url: azuredashboard,
     isIsometric: false
   },
-
   {
     id: 'azure-data-box-edge',
     name: 'azure-data-box-edge',
-    category,
-    url: azuredataboxedge.toString(),
+    category: 'Azure',
+    url: azuredataboxedge,
     isIsometric: false
   },
-
   {
     id: 'azure-data-box',
     name: 'azure-data-box',
-    category,
-    url: azuredatabox.toString(),
+    category: 'Azure',
+    url: azuredatabox,
     isIsometric: false
   },
-
   {
     id: 'azure-data-catalog',
     name: 'azure-data-catalog',
-    category,
-    url: azuredatacatalog.toString(),
+    category: 'Azure',
+    url: azuredatacatalog,
     isIsometric: false
   },
-
   {
     id: 'azure-data-explorer-clusters',
     name: 'azure-data-explorer-clusters',
-    category,
-    url: azuredataexplorerclusters.toString(),
+    category: 'Azure',
+    url: azuredataexplorerclusters,
     isIsometric: false
   },
-
   {
     id: 'azure-data-factory',
     name: 'azure-data-factory',
-    category,
-    url: azuredatafactory.toString(),
+    category: 'Azure',
+    url: azuredatafactory,
     isIsometric: false
   },
-
   {
     id: 'azure-data-lake-analytics',
     name: 'azure-data-lake-analytics',
-    category,
-    url: azuredatalakeanalytics.toString(),
+    category: 'Azure',
+    url: azuredatalakeanalytics,
     isIsometric: false
   },
-
   {
     id: 'azure-data-lake-storage-gen1',
     name: 'azure-data-lake-storage-gen1',
-    category,
-    url: azuredatalakestoragegen1.toString(),
+    category: 'Azure',
+    url: azuredatalakestoragegen1,
     isIsometric: false
   },
-
   {
     id: 'azure-data-lake-store-gen1',
     name: 'azure-data-lake-store-gen1',
-    category,
-    url: azuredatalakestoregen1.toString(),
+    category: 'Azure',
+    url: azuredatalakestoregen1,
     isIsometric: false
   },
-
   {
     id: 'azure-data-share-invitations',
     name: 'azure-data-share-invitations',
-    category,
-    url: azuredatashareinvitations.toString(),
+    category: 'Azure',
+    url: azuredatashareinvitations,
     isIsometric: false
   },
-
   {
     id: 'azure-data-shares',
     name: 'azure-data-shares',
-    category,
-    url: azuredatashares.toString(),
+    category: 'Azure',
+    url: azuredatashares,
     isIsometric: false
   },
-
   {
     id: 'azure-database-mariadb-server',
     name: 'azure-database-mariadb-server',
-    category,
-    url: azuredatabasemariadbserver.toString(),
+    category: 'Azure',
+    url: azuredatabasemariadbserver,
     isIsometric: false
   },
-
   {
     id: 'azure-database-migration-services',
     name: 'azure-database-migration-services',
-    category,
-    url: azuredatabasemigrationservices.toString(),
+    category: 'Azure',
+    url: azuredatabasemigrationservices,
     isIsometric: false
   },
-
   {
     id: 'azure-database-mysql-server',
     name: 'azure-database-mysql-server',
-    category,
-    url: azuredatabasemysqlserver.toString(),
+    category: 'Azure',
+    url: azuredatabasemysqlserver,
     isIsometric: false
   },
-
   {
     id: 'azure-database-postgresql-server-group',
     name: 'azure-database-postgresql-server-group',
-    category,
-    url: azuredatabasepostgresqlservergroup.toString(),
+    category: 'Azure',
+    url: azuredatabasepostgresqlservergroup,
     isIsometric: false
   },
-
   {
     id: 'azure-database-postgresql-server',
     name: 'azure-database-postgresql-server',
-    category,
-    url: azuredatabasepostgresqlserver.toString(),
+    category: 'Azure',
+    url: azuredatabasepostgresqlserver,
     isIsometric: false
   },
-
   {
     id: 'azure-databricks',
     name: 'azure-databricks',
-    category,
-    url: azuredatabricks.toString(),
+    category: 'Azure',
+    url: azuredatabricks,
     isIsometric: false
   },
-
   {
     id: 'azure-ddos-protection-plans',
     name: 'azure-ddos-protection-plans',
-    category,
-    url: azureddosprotectionplans.toString(),
+    category: 'Azure',
+    url: azureddosprotectionplans,
     isIsometric: false
   },
-
   {
     id: 'azure-dedicated-hsm',
     name: 'azure-dedicated-hsm',
-    category,
-    url: azurededicatedhsm.toString(),
+    category: 'Azure',
+    url: azurededicatedhsm,
     isIsometric: false
   },
-
   {
     id: 'azure-defender',
     name: 'azure-defender',
-    category,
-    url: azuredefender.toString(),
+    category: 'Azure',
+    url: azuredefender,
     isIsometric: false
   },
-
   {
     id: 'azure-detonation',
     name: 'azure-detonation',
-    category,
-    url: azuredetonation.toString(),
+    category: 'Azure',
+    url: azuredetonation,
     isIsometric: false
   },
-
   {
     id: 'azure-dev-console',
     name: 'azure-dev-console',
-    category,
-    url: azuredevconsole.toString(),
+    category: 'Azure',
+    url: azuredevconsole,
     isIsometric: false
   },
-
   {
     id: 'azure-device-compliance',
     name: 'azure-device-compliance',
-    category,
-    url: azuredevicecompliance.toString(),
+    category: 'Azure',
+    url: azuredevicecompliance,
     isIsometric: false
   },
-
   {
     id: 'azure-device-configuration',
     name: 'azure-device-configuration',
-    category,
-    url: azuredeviceconfiguration.toString(),
+    category: 'Azure',
+    url: azuredeviceconfiguration,
     isIsometric: false
   },
-
   {
     id: 'azure-device-enrollment',
     name: 'azure-device-enrollment',
-    category,
-    url: azuredeviceenrollment.toString(),
+    category: 'Azure',
+    url: azuredeviceenrollment,
     isIsometric: false
   },
-
   {
     id: 'azure-device-provisioning-services',
     name: 'azure-device-provisioning-services',
-    category,
-    url: azuredeviceprovisioningservices.toString(),
+    category: 'Azure',
+    url: azuredeviceprovisioningservices,
     isIsometric: false
   },
-
   {
     id: 'azure-device-security-apple',
     name: 'azure-device-security-apple',
-    category,
-    url: azuredevicesecurityapple.toString(),
+    category: 'Azure',
+    url: azuredevicesecurityapple,
     isIsometric: false
   },
-
   {
     id: 'azure-device-security-google',
     name: 'azure-device-security-google',
-    category,
-    url: azuredevicesecuritygoogle.toString(),
+    category: 'Azure',
+    url: azuredevicesecuritygoogle,
     isIsometric: false
   },
-
   {
     id: 'azure-device-security-windows',
     name: 'azure-device-security-windows',
-    category,
-    url: azuredevicesecuritywindows.toString(),
+    category: 'Azure',
+    url: azuredevicesecuritywindows,
     isIsometric: false
   },
-
   {
     id: 'azure-device-update-iot-hub',
     name: 'azure-device-update-iot-hub',
-    category,
-    url: azuredeviceupdateiothub.toString(),
+    category: 'Azure',
+    url: azuredeviceupdateiothub,
     isIsometric: false
   },
-
   {
     id: 'azure-devices',
     name: 'azure-devices',
-    category,
-    url: azuredevices.toString(),
+    category: 'Azure',
+    url: azuredevices,
     isIsometric: false
   },
-
   {
     id: 'azure-devops',
     name: 'azure-devops',
-    category,
-    url: azuredevops.toString(),
+    category: 'Azure',
+    url: azuredevops,
     isIsometric: false
   },
-
   {
     id: 'azure-devtest-labs',
     name: 'azure-devtest-labs',
-    category,
-    url: azuredevtestlabs.toString(),
+    category: 'Azure',
+    url: azuredevtestlabs,
     isIsometric: false
   },
-
   {
     id: 'azure-diagnostics-settings',
     name: 'azure-diagnostics-settings',
-    category,
-    url: azurediagnosticssettings.toString(),
+    category: 'Azure',
+    url: azurediagnosticssettings,
     isIsometric: false
   },
-
   {
     id: 'azure-digital-twins',
     name: 'azure-digital-twins',
-    category,
-    url: azuredigitaltwins.toString(),
+    category: 'Azure',
+    url: azuredigitaltwins,
     isIsometric: false
   },
-
   {
     id: 'azure-disk-encryption-sets',
     name: 'azure-disk-encryption-sets',
-    category,
-    url: azurediskencryptionsets.toString(),
+    category: 'Azure',
+    url: azurediskencryptionsets,
     isIsometric: false
   },
-
   {
     id: 'azure-disk-pool',
     name: 'azure-disk-pool',
-    category,
-    url: azurediskpool.toString(),
+    category: 'Azure',
+    url: azurediskpool,
     isIsometric: false
   },
-
   {
     id: 'azure-disks-classic',
     name: 'azure-disks-classic',
-    category,
-    url: azuredisksclassic.toString(),
+    category: 'Azure',
+    url: azuredisksclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-disks-snapshots',
     name: 'azure-disks-snapshots',
-    category,
-    url: azurediskssnapshots.toString(),
+    category: 'Azure',
+    url: azurediskssnapshots,
     isIsometric: false
   },
-
   {
     id: 'azure-disks',
     name: 'azure-disks',
-    category,
-    url: azuredisks.toString(),
+    category: 'Azure',
+    url: azuredisks,
     isIsometric: false
   },
-
   {
     id: 'azure-dns-private-resolver',
     name: 'azure-dns-private-resolver',
-    category,
-    url: azurednsprivateresolver.toString(),
+    category: 'Azure',
+    url: azurednsprivateresolver,
     isIsometric: false
   },
-
   {
     id: 'azure-dns-zones',
     name: 'azure-dns-zones',
-    category,
-    url: azurednszones.toString(),
+    category: 'Azure',
+    url: azurednszones,
     isIsometric: false
   },
-
   {
     id: 'azure-download',
     name: 'azure-download',
-    category,
-    url: azuredownload.toString(),
+    category: 'Azure',
+    url: azuredownload,
     isIsometric: false
   },
-
   {
     id: 'azure-ebooks',
     name: 'azure-ebooks',
-    category,
-    url: azureebooks.toString(),
+    category: 'Azure',
+    url: azureebooks,
     isIsometric: false
   },
-
   {
     id: 'azure-edge-hardware-center',
     name: 'azure-edge-hardware-center',
-    category,
-    url: azureedgehardwarecenter.toString(),
+    category: 'Azure',
+    url: azureedgehardwarecenter,
     isIsometric: false
   },
-
   {
     id: 'azure-edge-management',
     name: 'azure-edge-management',
-    category,
-    url: azureedgemanagement.toString(),
+    category: 'Azure',
+    url: azureedgemanagement,
     isIsometric: false
   },
-
   {
     id: 'azure-education',
     name: 'azure-education',
-    category,
-    url: azureeducation.toString(),
+    category: 'Azure',
+    url: azureeducation,
     isIsometric: false
   },
-
   {
     id: 'azure-elastic-job-agents',
     name: 'azure-elastic-job-agents',
-    category,
-    url: azureelasticjobagents.toString(),
+    category: 'Azure',
+    url: azureelasticjobagents,
     isIsometric: false
   },
-
   {
     id: 'azure-endpoint-analytics',
     name: 'azure-endpoint-analytics',
-    category,
-    url: azureendpointanalytics.toString(),
+    category: 'Azure',
+    url: azureendpointanalytics,
     isIsometric: false
   },
-
   {
     id: 'azure-enterprise-applications',
     name: 'azure-enterprise-applications',
-    category,
-    url: azureenterpriseapplications.toString(),
+    category: 'Azure',
+    url: azureenterpriseapplications,
     isIsometric: false
   },
-
   {
     id: 'azure-error',
     name: 'azure-error',
-    category,
-    url: azureerror.toString(),
+    category: 'Azure',
+    url: azureerror,
     isIsometric: false
   },
-
   {
     id: 'azure-event-grid-domains',
     name: 'azure-event-grid-domains',
-    category,
-    url: azureeventgriddomains.toString(),
+    category: 'Azure',
+    url: azureeventgriddomains,
     isIsometric: false
   },
-
   {
     id: 'azure-event-grid-subscriptions',
     name: 'azure-event-grid-subscriptions',
-    category,
-    url: azureeventgridsubscriptions.toString(),
+    category: 'Azure',
+    url: azureeventgridsubscriptions,
     isIsometric: false
   },
-
   {
     id: 'azure-event-grid-topics',
     name: 'azure-event-grid-topics',
-    category,
-    url: azureeventgridtopics.toString(),
+    category: 'Azure',
+    url: azureeventgridtopics,
     isIsometric: false
   },
-
   {
     id: 'azure-event-hub-clusters',
     name: 'azure-event-hub-clusters',
-    category,
-    url: azureeventhubclusters.toString(),
+    category: 'Azure',
+    url: azureeventhubclusters,
     isIsometric: false
   },
-
   {
     id: 'azure-event-hubs',
     name: 'azure-event-hubs',
-    category,
-    url: azureeventhubs.toString(),
+    category: 'Azure',
+    url: azureeventhubs,
     isIsometric: false
   },
-
   {
     id: 'azure-exchange-access',
     name: 'azure-exchange-access',
-    category,
-    url: azureexchangeaccess.toString(),
+    category: 'Azure',
+    url: azureexchangeaccess,
     isIsometric: false
   },
-
   {
     id: 'azure-exchange-on-premises-access',
     name: 'azure-exchange-on-premises-access',
-    category,
-    url: azureexchangeonpremisesaccess.toString(),
+    category: 'Azure',
+    url: azureexchangeonpremisesaccess,
     isIsometric: false
   },
-
   {
     id: 'azure-experimentation-studio',
     name: 'azure-experimentation-studio',
-    category,
-    url: azureexperimentationstudio.toString(),
+    category: 'Azure',
+    url: azureexperimentationstudio,
     isIsometric: false
   },
-
   {
     id: 'azure-expressroute-circuits',
     name: 'azure-expressroute-circuits',
-    category,
-    url: azureexpressroutecircuits.toString(),
+    category: 'Azure',
+    url: azureexpressroutecircuits,
     isIsometric: false
   },
-
   {
     id: 'azure-expressroute-direct',
     name: 'azure-expressroute-direct',
-    category,
-    url: azureexpressroutedirect.toString(),
+    category: 'Azure',
+    url: azureexpressroutedirect,
     isIsometric: false
   },
-
   {
     id: 'azure-extendedsecurityupdates',
     name: 'azure-extendedsecurityupdates',
-    category,
-    url: azureextendedsecurityupdates.toString(),
+    category: 'Azure',
+    url: azureextendedsecurityupdates,
     isIsometric: false
   },
-
   {
     id: 'azure-extensions',
     name: 'azure-extensions',
-    category,
-    url: azureextensions.toString(),
+    category: 'Azure',
+    url: azureextensions,
     isIsometric: false
   },
-
   {
     id: 'azure-fiji',
     name: 'azure-fiji',
-    category,
-    url: azurefiji.toString(),
+    category: 'Azure',
+    url: azurefiji,
     isIsometric: false
   },
-
   {
     id: 'azure-file',
     name: 'azure-file',
-    category,
-    url: azurefile.toString(),
+    category: 'Azure',
+    url: azurefile,
     isIsometric: false
   },
-
   {
     id: 'azure-files',
     name: 'azure-files',
-    category,
-    url: azurefiles.toString(),
+    category: 'Azure',
+    url: azurefiles,
     isIsometric: false
   },
-
   {
     id: 'azure-fileshare',
     name: 'azure-fileshare',
-    category,
-    url: azurefileshare.toString(),
+    category: 'Azure',
+    url: azurefileshare,
     isIsometric: false
   },
-
   {
     id: 'azure-firewall-manager',
     name: 'azure-firewall-manager',
-    category,
-    url: azurefirewallmanager.toString(),
+    category: 'Azure',
+    url: azurefirewallmanager,
     isIsometric: false
   },
-
   {
     id: 'azure-firewalls',
     name: 'azure-firewalls',
-    category,
-    url: azurefirewalls.toString(),
+    category: 'Azure',
+    url: azurefirewalls,
     isIsometric: false
   },
-
   {
     id: 'azure-folder-blank',
     name: 'azure-folder-blank',
-    category,
-    url: azurefolderblank.toString(),
+    category: 'Azure',
+    url: azurefolderblank,
     isIsometric: false
   },
-
   {
     id: 'azure-folder-website',
     name: 'azure-folder-website',
-    category,
-    url: azurefolderwebsite.toString(),
+    category: 'Azure',
+    url: azurefolderwebsite,
     isIsometric: false
   },
-
   {
     id: 'azure-free-services',
     name: 'azure-free-services',
-    category,
-    url: azurefreeservices.toString(),
+    category: 'Azure',
+    url: azurefreeservices,
     isIsometric: false
   },
-
   {
     id: 'azure-front-doors',
     name: 'azure-front-doors',
-    category,
-    url: azurefrontdoors.toString(),
+    category: 'Azure',
+    url: azurefrontdoors,
     isIsometric: false
   },
-
   {
     id: 'azure-ftp',
     name: 'azure-ftp',
-    category,
-    url: azureftp.toString(),
+    category: 'Azure',
+    url: azureftp,
     isIsometric: false
   },
-
   {
     id: 'azure-function-apps',
     name: 'azure-function-apps',
-    category,
-    url: azurefunctionapps.toString(),
+    category: 'Azure',
+    url: azurefunctionapps,
     isIsometric: false
   },
-
   {
     id: 'azure-gear',
     name: 'azure-gear',
-    category,
-    url: azuregear.toString(),
+    category: 'Azure',
+    url: azuregear,
     isIsometric: false
   },
-
   {
     id: 'azure-genomics-accounts',
     name: 'azure-genomics-accounts',
-    category,
-    url: azuregenomicsaccounts.toString(),
+    category: 'Azure',
+    url: azuregenomicsaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-genomics',
     name: 'azure-genomics',
-    category,
-    url: azuregenomics.toString(),
+    category: 'Azure',
+    url: azuregenomics,
     isIsometric: false
   },
-
   {
     id: 'azure-globe-error',
     name: 'azure-globe-error',
-    category,
-    url: azureglobeerror.toString(),
+    category: 'Azure',
+    url: azureglobeerror,
     isIsometric: false
   },
-
   {
     id: 'azure-globe-success',
     name: 'azure-globe-success',
-    category,
-    url: azureglobesuccess.toString(),
+    category: 'Azure',
+    url: azureglobesuccess,
     isIsometric: false
   },
-
   {
     id: 'azure-globe-warning',
     name: 'azure-globe-warning',
-    category,
-    url: azureglobewarning.toString(),
+    category: 'Azure',
+    url: azureglobewarning,
     isIsometric: false
   },
-
   {
     id: 'azure-grafana',
     name: 'azure-grafana',
-    category,
-    url: azuregrafana.toString(),
+    category: 'Azure',
+    url: azuregrafana,
     isIsometric: false
   },
-
   {
     id: 'azure-groups',
     name: 'azure-groups',
-    category,
-    url: azuregroups.toString(),
+    category: 'Azure',
+    url: azuregroups,
     isIsometric: false
   },
-
   {
     id: 'azure-guide',
     name: 'azure-guide',
-    category,
-    url: azureguide.toString(),
+    category: 'Azure',
+    url: azureguide,
     isIsometric: false
   },
-
   {
     id: 'azure-hcp-cache',
     name: 'azure-hcp-cache',
-    category,
-    url: azurehcpcache.toString(),
+    category: 'Azure',
+    url: azurehcpcache,
     isIsometric: false
   },
-
   {
     id: 'azure-hd-insight-clusters',
     name: 'azure-hd-insight-clusters',
-    category,
-    url: azurehdinsightclusters.toString(),
+    category: 'Azure',
+    url: azurehdinsightclusters,
     isIsometric: false
   },
-
   {
     id: 'azure-heart',
     name: 'azure-heart',
-    category,
-    url: azureheart.toString(),
+    category: 'Azure',
+    url: azureheart,
     isIsometric: false
   },
-
   {
     id: 'azure-help-and-support',
     name: 'azure-help-and-support',
-    category,
-    url: azurehelpandsupport.toString(),
+    category: 'Azure',
+    url: azurehelpandsupport,
     isIsometric: false
   },
-
   {
     id: 'azure-host-groups',
     name: 'azure-host-groups',
-    category,
-    url: azurehostgroups.toString(),
+    category: 'Azure',
+    url: azurehostgroups,
     isIsometric: false
   },
-
   {
     id: 'azure-hosts',
     name: 'azure-hosts',
-    category,
-    url: azurehosts.toString(),
+    category: 'Azure',
+    url: azurehosts,
     isIsometric: false
   },
-
   {
     id: 'azure-hpc-workbench',
     name: 'azure-hpc-workbench',
-    category,
-    url: azurehpcworkbench.toString(),
+    category: 'Azure',
+    url: azurehpcworkbench,
     isIsometric: false
   },
-
   {
     id: 'azure-hybrid-center',
     name: 'azure-hybrid-center',
-    category,
-    url: azurehybridcenter.toString(),
+    category: 'Azure',
+    url: azurehybridcenter,
     isIsometric: false
   },
-
   {
     id: 'azure-identity-governance',
     name: 'azure-identity-governance',
-    category,
-    url: azureidentitygovernance.toString(),
+    category: 'Azure',
+    url: azureidentitygovernance,
     isIsometric: false
   },
-
   {
     id: 'azure-image-definition',
     name: 'azure-image-definition',
-    category,
-    url: azureimagedefinition.toString(),
+    category: 'Azure',
+    url: azureimagedefinition,
     isIsometric: false
   },
-
   {
     id: 'azure-image-definitions',
     name: 'azure-image-definitions',
-    category,
-    url: azureimagedefinitions.toString(),
+    category: 'Azure',
+    url: azureimagedefinitions,
     isIsometric: false
   },
-
   {
     id: 'azure-image-templates',
     name: 'azure-image-templates',
-    category,
-    url: azureimagetemplates.toString(),
+    category: 'Azure',
+    url: azureimagetemplates,
     isIsometric: false
   },
-
   {
     id: 'azure-image-version',
     name: 'azure-image-version',
-    category,
-    url: azureimageversion.toString(),
+    category: 'Azure',
+    url: azureimageversion,
     isIsometric: false
   },
-
   {
     id: 'azure-image-versions',
     name: 'azure-image-versions',
-    category,
-    url: azureimageversions.toString(),
+    category: 'Azure',
+    url: azureimageversions,
     isIsometric: false
   },
-
   {
     id: 'azure-image',
     name: 'azure-image',
-    category,
-    url: azureimage.toString(),
+    category: 'Azure',
+    url: azureimage,
     isIsometric: false
   },
-
   {
     id: 'azure-images',
     name: 'azure-images',
-    category,
-    url: azureimages.toString(),
+    category: 'Azure',
+    url: azureimages,
     isIsometric: false
   },
-
   {
     id: 'azure-import-export-jobs',
     name: 'azure-import-export-jobs',
-    category,
-    url: azureimportexportjobs.toString(),
+    category: 'Azure',
+    url: azureimportexportjobs,
     isIsometric: false
   },
-
   {
     id: 'azure-industrial-iot',
     name: 'azure-industrial-iot',
-    category,
-    url: azureindustrialiot.toString(),
+    category: 'Azure',
+    url: azureindustrialiot,
     isIsometric: false
   },
-
   {
     id: 'azure-information-protection',
     name: 'azure-information-protection',
-    category,
-    url: azureinformationprotection.toString(),
+    category: 'Azure',
+    url: azureinformationprotection,
     isIsometric: false
   },
-
   {
     id: 'azure-information',
     name: 'azure-information',
-    category,
-    url: azureinformation.toString(),
+    category: 'Azure',
+    url: azureinformation,
     isIsometric: false
   },
-
   {
     id: 'azure-infrastructure-backup',
     name: 'azure-infrastructure-backup',
-    category,
-    url: azureinfrastructurebackup.toString(),
+    category: 'Azure',
+    url: azureinfrastructurebackup,
     isIsometric: false
   },
-
   {
     id: 'azure-input-output',
     name: 'azure-input-output',
-    category,
-    url: azureinputoutput.toString(),
+    category: 'Azure',
+    url: azureinputoutput,
     isIsometric: false
   },
-
   {
     id: 'azure-instance-pools',
     name: 'azure-instance-pools',
-    category,
-    url: azureinstancepools.toString(),
+    category: 'Azure',
+    url: azureinstancepools,
     isIsometric: false
   },
-
   {
     id: 'azure-integration-accounts',
     name: 'azure-integration-accounts',
-    category,
-    url: azureintegrationaccounts.toString(),
+    category: 'Azure',
+    url: azureintegrationaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-integration-service-environments',
     name: 'azure-integration-service-environments',
-    category,
-    url: azureintegrationserviceenvironments.toString(),
+    category: 'Azure',
+    url: azureintegrationserviceenvironments,
     isIsometric: false
   },
-
   {
     id: 'azure-internet-analyzer-profiles',
     name: 'azure-internet-analyzer-profiles',
-    category,
-    url: azureinternetanalyzerprofiles.toString(),
+    category: 'Azure',
+    url: azureinternetanalyzerprofiles,
     isIsometric: false
   },
-
   {
     id: 'azure-intune-app-protection',
     name: 'azure-intune-app-protection',
-    category,
-    url: azureintuneappprotection.toString(),
+    category: 'Azure',
+    url: azureintuneappprotection,
     isIsometric: false
   },
-
   {
     id: 'azure-intune-for-education',
     name: 'azure-intune-for-education',
-    category,
-    url: azureintuneforeducation.toString(),
+    category: 'Azure',
+    url: azureintuneforeducation,
     isIsometric: false
   },
-
   {
     id: 'azure-intune-trends',
     name: 'azure-intune-trends',
-    category,
-    url: azureintunetrends.toString(),
+    category: 'Azure',
+    url: azureintunetrends,
     isIsometric: false
   },
-
   {
     id: 'azure-intune',
     name: 'azure-intune',
-    category,
-    url: azureintune.toString(),
+    category: 'Azure',
+    url: azureintune,
     isIsometric: false
   },
-
   {
     id: 'azure-iot-central-applications',
     name: 'azure-iot-central-applications',
-    category,
-    url: azureiotcentralapplications.toString(),
+    category: 'Azure',
+    url: azureiotcentralapplications,
     isIsometric: false
   },
-
   {
     id: 'azure-iot-edge',
     name: 'azure-iot-edge',
-    category,
-    url: azureiotedge.toString(),
+    category: 'Azure',
+    url: azureiotedge,
     isIsometric: false
   },
-
   {
     id: 'azure-iot-hub',
     name: 'azure-iot-hub',
-    category,
-    url: azureiothub.toString(),
+    category: 'Azure',
+    url: azureiothub,
     isIsometric: false
   },
-
   {
     id: 'azure-ip-groups',
     name: 'azure-ip-groups',
-    category,
-    url: azureipgroups.toString(),
+    category: 'Azure',
+    url: azureipgroups,
     isIsometric: false
   },
-
   {
     id: 'azure-journey-hub',
     name: 'azure-journey-hub',
-    category,
-    url: azurejourneyhub.toString(),
+    category: 'Azure',
+    url: azurejourneyhub,
     isIsometric: false
   },
-
   {
     id: 'azure-key-vaults',
     name: 'azure-key-vaults',
-    category,
-    url: azurekeyvaults.toString(),
+    category: 'Azure',
+    url: azurekeyvaults,
     isIsometric: false
   },
-
   {
     id: 'azure-keys',
     name: 'azure-keys',
-    category,
-    url: azurekeys.toString(),
+    category: 'Azure',
+    url: azurekeys,
     isIsometric: false
   },
-
   {
     id: 'azure-kubernetes-services',
     name: 'azure-kubernetes-services',
-    category,
-    url: azurekubernetesservices.toString(),
+    category: 'Azure',
+    url: azurekubernetesservices,
     isIsometric: false
   },
-
   {
     id: 'azure-lab-services',
     name: 'azure-lab-services',
-    category,
-    url: azurelabservices.toString(),
+    category: 'Azure',
+    url: azurelabservices,
     isIsometric: false
   },
-
   {
     id: 'azure-language-services',
     name: 'azure-language-services',
-    category,
-    url: azurelanguageservices.toString(),
+    category: 'Azure',
+    url: azurelanguageservices,
     isIsometric: false
   },
-
   {
     id: 'azure-launch-portal',
     name: 'azure-launch-portal',
-    category,
-    url: azurelaunchportal.toString(),
+    category: 'Azure',
+    url: azurelaunchportal,
     isIsometric: false
   },
-
   {
     id: 'azure-learn',
     name: 'azure-learn',
-    category,
-    url: azurelearn.toString(),
+    category: 'Azure',
+    url: azurelearn,
     isIsometric: false
   },
-
   {
     id: 'azure-lighthouse',
     name: 'azure-lighthouse',
-    category,
-    url: azurelighthouse.toString(),
+    category: 'Azure',
+    url: azurelighthouse,
     isIsometric: false
   },
-
   {
     id: 'azure-load-balancer-hub',
     name: 'azure-load-balancer-hub',
-    category,
-    url: azureloadbalancerhub.toString(),
+    category: 'Azure',
+    url: azureloadbalancerhub,
     isIsometric: false
   },
-
   {
     id: 'azure-load-balancers',
     name: 'azure-load-balancers',
-    category,
-    url: azureloadbalancers.toString(),
+    category: 'Azure',
+    url: azureloadbalancers,
     isIsometric: false
   },
-
   {
     id: 'azure-load-test',
     name: 'azure-load-test',
-    category,
-    url: azureloadtest.toString(),
+    category: 'Azure',
+    url: azureloadtest,
     isIsometric: false
   },
-
   {
     id: 'azure-load-testing',
     name: 'azure-load-testing',
-    category,
-    url: azureloadtesting.toString(),
+    category: 'Azure',
+    url: azureloadtesting,
     isIsometric: false
   },
-
   {
     id: 'azure-local-network-gateways',
     name: 'azure-local-network-gateways',
-    category,
-    url: azurelocalnetworkgateways.toString(),
+    category: 'Azure',
+    url: azurelocalnetworkgateways,
     isIsometric: false
   },
-
   {
     id: 'azure-location',
     name: 'azure-location',
-    category,
-    url: azurelocation.toString(),
+    category: 'Azure',
+    url: azurelocation,
     isIsometric: false
   },
-
   {
     id: 'azure-log-analytics-workspaces',
     name: 'azure-log-analytics-workspaces',
-    category,
-    url: azureloganalyticsworkspaces.toString(),
+    category: 'Azure',
+    url: azureloganalyticsworkspaces,
     isIsometric: false
   },
-
   {
     id: 'azure-log-streaming',
     name: 'azure-log-streaming',
-    category,
-    url: azurelogstreaming.toString(),
+    category: 'Azure',
+    url: azurelogstreaming,
     isIsometric: false
   },
-
   {
     id: 'azure-logic-apps-custom-connector',
     name: 'azure-logic-apps-custom-connector',
-    category,
-    url: azurelogicappscustomconnector.toString(),
+    category: 'Azure',
+    url: azurelogicappscustomconnector,
     isIsometric: false
   },
-
   {
     id: 'azure-logic-apps',
     name: 'azure-logic-apps',
-    category,
-    url: azurelogicapps.toString(),
+    category: 'Azure',
+    url: azurelogicapps,
     isIsometric: false
   },
-
   {
     id: 'azure-machine-learning-studio-classic-web-services',
     name: 'azure-machine-learning-studio-classic-web-services',
-    category,
-    url: azuremachinelearningstudioclassicwebservices.toString(),
+    category: 'Azure',
+    url: azuremachinelearningstudioclassicwebservices,
     isIsometric: false
   },
-
   {
     id: 'azure-machine-learning-studio-web-service-plans',
     name: 'azure-machine-learning-studio-web-service-plans',
-    category,
-    url: azuremachinelearningstudiowebserviceplans.toString(),
+    category: 'Azure',
+    url: azuremachinelearningstudiowebserviceplans,
     isIsometric: false
   },
-
   {
     id: 'azure-machine-learning-studio-workspaces',
     name: 'azure-machine-learning-studio-workspaces',
-    category,
-    url: azuremachinelearningstudioworkspaces.toString(),
+    category: 'Azure',
+    url: azuremachinelearningstudioworkspaces,
     isIsometric: false
   },
-
   {
     id: 'azure-machine-learning',
     name: 'azure-machine-learning',
-    category,
-    url: azuremachinelearning.toString(),
+    category: 'Azure',
+    url: azuremachinelearning,
     isIsometric: false
   },
-
   {
     id: 'azure-machinesazurearc',
     name: 'azure-machinesazurearc',
-    category,
-    url: azuremachinesazurearc.toString(),
+    category: 'Azure',
+    url: azuremachinesazurearc,
     isIsometric: false
   },
-
   {
     id: 'azure-maintenance-configuration',
     name: 'azure-maintenance-configuration',
-    category,
-    url: azuremaintenanceconfiguration.toString(),
+    category: 'Azure',
+    url: azuremaintenanceconfiguration,
     isIsometric: false
   },
-
   {
     id: 'azure-managed-applications-center',
     name: 'azure-managed-applications-center',
-    category,
-    url: azuremanagedapplicationscenter.toString(),
+    category: 'Azure',
+    url: azuremanagedapplicationscenter,
     isIsometric: false
   },
-
   {
     id: 'azure-managed-database',
     name: 'azure-managed-database',
-    category,
-    url: azuremanageddatabase.toString(),
+    category: 'Azure',
+    url: azuremanageddatabase,
     isIsometric: false
   },
-
   {
     id: 'azure-managed-desktop',
     name: 'azure-managed-desktop',
-    category,
-    url: azuremanageddesktop.toString(),
+    category: 'Azure',
+    url: azuremanageddesktop,
     isIsometric: false
   },
-
   {
     id: 'azure-managed-identities',
     name: 'azure-managed-identities',
-    category,
-    url: azuremanagedidentities.toString(),
+    category: 'Azure',
+    url: azuremanagedidentities,
     isIsometric: false
   },
-
   {
     id: 'azure-managed-instance-apache-cassandra',
     name: 'azure-managed-instance-apache-cassandra',
-    category,
-    url: azuremanagedinstanceapachecassandra.toString(),
+    category: 'Azure',
+    url: azuremanagedinstanceapachecassandra,
     isIsometric: false
   },
-
   {
     id: 'azure-managed-service-fabric',
     name: 'azure-managed-service-fabric',
-    category,
-    url: azuremanagedservicefabric.toString(),
+    category: 'Azure',
+    url: azuremanagedservicefabric,
     isIsometric: false
   },
-
   {
     id: 'azure-management-groups',
     name: 'azure-management-groups',
-    category,
-    url: azuremanagementgroups.toString(),
+    category: 'Azure',
+    url: azuremanagementgroups,
     isIsometric: false
   },
-
   {
     id: 'azure-management-portal',
     name: 'azure-management-portal',
-    category,
-    url: azuremanagementportal.toString(),
+    category: 'Azure',
+    url: azuremanagementportal,
     isIsometric: false
   },
-
   {
     id: 'azure-maps-accounts',
     name: 'azure-maps-accounts',
-    category,
-    url: azuremapsaccounts.toString(),
+    category: 'Azure',
+    url: azuremapsaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-marketplace-management',
     name: 'azure-marketplace-management',
-    category,
-    url: azuremarketplacemanagement.toString(),
+    category: 'Azure',
+    url: azuremarketplacemanagement,
     isIsometric: false
   },
-
   {
     id: 'azure-marketplace',
     name: 'azure-marketplace',
-    category,
-    url: azuremarketplace.toString(),
+    category: 'Azure',
+    url: azuremarketplace,
     isIsometric: false
   },
-
   {
     id: 'azure-media-file',
     name: 'azure-media-file',
-    category,
-    url: azuremediafile.toString(),
+    category: 'Azure',
+    url: azuremediafile,
     isIsometric: false
   },
-
   {
     id: 'azure-media-service',
     name: 'azure-media-service',
-    category,
-    url: azuremediaservice.toString(),
+    category: 'Azure',
+    url: azuremediaservice,
     isIsometric: false
   },
-
   {
     id: 'azure-media',
     name: 'azure-media',
-    category,
-    url: azuremedia.toString(),
+    category: 'Azure',
+    url: azuremedia,
     isIsometric: false
   },
-
   {
     id: 'azure-mesh-applications',
     name: 'azure-mesh-applications',
-    category,
-    url: azuremeshapplications.toString(),
+    category: 'Azure',
+    url: azuremeshapplications,
     isIsometric: false
   },
-
   {
     id: 'azure-metrics-advisor',
     name: 'azure-metrics-advisor',
-    category,
-    url: azuremetricsadvisor.toString(),
+    category: 'Azure',
+    url: azuremetricsadvisor,
     isIsometric: false
   },
-
   {
     id: 'azure-metrics',
     name: 'azure-metrics',
-    category,
-    url: azuremetrics.toString(),
+    category: 'Azure',
+    url: azuremetrics,
     isIsometric: false
   },
-
   {
     id: 'azure-migrate',
     name: 'azure-migrate',
-    category,
-    url: azuremigrate.toString(),
+    category: 'Azure',
+    url: azuremigrate,
     isIsometric: false
   },
-
   {
     id: 'azure-mindaro',
     name: 'azure-mindaro',
-    category,
-    url: azuremindaro.toString(),
+    category: 'Azure',
+    url: azuremindaro,
     isIsometric: false
   },
-
   {
     id: 'azure-mission-landing-zone',
     name: 'azure-mission-landing-zone',
-    category,
-    url: azuremissionlandingzone.toString(),
+    category: 'Azure',
+    url: azuremissionlandingzone,
     isIsometric: false
   },
-
   {
     id: 'azure-mobile-engagement',
     name: 'azure-mobile-engagement',
-    category,
-    url: azuremobileengagement.toString(),
+    category: 'Azure',
+    url: azuremobileengagement,
     isIsometric: false
   },
-
   {
     id: 'azure-mobile',
     name: 'azure-mobile',
-    category,
-    url: azuremobile.toString(),
+    category: 'Azure',
+    url: azuremobile,
     isIsometric: false
   },
-
   {
     id: 'azure-modular-data-center',
     name: 'azure-modular-data-center',
-    category,
-    url: azuremodulardatacenter.toString(),
+    category: 'Azure',
+    url: azuremodulardatacenter,
     isIsometric: false
   },
-
   {
     id: 'azure-module',
     name: 'azure-module',
-    category,
-    url: azuremodule.toString(),
+    category: 'Azure',
+    url: azuremodule,
     isIsometric: false
   },
-
   {
     id: 'azure-monitor-dashboard',
     name: 'azure-monitor-dashboard',
-    category,
-    url: azuremonitordashboard.toString(),
+    category: 'Azure',
+    url: azuremonitordashboard,
     isIsometric: false
   },
-
   {
     id: 'azure-monitor',
     name: 'azure-monitor',
-    category,
-    url: azuremonitor.toString(),
+    category: 'Azure',
+    url: azuremonitor,
     isIsometric: false
   },
-
   {
     id: 'azure-multi-tenancy',
     name: 'azure-multi-tenancy',
-    category,
-    url: azuremultitenancy.toString(),
+    category: 'Azure',
+    url: azuremultitenancy,
     isIsometric: false
   },
-
   {
     id: 'azure-my-customers',
     name: 'azure-my-customers',
-    category,
-    url: azuremycustomers.toString(),
+    category: 'Azure',
+    url: azuremycustomers,
     isIsometric: false
   },
-
   {
     id: 'azure-nat',
     name: 'azure-nat',
-    category,
-    url: azurenat.toString(),
+    category: 'Azure',
+    url: azurenat,
     isIsometric: false
   },
-
   {
     id: 'azure-netapp-files',
     name: 'azure-netapp-files',
-    category,
-    url: azurenetappfiles.toString(),
+    category: 'Azure',
+    url: azurenetappfiles,
     isIsometric: false
   },
-
   {
     id: 'azure-network-function-manager',
     name: 'azure-network-function-manager',
-    category,
-    url: azurenetworkfunctionmanager.toString(),
+    category: 'Azure',
+    url: azurenetworkfunctionmanager,
     isIsometric: false
   },
-
   {
     id: 'azure-network-interfaces',
     name: 'azure-network-interfaces',
-    category,
-    url: azurenetworkinterfaces.toString(),
+    category: 'Azure',
+    url: azurenetworkinterfaces,
     isIsometric: false
   },
-
   {
     id: 'azure-network-manager',
     name: 'azure-network-manager',
-    category,
-    url: azurenetworkmanager.toString(),
+    category: 'Azure',
+    url: azurenetworkmanager,
     isIsometric: false
   },
-
   {
     id: 'azure-network-security-groups',
     name: 'azure-network-security-groups',
-    category,
-    url: azurenetworksecuritygroups.toString(),
+    category: 'Azure',
+    url: azurenetworksecuritygroups,
     isIsometric: false
   },
-
   {
     id: 'azure-network-watcher',
     name: 'azure-network-watcher',
-    category,
-    url: azurenetworkwatcher.toString(),
+    category: 'Azure',
+    url: azurenetworkwatcher,
     isIsometric: false
   },
-
   {
     id: 'azure-notification-hub-namespaces',
     name: 'azure-notification-hub-namespaces',
-    category,
-    url: azurenotificationhubnamespaces.toString(),
+    category: 'Azure',
+    url: azurenotificationhubnamespaces,
     isIsometric: false
   },
-
   {
     id: 'azure-notification-hubs',
     name: 'azure-notification-hubs',
-    category,
-    url: azurenotificationhubs.toString(),
+    category: 'Azure',
+    url: azurenotificationhubs,
     isIsometric: false
   },
-
   {
     id: 'azure-object-understanding',
     name: 'azure-object-understanding',
-    category,
-    url: azureobjectunderstanding.toString(),
+    category: 'Azure',
+    url: azureobjectunderstanding,
     isIsometric: false
   },
-
   {
     id: 'azure-offers',
     name: 'azure-offers',
-    category,
-    url: azureoffers.toString(),
+    category: 'Azure',
+    url: azureoffers,
     isIsometric: false
   },
-
   {
     id: 'azure-on-premises-data-gateways',
     name: 'azure-on-premises-data-gateways',
-    category,
-    url: azureonpremisesdatagateways.toString(),
+    category: 'Azure',
+    url: azureonpremisesdatagateways,
     isIsometric: false
   },
-
   {
     id: 'azure-open-supply-chain-platform',
     name: 'azure-open-supply-chain-platform',
-    category,
-    url: azureopensupplychainplatform.toString(),
+    category: 'Azure',
+    url: azureopensupplychainplatform,
     isIsometric: false
   },
-
   {
     id: 'azure-operation-log-classic',
     name: 'azure-operation-log-classic',
-    category,
-    url: azureoperationlogclassic.toString(),
+    category: 'Azure',
+    url: azureoperationlogclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-orbital',
     name: 'azure-orbital',
-    category,
-    url: azureorbital.toString(),
+    category: 'Azure',
+    url: azureorbital,
     isIsometric: false
   },
-
   {
     id: 'azure-os-images-classic',
     name: 'azure-os-images-classic',
-    category,
-    url: azureosimagesclassic.toString(),
+    category: 'Azure',
+    url: azureosimagesclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-outbound-connection',
     name: 'azure-outbound-connection',
-    category,
-    url: azureoutboundconnection.toString(),
+    category: 'Azure',
+    url: azureoutboundconnection,
     isIsometric: false
   },
-
   {
     id: 'azure-partner-namespace',
     name: 'azure-partner-namespace',
-    category,
-    url: azurepartnernamespace.toString(),
+    category: 'Azure',
+    url: azurepartnernamespace,
     isIsometric: false
   },
-
   {
     id: 'azure-partner-registration',
     name: 'azure-partner-registration',
-    category,
-    url: azurepartnerregistration.toString(),
+    category: 'Azure',
+    url: azurepartnerregistration,
     isIsometric: false
   },
-
   {
     id: 'azure-partner-topic',
     name: 'azure-partner-topic',
-    category,
-    url: azurepartnertopic.toString(),
+    category: 'Azure',
+    url: azurepartnertopic,
     isIsometric: false
   },
-
   {
     id: 'azure-peering-service',
     name: 'azure-peering-service',
-    category,
-    url: azurepeeringservice.toString(),
+    category: 'Azure',
+    url: azurepeeringservice,
     isIsometric: false
   },
-
   {
     id: 'azure-pim',
     name: 'azure-pim',
-    category,
-    url: azurepim.toString(),
+    category: 'Azure',
+    url: azurepim,
     isIsometric: false
   },
-
   {
     id: 'azure-plans',
     name: 'azure-plans',
-    category,
-    url: azureplans.toString(),
+    category: 'Azure',
+    url: azureplans,
     isIsometric: false
   },
-
   {
     id: 'azure-policy',
     name: 'azure-policy',
-    category,
-    url: azurepolicy.toString(),
+    category: 'Azure',
+    url: azurepolicy,
     isIsometric: false
   },
-
   {
     id: 'azure-power-up',
     name: 'azure-power-up',
-    category,
-    url: azurepowerup.toString(),
+    category: 'Azure',
+    url: azurepowerup,
     isIsometric: false
   },
-
   {
     id: 'azure-power',
     name: 'azure-power',
-    category,
-    url: azurepower.toString(),
+    category: 'Azure',
+    url: azurepower,
     isIsometric: false
   },
-
   {
     id: 'azure-powershell',
     name: 'azure-powershell',
-    category,
-    url: azurepowershell.toString(),
+    category: 'Azure',
+    url: azurepowershell,
     isIsometric: false
   },
-
   {
     id: 'azure-preview-features',
     name: 'azure-preview-features',
-    category,
-    url: azurepreviewfeatures.toString(),
+    category: 'Azure',
+    url: azurepreviewfeatures,
     isIsometric: false
   },
-
   {
     id: 'azure-preview',
     name: 'azure-preview',
-    category,
-    url: azurepreview.toString(),
+    category: 'Azure',
+    url: azurepreview,
     isIsometric: false
   },
-
   {
     id: 'azure-private-link-hub',
     name: 'azure-private-link-hub',
-    category,
-    url: azureprivatelinkhub.toString(),
+    category: 'Azure',
+    url: azureprivatelinkhub,
     isIsometric: false
   },
-
   {
     id: 'azure-private-link-service',
     name: 'azure-private-link-service',
-    category,
-    url: azureprivatelinkservice.toString(),
+    category: 'Azure',
+    url: azureprivatelinkservice,
     isIsometric: false
   },
-
   {
     id: 'azure-private-link',
     name: 'azure-private-link',
-    category,
-    url: azureprivatelink.toString(),
+    category: 'Azure',
+    url: azureprivatelink,
     isIsometric: false
   },
-
   {
     id: 'azure-private-mobile-network',
     name: 'azure-private-mobile-network',
-    category,
-    url: azureprivatemobilenetwork.toString(),
+    category: 'Azure',
+    url: azureprivatemobilenetwork,
     isIsometric: false
   },
-
   {
     id: 'azure-process-explorer',
     name: 'azure-process-explorer',
-    category,
-    url: azureprocessexplorer.toString(),
+    category: 'Azure',
+    url: azureprocessexplorer,
     isIsometric: false
   },
-
   {
     id: 'azure-production-ready-database',
     name: 'azure-production-ready-database',
-    category,
-    url: azureproductionreadydatabase.toString(),
+    category: 'Azure',
+    url: azureproductionreadydatabase,
     isIsometric: false
   },
-
   {
     id: 'azure-proximity-placement-groups',
     name: 'azure-proximity-placement-groups',
-    category,
-    url: azureproximityplacementgroups.toString(),
+    category: 'Azure',
+    url: azureproximityplacementgroups,
     isIsometric: false
   },
-
   {
     id: 'azure-public-ip-addresses-classic',
     name: 'azure-public-ip-addresses-classic',
-    category,
-    url: azurepublicipaddressesclassic.toString(),
+    category: 'Azure',
+    url: azurepublicipaddressesclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-public-ip-addresses',
     name: 'azure-public-ip-addresses',
-    category,
-    url: azurepublicipaddresses.toString(),
+    category: 'Azure',
+    url: azurepublicipaddresses,
     isIsometric: false
   },
-
   {
     id: 'azure-public-ip-prefixes',
     name: 'azure-public-ip-prefixes',
-    category,
-    url: azurepublicipprefixes.toString(),
+    category: 'Azure',
+    url: azurepublicipprefixes,
     isIsometric: false
   },
-
   {
     id: 'azure-purview-accounts',
     name: 'azure-purview-accounts',
-    category,
-    url: azurepurviewaccounts.toString(),
+    category: 'Azure',
+    url: azurepurviewaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-quickstart-center',
     name: 'azure-quickstart-center',
-    category,
-    url: azurequickstartcenter.toString(),
+    category: 'Azure',
+    url: azurequickstartcenter,
     isIsometric: false
   },
-
   {
     id: 'azure-quotas',
     name: 'azure-quotas',
-    category,
-    url: azurequotas.toString(),
+    category: 'Azure',
+    url: azurequotas,
     isIsometric: false
   },
-
   {
     id: 'azure-recent',
     name: 'azure-recent',
-    category,
-    url: azurerecent.toString(),
+    category: 'Azure',
+    url: azurerecent,
     isIsometric: false
   },
-
   {
     id: 'azure-recovery-services-vaults',
     name: 'azure-recovery-services-vaults',
-    category,
-    url: azurerecoveryservicesvaults.toString(),
+    category: 'Azure',
+    url: azurerecoveryservicesvaults,
     isIsometric: false
   },
-
   {
     id: 'azure-region-management',
     name: 'azure-region-management',
-    category,
-    url: azureregionmanagement.toString(),
+    category: 'Azure',
+    url: azureregionmanagement,
     isIsometric: false
   },
-
   {
     id: 'azure-relays',
     name: 'azure-relays',
-    category,
-    url: azurerelays.toString(),
+    category: 'Azure',
+    url: azurerelays,
     isIsometric: false
   },
-
   {
     id: 'azure-remote-rendering',
     name: 'azure-remote-rendering',
-    category,
-    url: azureremoterendering.toString(),
+    category: 'Azure',
+    url: azureremoterendering,
     isIsometric: false
   },
-
   {
     id: 'azure-reservations',
     name: 'azure-reservations',
-    category,
-    url: azurereservations.toString(),
+    category: 'Azure',
+    url: azurereservations,
     isIsometric: false
   },
-
   {
     id: 'azure-reserved-capacity-groups',
     name: 'azure-reserved-capacity-groups',
-    category,
-    url: azurereservedcapacitygroups.toString(),
+    category: 'Azure',
+    url: azurereservedcapacitygroups,
     isIsometric: false
   },
-
   {
     id: 'azure-reserved-capacity',
     name: 'azure-reserved-capacity',
-    category,
-    url: azurereservedcapacity.toString(),
+    category: 'Azure',
+    url: azurereservedcapacity,
     isIsometric: false
   },
-
   {
     id: 'azure-reserved-ip-addresses-classic',
     name: 'azure-reserved-ip-addresses-classic',
-    category,
-    url: azurereservedipaddressesclassic.toString(),
+    category: 'Azure',
+    url: azurereservedipaddressesclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-explorer',
     name: 'azure-resource-explorer',
-    category,
-    url: azureresourceexplorer.toString(),
+    category: 'Azure',
+    url: azureresourceexplorer,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-graph-explorer',
     name: 'azure-resource-graph-explorer',
-    category,
-    url: azureresourcegraphexplorer.toString(),
+    category: 'Azure',
+    url: azureresourcegraphexplorer,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-group-list',
     name: 'azure-resource-group-list',
-    category,
-    url: azureresourcegrouplist.toString(),
+    category: 'Azure',
+    url: azureresourcegrouplist,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-groups',
     name: 'azure-resource-groups',
-    category,
-    url: azureresourcegroups.toString(),
+    category: 'Azure',
+    url: azureresourcegroups,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-linked',
     name: 'azure-resource-linked',
-    category,
-    url: azureresourcelinked.toString(),
+    category: 'Azure',
+    url: azureresourcelinked,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-management-private-link',
     name: 'azure-resource-management-private-link',
-    category,
-    url: azureresourcemanagementprivatelink.toString(),
+    category: 'Azure',
+    url: azureresourcemanagementprivatelink,
     isIsometric: false
   },
-
   {
     id: 'azure-resource-mover',
     name: 'azure-resource-mover',
-    category,
-    url: azureresourcemover.toString(),
+    category: 'Azure',
+    url: azureresourcemover,
     isIsometric: false
   },
-
   {
     id: 'azure-restore-points-collections',
     name: 'azure-restore-points-collections',
-    category,
-    url: azurerestorepointscollections.toString(),
+    category: 'Azure',
+    url: azurerestorepointscollections,
     isIsometric: false
   },
-
   {
     id: 'azure-restore-points',
     name: 'azure-restore-points',
-    category,
-    url: azurerestorepoints.toString(),
+    category: 'Azure',
+    url: azurerestorepoints,
     isIsometric: false
   },
-
   {
     id: 'azure-route-filters',
     name: 'azure-route-filters',
-    category,
-    url: azureroutefilters.toString(),
+    category: 'Azure',
+    url: azureroutefilters,
     isIsometric: false
   },
-
   {
     id: 'azure-route-tables',
     name: 'azure-route-tables',
-    category,
-    url: azureroutetables.toString(),
+    category: 'Azure',
+    url: azureroutetables,
     isIsometric: false
   },
-
   {
     id: 'azure-rtos',
     name: 'azure-rtos',
-    category,
-    url: azurertos.toString(),
+    category: 'Azure',
+    url: azurertos,
     isIsometric: false
   },
-
   {
     id: 'azure-sap-azure-monitor',
     name: 'azure-sap-azure-monitor',
-    category,
-    url: azuresapazuremonitor.toString(),
+    category: 'Azure',
+    url: azuresapazuremonitor,
     isIsometric: false
   },
-
   {
     id: 'azure-savings-plan',
     name: 'azure-savings-plan',
-    category,
-    url: azuresavingsplan.toString(),
+    category: 'Azure',
+    url: azuresavingsplan,
     isIsometric: false
   },
-
   {
     id: 'azure-scale',
     name: 'azure-scale',
-    category,
-    url: azurescale.toString(),
+    category: 'Azure',
+    url: azurescale,
     isIsometric: false
   },
-
   {
     id: 'azure-scheduler-job-collections',
     name: 'azure-scheduler-job-collections',
-    category,
-    url: azureschedulerjobcollections.toString(),
+    category: 'Azure',
+    url: azureschedulerjobcollections,
     isIsometric: false
   },
-
   {
     id: 'azure-scheduler',
     name: 'azure-scheduler',
-    category,
-    url: azurescheduler.toString(),
+    category: 'Azure',
+    url: azurescheduler,
     isIsometric: false
   },
-
   {
     id: 'azure-search-grid',
     name: 'azure-search-grid',
-    category,
-    url: azuresearchgrid.toString(),
+    category: 'Azure',
+    url: azuresearchgrid,
     isIsometric: false
   },
-
   {
     id: 'azure-search-services',
     name: 'azure-search-services',
-    category,
-    url: azuresearchservices.toString(),
+    category: 'Azure',
+    url: azuresearchservices,
     isIsometric: false
   },
-
   {
     id: 'azure-search',
     name: 'azure-search',
-    category,
-    url: azuresearch.toString(),
+    category: 'Azure',
+    url: azuresearch,
     isIsometric: false
   },
-
   {
     id: 'azure-security-baselines',
     name: 'azure-security-baselines',
-    category,
-    url: azuresecuritybaselines.toString(),
+    category: 'Azure',
+    url: azuresecuritybaselines,
     isIsometric: false
   },
-
   {
     id: 'azure-security-center',
     name: 'azure-security-center',
-    category,
-    url: azuresecuritycenter.toString(),
+    category: 'Azure',
+    url: azuresecuritycenter,
     isIsometric: false
   },
-
   {
     id: 'azure-sendgrid-accounts',
     name: 'azure-sendgrid-accounts',
-    category,
-    url: azuresendgridaccounts.toString(),
+    category: 'Azure',
+    url: azuresendgridaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-sentinel',
     name: 'azure-sentinel',
-    category,
-    url: azuresentinel.toString(),
+    category: 'Azure',
+    url: azuresentinel,
     isIsometric: false
   },
-
   {
     id: 'azure-server-farm',
     name: 'azure-server-farm',
-    category,
-    url: azureserverfarm.toString(),
+    category: 'Azure',
+    url: azureserverfarm,
     isIsometric: false
   },
-
   {
     id: 'azure-service-bus',
     name: 'azure-service-bus',
-    category,
-    url: azureservicebus.toString(),
+    category: 'Azure',
+    url: azureservicebus,
     isIsometric: false
   },
-
   {
     id: 'azure-service-catalog-mad',
     name: 'azure-service-catalog-mad',
-    category,
-    url: azureservicecatalogmad.toString(),
+    category: 'Azure',
+    url: azureservicecatalogmad,
     isIsometric: false
   },
-
   {
     id: 'azure-service-endpoint-policies',
     name: 'azure-service-endpoint-policies',
-    category,
-    url: azureserviceendpointpolicies.toString(),
+    category: 'Azure',
+    url: azureserviceendpointpolicies,
     isIsometric: false
   },
-
   {
     id: 'azure-service-fabric-clusters',
     name: 'azure-service-fabric-clusters',
-    category,
-    url: azureservicefabricclusters.toString(),
+    category: 'Azure',
+    url: azureservicefabricclusters,
     isIsometric: false
   },
-
   {
     id: 'azure-service-health',
     name: 'azure-service-health',
-    category,
-    url: azureservicehealth.toString(),
+    category: 'Azure',
+    url: azureservicehealth,
     isIsometric: false
   },
-
   {
     id: 'azure-service-providers',
     name: 'azure-service-providers',
-    category,
-    url: azureserviceproviders.toString(),
+    category: 'Azure',
+    url: azureserviceproviders,
     isIsometric: false
   },
-
   {
     id: 'azure-shared-image-galleries',
     name: 'azure-shared-image-galleries',
-    category,
-    url: azuresharedimagegalleries.toString(),
+    category: 'Azure',
+    url: azuresharedimagegalleries,
     isIsometric: false
   },
-
   {
     id: 'azure-signalr',
     name: 'azure-signalr',
-    category,
-    url: azuresignalr.toString(),
+    category: 'Azure',
+    url: azuresignalr,
     isIsometric: false
   },
-
   {
     id: 'azure-software-as-a-service',
     name: 'azure-software-as-a-service',
-    category,
-    url: azuresoftwareasaservice.toString(),
+    category: 'Azure',
+    url: azuresoftwareasaservice,
     isIsometric: false
   },
-
   {
     id: 'azure-software-updates',
     name: 'azure-software-updates',
-    category,
-    url: azuresoftwareupdates.toString(),
+    category: 'Azure',
+    url: azuresoftwareupdates,
     isIsometric: false
   },
-
   {
     id: 'azure-solutions',
     name: 'azure-solutions',
-    category,
-    url: azuresolutions.toString(),
+    category: 'Azure',
+    url: azuresolutions,
     isIsometric: false
   },
-
   {
     id: 'azure-sonic-dash',
     name: 'azure-sonic-dash',
-    category,
-    url: azuresonicdash.toString(),
+    category: 'Azure',
+    url: azuresonicdash,
     isIsometric: false
   },
-
   {
     id: 'azure-spatial-anchor-accounts',
     name: 'azure-spatial-anchor-accounts',
-    category,
-    url: azurespatialanchoraccounts.toString(),
+    category: 'Azure',
+    url: azurespatialanchoraccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-sphere',
     name: 'azure-sphere',
-    category,
-    url: azuresphere.toString(),
+    category: 'Azure',
+    url: azuresphere,
     isIsometric: false
   },
-
   {
     id: 'azure-spot-vm',
     name: 'azure-spot-vm',
-    category,
-    url: azurespotvm.toString(),
+    category: 'Azure',
+    url: azurespotvm,
     isIsometric: false
   },
-
   {
     id: 'azure-spot-vmss',
     name: 'azure-spot-vmss',
-    category,
-    url: azurespotvmss.toString(),
+    category: 'Azure',
+    url: azurespotvmss,
     isIsometric: false
   },
-
   {
     id: 'azure-spring-cloud',
     name: 'azure-spring-cloud',
-    category,
-    url: azurespringcloud.toString(),
+    category: 'Azure',
+    url: azurespringcloud,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-data-warehouses',
     name: 'azure-sql-data-warehouses',
-    category,
-    url: azuresqldatawarehouses.toString(),
+    category: 'Azure',
+    url: azuresqldatawarehouses,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-database',
     name: 'azure-sql-database',
-    category,
-    url: azuresqldatabase.toString(),
+    category: 'Azure',
+    url: azuresqldatabase,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-edge',
     name: 'azure-sql-edge',
-    category,
-    url: azuresqledge.toString(),
+    category: 'Azure',
+    url: azuresqledge,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-elastic-pools',
     name: 'azure-sql-elastic-pools',
-    category,
-    url: azuresqlelasticpools.toString(),
+    category: 'Azure',
+    url: azuresqlelasticpools,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-managed-instance',
     name: 'azure-sql-managed-instance',
-    category,
-    url: azuresqlmanagedinstance.toString(),
+    category: 'Azure',
+    url: azuresqlmanagedinstance,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-server-registries',
     name: 'azure-sql-server-registries',
-    category,
-    url: azuresqlserverregistries.toString(),
+    category: 'Azure',
+    url: azuresqlserverregistries,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-server-stretch-databases',
     name: 'azure-sql-server-stretch-databases',
-    category,
-    url: azuresqlserverstretchdatabases.toString(),
+    category: 'Azure',
+    url: azuresqlserverstretchdatabases,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-server',
     name: 'azure-sql-server',
-    category,
-    url: azuresqlserver.toString(),
+    category: 'Azure',
+    url: azuresqlserver,
     isIsometric: false
   },
-
   {
     id: 'azure-sql-vm',
     name: 'azure-sql-vm',
-    category,
-    url: azuresqlvm.toString(),
+    category: 'Azure',
+    url: azuresqlvm,
     isIsometric: false
   },
-
   {
     id: 'azure-sql',
     name: 'azure-sql',
-    category,
-    url: azuresql.toString(),
+    category: 'Azure',
+    url: azuresql,
     isIsometric: false
   },
-
   {
     id: 'azure-ssd',
     name: 'azure-ssd',
-    category,
-    url: azuressd.toString(),
+    category: 'Azure',
+    url: azuressd,
     isIsometric: false
   },
-
   {
     id: 'azure-ssh-keys',
     name: 'azure-ssh-keys',
-    category,
-    url: azuresshkeys.toString(),
+    category: 'Azure',
+    url: azuresshkeys,
     isIsometric: false
   },
-
   {
     id: 'azure-ssis-lift-and-shift-ir',
     name: 'azure-ssis-lift-and-shift-ir',
-    category,
-    url: azuressisliftandshiftir.toString(),
+    category: 'Azure',
+    url: azuressisliftandshiftir,
     isIsometric: false
   },
-
   {
     id: 'azure-stack-edge',
     name: 'azure-stack-edge',
-    category,
-    url: azurestackedge.toString(),
+    category: 'Azure',
+    url: azurestackedge,
     isIsometric: false
   },
-
   {
     id: 'azure-stack',
     name: 'azure-stack',
-    category,
-    url: azurestack.toString(),
+    category: 'Azure',
+    url: azurestack,
     isIsometric: false
   },
-
   {
     id: 'azure-static-apps',
     name: 'azure-static-apps',
-    category,
-    url: azurestaticapps.toString(),
+    category: 'Azure',
+    url: azurestaticapps,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-accounts-classic',
     name: 'azure-storage-accounts-classic',
-    category,
-    url: azurestorageaccountsclassic.toString(),
+    category: 'Azure',
+    url: azurestorageaccountsclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-accounts',
     name: 'azure-storage-accounts',
-    category,
-    url: azurestorageaccounts.toString(),
+    category: 'Azure',
+    url: azurestorageaccounts,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-azure-files',
     name: 'azure-storage-azure-files',
-    category,
-    url: azurestorageazurefiles.toString(),
+    category: 'Azure',
+    url: azurestorageazurefiles,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-container',
     name: 'azure-storage-container',
-    category,
-    url: azurestoragecontainer.toString(),
+    category: 'Azure',
+    url: azurestoragecontainer,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-explorer',
     name: 'azure-storage-explorer',
-    category,
-    url: azurestorageexplorer.toString(),
+    category: 'Azure',
+    url: azurestorageexplorer,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-queue',
     name: 'azure-storage-queue',
-    category,
-    url: azurestoragequeue.toString(),
+    category: 'Azure',
+    url: azurestoragequeue,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-sync-services',
     name: 'azure-storage-sync-services',
-    category,
-    url: azurestoragesyncservices.toString(),
+    category: 'Azure',
+    url: azurestoragesyncservices,
     isIsometric: false
   },
-
   {
     id: 'azure-storage-tasks',
     name: 'azure-storage-tasks',
-    category,
-    url: azurestoragetasks.toString(),
+    category: 'Azure',
+    url: azurestoragetasks,
     isIsometric: false
   },
-
   {
     id: 'azure-storsimple-data-managers',
     name: 'azure-storsimple-data-managers',
-    category,
-    url: azurestorsimpledatamanagers.toString(),
+    category: 'Azure',
+    url: azurestorsimpledatamanagers,
     isIsometric: false
   },
-
   {
     id: 'azure-storsimple-device-managers',
     name: 'azure-storsimple-device-managers',
-    category,
-    url: azurestorsimpledevicemanagers.toString(),
+    category: 'Azure',
+    url: azurestorsimpledevicemanagers,
     isIsometric: false
   },
-
   {
     id: 'azure-stream-analytics-jobs',
     name: 'azure-stream-analytics-jobs',
-    category,
-    url: azurestreamanalyticsjobs.toString(),
+    category: 'Azure',
+    url: azurestreamanalyticsjobs,
     isIsometric: false
   },
-
   {
     id: 'azure-subscriptions',
     name: 'azure-subscriptions',
-    category,
-    url: azuresubscriptions.toString(),
+    category: 'Azure',
+    url: azuresubscriptions,
     isIsometric: false
   },
-
   {
     id: 'azure-support-center-blue',
     name: 'azure-support-center-blue',
-    category,
-    url: azuresupportcenterblue.toString(),
+    category: 'Azure',
+    url: azuresupportcenterblue,
     isIsometric: false
   },
-
   {
     id: 'azure-synapse-analytics',
     name: 'azure-synapse-analytics',
-    category,
-    url: azuresynapseanalytics.toString(),
+    category: 'Azure',
+    url: azuresynapseanalytics,
     isIsometric: false
   },
-
   {
     id: 'azure-system-topic',
     name: 'azure-system-topic',
-    category,
-    url: azuresystemtopic.toString(),
+    category: 'Azure',
+    url: azuresystemtopic,
     isIsometric: false
   },
-
   {
     id: 'azure-table',
     name: 'azure-table',
-    category,
-    url: azuretable.toString(),
+    category: 'Azure',
+    url: azuretable,
     isIsometric: false
   },
-
   {
     id: 'azure-tag',
     name: 'azure-tag',
-    category,
-    url: azuretag.toString(),
+    category: 'Azure',
+    url: azuretag,
     isIsometric: false
   },
-
   {
     id: 'azure-tags',
     name: 'azure-tags',
-    category,
-    url: azuretags.toString(),
+    category: 'Azure',
+    url: azuretags,
     isIsometric: false
   },
-
   {
     id: 'azure-template-specs',
     name: 'azure-template-specs',
-    category,
-    url: azuretemplatespecs.toString(),
+    category: 'Azure',
+    url: azuretemplatespecs,
     isIsometric: false
   },
-
   {
     id: 'azure-templates',
     name: 'azure-templates',
-    category,
-    url: azuretemplates.toString(),
+    category: 'Azure',
+    url: azuretemplates,
     isIsometric: false
   },
-
   {
     id: 'azure-tenant-properties',
     name: 'azure-tenant-properties',
-    category,
-    url: azuretenantproperties.toString(),
+    category: 'Azure',
+    url: azuretenantproperties,
     isIsometric: false
   },
-
   {
     id: 'azure-tenant-status',
     name: 'azure-tenant-status',
-    category,
-    url: azuretenantstatus.toString(),
+    category: 'Azure',
+    url: azuretenantstatus,
     isIsometric: false
   },
-
   {
     id: 'azure-test-base',
     name: 'azure-test-base',
-    category,
-    url: azuretestbase.toString(),
+    category: 'Azure',
+    url: azuretestbase,
     isIsometric: false
   },
-
   {
     id: 'azure-tfs-vc-repository',
     name: 'azure-tfs-vc-repository',
-    category,
-    url: azuretfsvcrepository.toString(),
+    category: 'Azure',
+    url: azuretfsvcrepository,
     isIsometric: false
   },
-
   {
     id: 'azure-time-series-data-sets',
     name: 'azure-time-series-data-sets',
-    category,
-    url: azuretimeseriesdatasets.toString(),
+    category: 'Azure',
+    url: azuretimeseriesdatasets,
     isIsometric: false
   },
-
   {
     id: 'azure-time-series-insights-access-policies',
     name: 'azure-time-series-insights-access-policies',
-    category,
-    url: azuretimeseriesinsightsaccesspolicies.toString(),
+    category: 'Azure',
+    url: azuretimeseriesinsightsaccesspolicies,
     isIsometric: false
   },
-
   {
     id: 'azure-time-series-insights-environments',
     name: 'azure-time-series-insights-environments',
-    category,
-    url: azuretimeseriesinsightsenvironments.toString(),
+    category: 'Azure',
+    url: azuretimeseriesinsightsenvironments,
     isIsometric: false
   },
-
   {
     id: 'azure-time-series-insights-event-sources',
     name: 'azure-time-series-insights-event-sources',
-    category,
-    url: azuretimeseriesinsightseventsources.toString(),
+    category: 'Azure',
+    url: azuretimeseriesinsightseventsources,
     isIsometric: false
   },
-
   {
     id: 'azure-token-service',
     name: 'azure-token-service',
-    category,
-    url: azuretokenservice.toString(),
+    category: 'Azure',
+    url: azuretokenservice,
     isIsometric: false
   },
-
   {
     id: 'azure-toolbox',
     name: 'azure-toolbox',
-    category,
-    url: azuretoolbox.toString(),
+    category: 'Azure',
+    url: azuretoolbox,
     isIsometric: false
   },
-
   {
     id: 'azure-traffic-manager-profiles',
     name: 'azure-traffic-manager-profiles',
-    category,
-    url: azuretrafficmanagerprofiles.toString(),
+    category: 'Azure',
+    url: azuretrafficmanagerprofiles,
     isIsometric: false
   },
-
   {
     id: 'azure-translator-text',
     name: 'azure-translator-text',
-    category,
-    url: azuretranslatortext.toString(),
+    category: 'Azure',
+    url: azuretranslatortext,
     isIsometric: false
   },
-
   {
     id: 'azure-troubleshoot',
     name: 'azure-troubleshoot',
-    category,
-    url: azuretroubleshoot.toString(),
+    category: 'Azure',
+    url: azuretroubleshoot,
     isIsometric: false
   },
-
   {
     id: 'azure-universal-print',
     name: 'azure-universal-print',
-    category,
-    url: azureuniversalprint.toString(),
+    category: 'Azure',
+    url: azureuniversalprint,
     isIsometric: false
   },
-
   {
     id: 'azure-update-center',
     name: 'azure-update-center',
-    category,
-    url: azureupdatecenter.toString(),
+    category: 'Azure',
+    url: azureupdatecenter,
     isIsometric: false
   },
-
   {
     id: 'azure-updates',
     name: 'azure-updates',
-    category,
-    url: azureupdates.toString(),
+    category: 'Azure',
+    url: azureupdates,
     isIsometric: false
   },
-
   {
     id: 'azure-user-privacy',
     name: 'azure-user-privacy',
-    category,
-    url: azureuserprivacy.toString(),
+    category: 'Azure',
+    url: azureuserprivacy,
     isIsometric: false
   },
-
   {
     id: 'azure-user-subscriptions',
     name: 'azure-user-subscriptions',
-    category,
-    url: azureusersubscriptions.toString(),
+    category: 'Azure',
+    url: azureusersubscriptions,
     isIsometric: false
   },
-
   {
     id: 'azure-users',
     name: 'azure-users',
-    category,
-    url: azureusers.toString(),
+    category: 'Azure',
+    url: azureusers,
     isIsometric: false
   },
-
   {
     id: 'azure-verifiable-credentials',
     name: 'azure-verifiable-credentials',
-    category,
-    url: azureverifiablecredentials.toString(),
+    category: 'Azure',
+    url: azureverifiablecredentials,
     isIsometric: false
   },
-
   {
     id: 'azure-versions',
     name: 'azure-versions',
-    category,
-    url: azureversions.toString(),
+    category: 'Azure',
+    url: azureversions,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-clusters',
     name: 'azure-virtual-clusters',
-    category,
-    url: azurevirtualclusters.toString(),
+    category: 'Azure',
+    url: azurevirtualclusters,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-machine',
     name: 'azure-virtual-machine',
-    category,
-    url: azurevirtualmachine.toString(),
+    category: 'Azure',
+    url: azurevirtualmachine,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-machines-classic',
     name: 'azure-virtual-machines-classic',
-    category,
-    url: azurevirtualmachinesclassic.toString(),
+    category: 'Azure',
+    url: azurevirtualmachinesclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-network-gateways',
     name: 'azure-virtual-network-gateways',
-    category,
-    url: azurevirtualnetworkgateways.toString(),
+    category: 'Azure',
+    url: azurevirtualnetworkgateways,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-networks-classic',
     name: 'azure-virtual-networks-classic',
-    category,
-    url: azurevirtualnetworksclassic.toString(),
+    category: 'Azure',
+    url: azurevirtualnetworksclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-networks',
     name: 'azure-virtual-networks',
-    category,
-    url: azurevirtualnetworks.toString(),
+    category: 'Azure',
+    url: azurevirtualnetworks,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-router',
     name: 'azure-virtual-router',
-    category,
-    url: azurevirtualrouter.toString(),
+    category: 'Azure',
+    url: azurevirtualrouter,
     isIsometric: false
   },
-
   {
     id: 'azure-virtual-wans',
     name: 'azure-virtual-wans',
-    category,
-    url: azurevirtualwans.toString(),
+    category: 'Azure',
+    url: azurevirtualwans,
     isIsometric: false
   },
-
   {
     id: 'azure-vm-application-definition',
     name: 'azure-vm-application-definition',
-    category,
-    url: azurevmapplicationdefinition.toString(),
+    category: 'Azure',
+    url: azurevmapplicationdefinition,
     isIsometric: false
   },
-
   {
     id: 'azure-vm-application-version',
     name: 'azure-vm-application-version',
-    category,
-    url: azurevmapplicationversion.toString(),
+    category: 'Azure',
+    url: azurevmapplicationversion,
     isIsometric: false
   },
-
   {
     id: 'azure-vm-images-classic',
     name: 'azure-vm-images-classic',
-    category,
-    url: azurevmimagesclassic.toString(),
+    category: 'Azure',
+    url: azurevmimagesclassic,
     isIsometric: false
   },
-
   {
     id: 'azure-vm-scale-sets',
     name: 'azure-vm-scale-sets',
-    category,
-    url: azurevmscalesets.toString(),
+    category: 'Azure',
+    url: azurevmscalesets,
     isIsometric: false
   },
-
   {
     id: 'azure-wac',
     name: 'azure-wac',
-    category,
-    url: azurewac.toString(),
+    category: 'Azure',
+    url: azurewac,
     isIsometric: false
   },
-
   {
     id: 'azure-web-app-database',
     name: 'azure-web-app-database',
-    category,
-    url: azurewebappdatabase.toString(),
+    category: 'Azure',
+    url: azurewebappdatabase,
     isIsometric: false
   },
-
   {
     id: 'azure-web-application-firewall-policieswaf',
     name: 'azure-web-application-firewall-policieswaf',
-    category,
-    url: azurewebapplicationfirewallpolicieswaf.toString(),
+    category: 'Azure',
+    url: azurewebapplicationfirewallpolicieswaf,
     isIsometric: false
   },
-
   {
     id: 'azure-web-jobs',
     name: 'azure-web-jobs',
-    category,
-    url: azurewebjobs.toString(),
+    category: 'Azure',
+    url: azurewebjobs,
     isIsometric: false
   },
-
   {
     id: 'azure-web-slots',
     name: 'azure-web-slots',
-    category,
-    url: azurewebslots.toString(),
+    category: 'Azure',
+    url: azurewebslots,
     isIsometric: false
   },
-
   {
     id: 'azure-web-test',
     name: 'azure-web-test',
-    category,
-    url: azurewebtest.toString(),
+    category: 'Azure',
+    url: azurewebtest,
     isIsometric: false
   },
-
   {
     id: 'azure-website-power',
     name: 'azure-website-power',
-    category,
-    url: azurewebsitepower.toString(),
+    category: 'Azure',
+    url: azurewebsitepower,
     isIsometric: false
   },
-
   {
     id: 'azure-website-staging',
     name: 'azure-website-staging',
-    category,
-    url: azurewebsitestaging.toString(),
+    category: 'Azure',
+    url: azurewebsitestaging,
     isIsometric: false
   },
-
   {
     id: 'azure-windows-notification-services',
     name: 'azure-windows-notification-services',
-    category,
-    url: azurewindowsnotificationservices.toString(),
+    category: 'Azure',
+    url: azurewindowsnotificationservices,
     isIsometric: false
   },
-
   {
     id: 'azure-windows-virtual-desktop',
     name: 'azure-windows-virtual-desktop',
-    category,
-    url: azurewindowsvirtualdesktop.toString(),
+    category: 'Azure',
+    url: azurewindowsvirtualdesktop,
     isIsometric: false
   },
-
   {
     id: 'azure-windows10-core-services',
     name: 'azure-windows10-core-services',
-    category,
-    url: azurewindows10coreservices.toString(),
+    category: 'Azure',
+    url: azurewindows10coreservices,
     isIsometric: false
   },
-
   {
     id: 'azure-workbooks',
     name: 'azure-workbooks',
-    category,
-    url: azureworkbooks.toString(),
+    category: 'Azure',
+    url: azureworkbooks,
     isIsometric: false
   },
-
   {
     id: 'azure-worker-container-app',
     name: 'azure-worker-container-app',
-    category,
-    url: azureworkercontainerapp.toString(),
+    category: 'Azure',
+    url: azureworkercontainerapp,
     isIsometric: false
   },
-
   {
     id: 'azure-workflow',
     name: 'azure-workflow',
-    category,
-    url: azureworkflow.toString(),
+    category: 'Azure',
+    url: azureworkflow,
     isIsometric: false
   },
-
   {
     id: 'azure-workspaces',
     name: 'azure-workspaces',
-    category,
-    url: azureworkspaces.toString(),
+    category: 'Azure',
+    url: azureworkspaces,
     isIsometric: false
   },
-
   {
     id: 'azure',
     name: 'azure',
-    category,
-    url: azure.toString(),
+    category: 'Azure',
+    url: azure,
     isIsometric: false
   },
-
   {
     id: 'azureattestation',
     name: 'azureattestation',
-    category,
-    url: azureattestation.toString(),
+    category: 'Azure',
+    url: azureattestation,
     isIsometric: false
   }
 ];

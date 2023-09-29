@@ -8,9 +8,9 @@ module.exports = {
     'collections/basic': './src/collections/basic/index.ts',
     'collections/networking': './src/collections/networking/index.ts',
     'collections/aws': './src/collections/aws/index.ts',
-    'collections/kubernetes': './src/collections/kubernetes/index.ts',
     'collections/azure': './src/collections/azure/index.ts',
-    'collections/gcp': './src/collections/gcp/index.ts'
+    'collections/gcp': './src/collections/gcp/index.ts',
+    'collections/kubernetes': './src/collections/kubernetes/index.ts'
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
@@ -36,7 +36,8 @@ module.exports = {
               encoding: "base64",
             },
           }
-        ]
+        ],
+        exclude: /node_modules/
       }
     ]
   },

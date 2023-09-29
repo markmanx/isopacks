@@ -1,4 +1,4 @@
-import type { IconInput } from 'src/types';
+import type { Icon } from '../../types';
 import gcpaccesscontextmanager from './icons/gcp-access-context-manager.svg';
 import gcpadministration from './icons/gcp-administration.svg';
 import gcpadvancedagentmodeling from './icons/gcp-advanced-agent-modeling.svg';
@@ -216,1734 +216,1517 @@ import gcpwebsecurityscanner from './icons/gcp-web-security-scanner.svg';
 import gcpworkflows from './icons/gcp-workflows.svg';
 import gcpworkloadidentitypool from './icons/gcp-workload-identity-pool.svg';
 
-const category = 'GCP';
-
-const GCPIsopack: IconInput[] = [
+const GCPIsopack: Icon[] = [
   {
     id: 'gcp-access-context-manager',
     name: 'gcp-access-context-manager',
-    category,
-    url: gcpaccesscontextmanager.toString(),
+    category: 'GCP',
+    url: gcpaccesscontextmanager,
     isIsometric: false
   },
-
   {
     id: 'gcp-administration',
     name: 'gcp-administration',
-    category,
-    url: gcpadministration.toString(),
+    category: 'GCP',
+    url: gcpadministration,
     isIsometric: false
   },
-
   {
     id: 'gcp-advanced-agent-modeling',
     name: 'gcp-advanced-agent-modeling',
-    category,
-    url: gcpadvancedagentmodeling.toString(),
+    category: 'GCP',
+    url: gcpadvancedagentmodeling,
     isIsometric: false
   },
-
   {
     id: 'gcp-advanced-solutions-lab',
     name: 'gcp-advanced-solutions-lab',
-    category,
-    url: gcpadvancedsolutionslab.toString(),
+    category: 'GCP',
+    url: gcpadvancedsolutionslab,
     isIsometric: false
   },
-
   {
     id: 'gcp-agent-assist',
     name: 'gcp-agent-assist',
-    category,
-    url: gcpagentassist.toString(),
+    category: 'GCP',
+    url: gcpagentassist,
     isIsometric: false
   },
-
   {
     id: 'gcp-ai-hub',
     name: 'gcp-ai-hub',
-    category,
-    url: gcpaihub.toString(),
+    category: 'GCP',
+    url: gcpaihub,
     isIsometric: false
   },
-
   {
     id: 'gcp-ai-platform-unified',
     name: 'gcp-ai-platform-unified',
-    category,
-    url: gcpaiplatformunified.toString(),
+    category: 'GCP',
+    url: gcpaiplatformunified,
     isIsometric: false
   },
-
   {
     id: 'gcp-ai-platform',
     name: 'gcp-ai-platform',
-    category,
-    url: gcpaiplatform.toString(),
+    category: 'GCP',
+    url: gcpaiplatform,
     isIsometric: false
   },
-
   {
     id: 'gcp-analytics-hub',
     name: 'gcp-analytics-hub',
-    category,
-    url: gcpanalyticshub.toString(),
+    category: 'GCP',
+    url: gcpanalyticshub,
     isIsometric: false
   },
-
   {
     id: 'gcp-anthos-config-management',
     name: 'gcp-anthos-config-management',
-    category,
-    url: gcpanthosconfigmanagement.toString(),
+    category: 'GCP',
+    url: gcpanthosconfigmanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-anthos-service-mesh',
     name: 'gcp-anthos-service-mesh',
-    category,
-    url: gcpanthosservicemesh.toString(),
+    category: 'GCP',
+    url: gcpanthosservicemesh,
     isIsometric: false
   },
-
   {
     id: 'gcp-anthos',
     name: 'gcp-anthos',
-    category,
-    url: gcpanthos.toString(),
+    category: 'GCP',
+    url: gcpanthos,
     isIsometric: false
   },
-
   {
     id: 'gcp-api-analytics',
     name: 'gcp-api-analytics',
-    category,
-    url: gcpapianalytics.toString(),
+    category: 'GCP',
+    url: gcpapianalytics,
     isIsometric: false
   },
-
   {
     id: 'gcp-api-monetization',
     name: 'gcp-api-monetization',
-    category,
-    url: gcpapimonetization.toString(),
+    category: 'GCP',
+    url: gcpapimonetization,
     isIsometric: false
   },
-
   {
     id: 'gcp-api',
     name: 'gcp-api',
-    category,
-    url: gcpapi.toString(),
+    category: 'GCP',
+    url: gcpapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-apigee-api-platform',
     name: 'gcp-apigee-api-platform',
-    category,
-    url: gcpapigeeapiplatform.toString(),
+    category: 'GCP',
+    url: gcpapigeeapiplatform,
     isIsometric: false
   },
-
   {
     id: 'gcp-apigee-sense',
     name: 'gcp-apigee-sense',
-    category,
-    url: gcpapigeesense.toString(),
+    category: 'GCP',
+    url: gcpapigeesense,
     isIsometric: false
   },
-
   {
     id: 'gcp-app-engine',
     name: 'gcp-app-engine',
-    category,
-    url: gcpappengine.toString(),
+    category: 'GCP',
+    url: gcpappengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-artifact-registry',
     name: 'gcp-artifact-registry',
-    category,
-    url: gcpartifactregistry.toString(),
+    category: 'GCP',
+    url: gcpartifactregistry,
     isIsometric: false
   },
-
   {
     id: 'gcp-asset-inventory',
     name: 'gcp-asset-inventory',
-    category,
-    url: gcpassetinventory.toString(),
+    category: 'GCP',
+    url: gcpassetinventory,
     isIsometric: false
   },
-
   {
     id: 'gcp-assured-workloads',
     name: 'gcp-assured-workloads',
-    category,
-    url: gcpassuredworkloads.toString(),
+    category: 'GCP',
+    url: gcpassuredworkloads,
     isIsometric: false
   },
-
   {
     id: 'gcp-automl-natural-language',
     name: 'gcp-automl-natural-language',
-    category,
-    url: gcpautomlnaturallanguage.toString(),
+    category: 'GCP',
+    url: gcpautomlnaturallanguage,
     isIsometric: false
   },
-
   {
     id: 'gcp-automl-tables',
     name: 'gcp-automl-tables',
-    category,
-    url: gcpautomltables.toString(),
+    category: 'GCP',
+    url: gcpautomltables,
     isIsometric: false
   },
-
   {
     id: 'gcp-automl-translation',
     name: 'gcp-automl-translation',
-    category,
-    url: gcpautomltranslation.toString(),
+    category: 'GCP',
+    url: gcpautomltranslation,
     isIsometric: false
   },
-
   {
     id: 'gcp-automl-video-intelligence',
     name: 'gcp-automl-video-intelligence',
-    category,
-    url: gcpautomlvideointelligence.toString(),
+    category: 'GCP',
+    url: gcpautomlvideointelligence,
     isIsometric: false
   },
-
   {
     id: 'gcp-automl-vision',
     name: 'gcp-automl-vision',
-    category,
-    url: gcpautomlvision.toString(),
+    category: 'GCP',
+    url: gcpautomlvision,
     isIsometric: false
   },
-
   {
     id: 'gcp-automl',
     name: 'gcp-automl',
-    category,
-    url: gcpautoml.toString(),
+    category: 'GCP',
+    url: gcpautoml,
     isIsometric: false
   },
-
   {
     id: 'gcp-bare-metal-solutions',
     name: 'gcp-bare-metal-solutions',
-    category,
-    url: gcpbaremetalsolutions.toString(),
+    category: 'GCP',
+    url: gcpbaremetalsolutions,
     isIsometric: false
   },
-
   {
     id: 'gcp-batch',
     name: 'gcp-batch',
-    category,
-    url: gcpbatch.toString(),
+    category: 'GCP',
+    url: gcpbatch,
     isIsometric: false
   },
-
   {
     id: 'gcp-beyondcorp',
     name: 'gcp-beyondcorp',
-    category,
-    url: gcpbeyondcorp.toString(),
+    category: 'GCP',
+    url: gcpbeyondcorp,
     isIsometric: false
   },
-
   {
     id: 'gcp-bigquery',
     name: 'gcp-bigquery',
-    category,
-    url: gcpbigquery.toString(),
+    category: 'GCP',
+    url: gcpbigquery,
     isIsometric: false
   },
-
   {
     id: 'gcp-bigtable',
     name: 'gcp-bigtable',
-    category,
-    url: gcpbigtable.toString(),
+    category: 'GCP',
+    url: gcpbigtable,
     isIsometric: false
   },
-
   {
     id: 'gcp-billing',
     name: 'gcp-billing',
-    category,
-    url: gcpbilling.toString(),
+    category: 'GCP',
+    url: gcpbilling,
     isIsometric: false
   },
-
   {
     id: 'gcp-binary-authorization',
     name: 'gcp-binary-authorization',
-    category,
-    url: gcpbinaryauthorization.toString(),
+    category: 'GCP',
+    url: gcpbinaryauthorization,
     isIsometric: false
   },
-
   {
     id: 'gcp-catalog',
     name: 'gcp-catalog',
-    category,
-    url: gcpcatalog.toString(),
+    category: 'GCP',
+    url: gcpcatalog,
     isIsometric: false
   },
-
   {
     id: 'gcp-certificate-authority-service',
     name: 'gcp-certificate-authority-service',
-    category,
-    url: gcpcertificateauthorityservice.toString(),
+    category: 'GCP',
+    url: gcpcertificateauthorityservice,
     isIsometric: false
   },
-
   {
     id: 'gcp-certificate-manager',
     name: 'gcp-certificate-manager',
-    category,
-    url: gcpcertificatemanager.toString(),
+    category: 'GCP',
+    url: gcpcertificatemanager,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-api-gateway',
     name: 'gcp-cloud-api-gateway',
-    category,
-    url: gcpcloudapigateway.toString(),
+    category: 'GCP',
+    url: gcpcloudapigateway,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-apis',
     name: 'gcp-cloud-apis',
-    category,
-    url: gcpcloudapis.toString(),
+    category: 'GCP',
+    url: gcpcloudapis,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-armor',
     name: 'gcp-cloud-armor',
-    category,
-    url: gcpcloudarmor.toString(),
+    category: 'GCP',
+    url: gcpcloudarmor,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-asset-inventory',
     name: 'gcp-cloud-asset-inventory',
-    category,
-    url: gcpcloudassetinventory.toString(),
+    category: 'GCP',
+    url: gcpcloudassetinventory,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-audit-logs',
     name: 'gcp-cloud-audit-logs',
-    category,
-    url: gcpcloudauditlogs.toString(),
+    category: 'GCP',
+    url: gcpcloudauditlogs,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-build',
     name: 'gcp-cloud-build',
-    category,
-    url: gcpcloudbuild.toString(),
+    category: 'GCP',
+    url: gcpcloudbuild,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-cdn',
     name: 'gcp-cloud-cdn',
-    category,
-    url: gcpcloudcdn.toString(),
+    category: 'GCP',
+    url: gcpcloudcdn,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-code',
     name: 'gcp-cloud-code',
-    category,
-    url: gcpcloudcode.toString(),
+    category: 'GCP',
+    url: gcpcloudcode,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-composer',
     name: 'gcp-cloud-composer',
-    category,
-    url: gcpcloudcomposer.toString(),
+    category: 'GCP',
+    url: gcpcloudcomposer,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-data-fusion',
     name: 'gcp-cloud-data-fusion',
-    category,
-    url: gcpclouddatafusion.toString(),
+    category: 'GCP',
+    url: gcpclouddatafusion,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-deploy',
     name: 'gcp-cloud-deploy',
-    category,
-    url: gcpclouddeploy.toString(),
+    category: 'GCP',
+    url: gcpclouddeploy,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-deployment-manager',
     name: 'gcp-cloud-deployment-manager',
-    category,
-    url: gcpclouddeploymentmanager.toString(),
+    category: 'GCP',
+    url: gcpclouddeploymentmanager,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-dns',
     name: 'gcp-cloud-dns',
-    category,
-    url: gcpclouddns.toString(),
+    category: 'GCP',
+    url: gcpclouddns,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-domains',
     name: 'gcp-cloud-domains',
-    category,
-    url: gcpclouddomains.toString(),
+    category: 'GCP',
+    url: gcpclouddomains,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-ekm',
     name: 'gcp-cloud-ekm',
-    category,
-    url: gcpcloudekm.toString(),
+    category: 'GCP',
+    url: gcpcloudekm,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-endpoints',
     name: 'gcp-cloud-endpoints',
-    category,
-    url: gcpcloudendpoints.toString(),
+    category: 'GCP',
+    url: gcpcloudendpoints,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-external-ip-addresses',
     name: 'gcp-cloud-external-ip-addresses',
-    category,
-    url: gcpcloudexternalipaddresses.toString(),
+    category: 'GCP',
+    url: gcpcloudexternalipaddresses,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-firewall-rules',
     name: 'gcp-cloud-firewall-rules',
-    category,
-    url: gcpcloudfirewallrules.toString(),
+    category: 'GCP',
+    url: gcpcloudfirewallrules,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-for-marketing',
     name: 'gcp-cloud-for-marketing',
-    category,
-    url: gcpcloudformarketing.toString(),
+    category: 'GCP',
+    url: gcpcloudformarketing,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-functions',
     name: 'gcp-cloud-functions',
-    category,
-    url: gcpcloudfunctions.toString(),
+    category: 'GCP',
+    url: gcpcloudfunctions,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-generic',
     name: 'gcp-cloud-generic',
-    category,
-    url: gcpcloudgeneric.toString(),
+    category: 'GCP',
+    url: gcpcloudgeneric,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-gpu',
     name: 'gcp-cloud-gpu',
-    category,
-    url: gcpcloudgpu.toString(),
+    category: 'GCP',
+    url: gcpcloudgpu,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-healthcare-api',
     name: 'gcp-cloud-healthcare-api',
-    category,
-    url: gcpcloudhealthcareapi.toString(),
+    category: 'GCP',
+    url: gcpcloudhealthcareapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-healthcare-marketplace',
     name: 'gcp-cloud-healthcare-marketplace',
-    category,
-    url: gcpcloudhealthcaremarketplace.toString(),
+    category: 'GCP',
+    url: gcpcloudhealthcaremarketplace,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-hsm',
     name: 'gcp-cloud-hsm',
-    category,
-    url: gcpcloudhsm.toString(),
+    category: 'GCP',
+    url: gcpcloudhsm,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-ids',
     name: 'gcp-cloud-ids',
-    category,
-    url: gcpcloudids.toString(),
+    category: 'GCP',
+    url: gcpcloudids,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-inference-api',
     name: 'gcp-cloud-inference-api',
-    category,
-    url: gcpcloudinferenceapi.toString(),
+    category: 'GCP',
+    url: gcpcloudinferenceapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-interconnect',
     name: 'gcp-cloud-interconnect',
-    category,
-    url: gcpcloudinterconnect.toString(),
+    category: 'GCP',
+    url: gcpcloudinterconnect,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-jobs-api',
     name: 'gcp-cloud-jobs-api',
-    category,
-    url: gcpcloudjobsapi.toString(),
+    category: 'GCP',
+    url: gcpcloudjobsapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-load-balancing',
     name: 'gcp-cloud-load-balancing',
-    category,
-    url: gcpcloudloadbalancing.toString(),
+    category: 'GCP',
+    url: gcpcloudloadbalancing,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-logging',
     name: 'gcp-cloud-logging',
-    category,
-    url: gcpcloudlogging.toString(),
+    category: 'GCP',
+    url: gcpcloudlogging,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-media-edge',
     name: 'gcp-cloud-media-edge',
-    category,
-    url: gcpcloudmediaedge.toString(),
+    category: 'GCP',
+    url: gcpcloudmediaedge,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-monitoring',
     name: 'gcp-cloud-monitoring',
-    category,
-    url: gcpcloudmonitoring.toString(),
+    category: 'GCP',
+    url: gcpcloudmonitoring,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-nat',
     name: 'gcp-cloud-nat',
-    category,
-    url: gcpcloudnat.toString(),
+    category: 'GCP',
+    url: gcpcloudnat,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-natural-language-api',
     name: 'gcp-cloud-natural-language-api',
-    category,
-    url: gcpcloudnaturallanguageapi.toString(),
+    category: 'GCP',
+    url: gcpcloudnaturallanguageapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-network',
     name: 'gcp-cloud-network',
-    category,
-    url: gcpcloudnetwork.toString(),
+    category: 'GCP',
+    url: gcpcloudnetwork,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-ops',
     name: 'gcp-cloud-ops',
-    category,
-    url: gcpcloudops.toString(),
+    category: 'GCP',
+    url: gcpcloudops,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-optimization-ai---fleet-routing-api',
     name: 'gcp-cloud-optimization-ai---fleet-routing-api',
-    category,
-    url: gcpcloudoptimizationaifleetroutingapi.toString(),
+    category: 'GCP',
+    url: gcpcloudoptimizationaifleetroutingapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-optimization-ai',
     name: 'gcp-cloud-optimization-ai',
-    category,
-    url: gcpcloudoptimizationai.toString(),
+    category: 'GCP',
+    url: gcpcloudoptimizationai,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-router',
     name: 'gcp-cloud-router',
-    category,
-    url: gcpcloudrouter.toString(),
+    category: 'GCP',
+    url: gcpcloudrouter,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-routes',
     name: 'gcp-cloud-routes',
-    category,
-    url: gcpcloudroutes.toString(),
+    category: 'GCP',
+    url: gcpcloudroutes,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-run-for-anthos',
     name: 'gcp-cloud-run-for-anthos',
-    category,
-    url: gcpcloudrunforanthos.toString(),
+    category: 'GCP',
+    url: gcpcloudrunforanthos,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-run',
     name: 'gcp-cloud-run',
-    category,
-    url: gcpcloudrun.toString(),
+    category: 'GCP',
+    url: gcpcloudrun,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-scheduler',
     name: 'gcp-cloud-scheduler',
-    category,
-    url: gcpcloudscheduler.toString(),
+    category: 'GCP',
+    url: gcpcloudscheduler,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-security-scanner',
     name: 'gcp-cloud-security-scanner',
-    category,
-    url: gcpcloudsecurityscanner.toString(),
+    category: 'GCP',
+    url: gcpcloudsecurityscanner,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-shell',
     name: 'gcp-cloud-shell',
-    category,
-    url: gcpcloudshell.toString(),
+    category: 'GCP',
+    url: gcpcloudshell,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-spanner',
     name: 'gcp-cloud-spanner',
-    category,
-    url: gcpcloudspanner.toString(),
+    category: 'GCP',
+    url: gcpcloudspanner,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-sql',
     name: 'gcp-cloud-sql',
-    category,
-    url: gcpcloudsql.toString(),
+    category: 'GCP',
+    url: gcpcloudsql,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-storage',
     name: 'gcp-cloud-storage',
-    category,
-    url: gcpcloudstorage.toString(),
+    category: 'GCP',
+    url: gcpcloudstorage,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-tasks',
     name: 'gcp-cloud-tasks',
-    category,
-    url: gcpcloudtasks.toString(),
+    category: 'GCP',
+    url: gcpcloudtasks,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-test-lab',
     name: 'gcp-cloud-test-lab',
-    category,
-    url: gcpcloudtestlab.toString(),
+    category: 'GCP',
+    url: gcpcloudtestlab,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-tpu',
     name: 'gcp-cloud-tpu',
-    category,
-    url: gcpcloudtpu.toString(),
+    category: 'GCP',
+    url: gcpcloudtpu,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-translation-api',
     name: 'gcp-cloud-translation-api',
-    category,
-    url: gcpcloudtranslationapi.toString(),
+    category: 'GCP',
+    url: gcpcloudtranslationapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-vision-api',
     name: 'gcp-cloud-vision-api',
-    category,
-    url: gcpcloudvisionapi.toString(),
+    category: 'GCP',
+    url: gcpcloudvisionapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-cloud-vpn',
     name: 'gcp-cloud-vpn',
-    category,
-    url: gcpcloudvpn.toString(),
+    category: 'GCP',
+    url: gcpcloudvpn,
     isIsometric: false
   },
-
   {
     id: 'gcp-compute-engine',
     name: 'gcp-compute-engine',
-    category,
-    url: gcpcomputeengine.toString(),
+    category: 'GCP',
+    url: gcpcomputeengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-configuration-management',
     name: 'gcp-configuration-management',
-    category,
-    url: gcpconfigurationmanagement.toString(),
+    category: 'GCP',
+    url: gcpconfigurationmanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-connectivity-test',
     name: 'gcp-connectivity-test',
-    category,
-    url: gcpconnectivitytest.toString(),
+    category: 'GCP',
+    url: gcpconnectivitytest,
     isIsometric: false
   },
-
   {
     id: 'gcp-connectors',
     name: 'gcp-connectors',
-    category,
-    url: gcpconnectors.toString(),
+    category: 'GCP',
+    url: gcpconnectors,
     isIsometric: false
   },
-
   {
     id: 'gcp-contact-center-ai',
     name: 'gcp-contact-center-ai',
-    category,
-    url: gcpcontactcenterai.toString(),
+    category: 'GCP',
+    url: gcpcontactcenterai,
     isIsometric: false
   },
-
   {
     id: 'gcp-container-optimized-os',
     name: 'gcp-container-optimized-os',
-    category,
-    url: gcpcontaineroptimizedos.toString(),
+    category: 'GCP',
+    url: gcpcontaineroptimizedos,
     isIsometric: false
   },
-
   {
     id: 'gcp-container-registry',
     name: 'gcp-container-registry',
-    category,
-    url: gcpcontainerregistry.toString(),
+    category: 'GCP',
+    url: gcpcontainerregistry,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-catalog',
     name: 'gcp-data-catalog',
-    category,
-    url: gcpdatacatalog.toString(),
+    category: 'GCP',
+    url: gcpdatacatalog,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-labeling',
     name: 'gcp-data-labeling',
-    category,
-    url: gcpdatalabeling.toString(),
+    category: 'GCP',
+    url: gcpdatalabeling,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-layers',
     name: 'gcp-data-layers',
-    category,
-    url: gcpdatalayers.toString(),
+    category: 'GCP',
+    url: gcpdatalayers,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-loss-prevention-api',
     name: 'gcp-data-loss-prevention-api',
-    category,
-    url: gcpdatalosspreventionapi.toString(),
+    category: 'GCP',
+    url: gcpdatalosspreventionapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-qna',
     name: 'gcp-data-qna',
-    category,
-    url: gcpdataqna.toString(),
+    category: 'GCP',
+    url: gcpdataqna,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-studio',
     name: 'gcp-data-studio',
-    category,
-    url: gcpdatastudio.toString(),
+    category: 'GCP',
+    url: gcpdatastudio,
     isIsometric: false
   },
-
   {
     id: 'gcp-data-transfer',
     name: 'gcp-data-transfer',
-    category,
-    url: gcpdatatransfer.toString(),
+    category: 'GCP',
+    url: gcpdatatransfer,
     isIsometric: false
   },
-
   {
     id: 'gcp-database-migration-service',
     name: 'gcp-database-migration-service',
-    category,
-    url: gcpdatabasemigrationservice.toString(),
+    category: 'GCP',
+    url: gcpdatabasemigrationservice,
     isIsometric: false
   },
-
   {
     id: 'gcp-dataflow',
     name: 'gcp-dataflow',
-    category,
-    url: gcpdataflow.toString(),
+    category: 'GCP',
+    url: gcpdataflow,
     isIsometric: false
   },
-
   {
     id: 'gcp-datalab',
     name: 'gcp-datalab',
-    category,
-    url: gcpdatalab.toString(),
+    category: 'GCP',
+    url: gcpdatalab,
     isIsometric: false
   },
-
   {
     id: 'gcp-dataplex',
     name: 'gcp-dataplex',
-    category,
-    url: gcpdataplex.toString(),
+    category: 'GCP',
+    url: gcpdataplex,
     isIsometric: false
   },
-
   {
     id: 'gcp-datapol',
     name: 'gcp-datapol',
-    category,
-    url: gcpdatapol.toString(),
+    category: 'GCP',
+    url: gcpdatapol,
     isIsometric: false
   },
-
   {
     id: 'gcp-dataprep',
     name: 'gcp-dataprep',
-    category,
-    url: gcpdataprep.toString(),
+    category: 'GCP',
+    url: gcpdataprep,
     isIsometric: false
   },
-
   {
     id: 'gcp-dataproc-metastore',
     name: 'gcp-dataproc-metastore',
-    category,
-    url: gcpdataprocmetastore.toString(),
+    category: 'GCP',
+    url: gcpdataprocmetastore,
     isIsometric: false
   },
-
   {
     id: 'gcp-dataproc',
     name: 'gcp-dataproc',
-    category,
-    url: gcpdataproc.toString(),
+    category: 'GCP',
+    url: gcpdataproc,
     isIsometric: false
   },
-
   {
     id: 'gcp-datashare',
     name: 'gcp-datashare',
-    category,
-    url: gcpdatashare.toString(),
+    category: 'GCP',
+    url: gcpdatashare,
     isIsometric: false
   },
-
   {
     id: 'gcp-datastore',
     name: 'gcp-datastore',
-    category,
-    url: gcpdatastore.toString(),
+    category: 'GCP',
+    url: gcpdatastore,
     isIsometric: false
   },
-
   {
     id: 'gcp-datastream',
     name: 'gcp-datastream',
-    category,
-    url: gcpdatastream.toString(),
+    category: 'GCP',
+    url: gcpdatastream,
     isIsometric: false
   },
-
   {
     id: 'gcp-debugger',
     name: 'gcp-debugger',
-    category,
-    url: gcpdebugger.toString(),
+    category: 'GCP',
+    url: gcpdebugger,
     isIsometric: false
   },
-
   {
     id: 'gcp-developer-portal',
     name: 'gcp-developer-portal',
-    category,
-    url: gcpdeveloperportal.toString(),
+    category: 'GCP',
+    url: gcpdeveloperportal,
     isIsometric: false
   },
-
   {
     id: 'gcp-dialogflow-cx',
     name: 'gcp-dialogflow-cx',
-    category,
-    url: gcpdialogflowcx.toString(),
+    category: 'GCP',
+    url: gcpdialogflowcx,
     isIsometric: false
   },
-
   {
     id: 'gcp-dialogflow-insights',
     name: 'gcp-dialogflow-insights',
-    category,
-    url: gcpdialogflowinsights.toString(),
+    category: 'GCP',
+    url: gcpdialogflowinsights,
     isIsometric: false
   },
-
   {
     id: 'gcp-dialogflow',
     name: 'gcp-dialogflow',
-    category,
-    url: gcpdialogflow.toString(),
+    category: 'GCP',
+    url: gcpdialogflow,
     isIsometric: false
   },
-
   {
     id: 'gcp-document-ai',
     name: 'gcp-document-ai',
-    category,
-    url: gcpdocumentai.toString(),
+    category: 'GCP',
+    url: gcpdocumentai,
     isIsometric: false
   },
-
   {
     id: 'gcp-early-access-center',
     name: 'gcp-early-access-center',
-    category,
-    url: gcpearlyaccesscenter.toString(),
+    category: 'GCP',
+    url: gcpearlyaccesscenter,
     isIsometric: false
   },
-
   {
     id: 'gcp-error-reporting',
     name: 'gcp-error-reporting',
-    category,
-    url: gcperrorreporting.toString(),
+    category: 'GCP',
+    url: gcperrorreporting,
     isIsometric: false
   },
-
   {
     id: 'gcp-eventarc',
     name: 'gcp-eventarc',
-    category,
-    url: gcpeventarc.toString(),
+    category: 'GCP',
+    url: gcpeventarc,
     isIsometric: false
   },
-
   {
     id: 'gcp-filestore',
     name: 'gcp-filestore',
-    category,
-    url: gcpfilestore.toString(),
+    category: 'GCP',
+    url: gcpfilestore,
     isIsometric: false
   },
-
   {
     id: 'gcp-financial-services-marketplace',
     name: 'gcp-financial-services-marketplace',
-    category,
-    url: gcpfinancialservicesmarketplace.toString(),
+    category: 'GCP',
+    url: gcpfinancialservicesmarketplace,
     isIsometric: false
   },
-
   {
     id: 'gcp-firestore',
     name: 'gcp-firestore',
-    category,
-    url: gcpfirestore.toString(),
+    category: 'GCP',
+    url: gcpfirestore,
     isIsometric: false
   },
-
   {
     id: 'gcp-fleet-engine',
     name: 'gcp-fleet-engine',
-    category,
-    url: gcpfleetengine.toString(),
+    category: 'GCP',
+    url: gcpfleetengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-free-trial',
     name: 'gcp-free-trial',
-    category,
-    url: gcpfreetrial.toString(),
+    category: 'GCP',
+    url: gcpfreetrial,
     isIsometric: false
   },
-
   {
     id: 'gcp-game-servers',
     name: 'gcp-game-servers',
-    category,
-    url: gcpgameservers.toString(),
+    category: 'GCP',
+    url: gcpgameservers,
     isIsometric: false
   },
-
   {
     id: 'gcp-gce-systems-management',
     name: 'gcp-gce-systems-management',
-    category,
-    url: gcpgcesystemsmanagement.toString(),
+    category: 'GCP',
+    url: gcpgcesystemsmanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-genomics',
     name: 'gcp-genomics',
-    category,
-    url: gcpgenomics.toString(),
+    category: 'GCP',
+    url: gcpgenomics,
     isIsometric: false
   },
-
   {
     id: 'gcp-gke-on-prem',
     name: 'gcp-gke-on-prem',
-    category,
-    url: gcpgkeonprem.toString(),
+    category: 'GCP',
+    url: gcpgkeonprem,
     isIsometric: false
   },
-
   {
     id: 'gcp-google-cloud-marketplace',
     name: 'gcp-google-cloud-marketplace',
-    category,
-    url: gcpgooglecloudmarketplace.toString(),
+    category: 'GCP',
+    url: gcpgooglecloudmarketplace,
     isIsometric: false
   },
-
   {
     id: 'gcp-google-kubernetes-engine',
     name: 'gcp-google-kubernetes-engine',
-    category,
-    url: gcpgooglekubernetesengine.toString(),
+    category: 'GCP',
+    url: gcpgooglekubernetesengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-google-maps-platform',
     name: 'gcp-google-maps-platform',
-    category,
-    url: gcpgooglemapsplatform.toString(),
+    category: 'GCP',
+    url: gcpgooglemapsplatform,
     isIsometric: false
   },
-
   {
     id: 'gcp-healthcare-nlp-api',
     name: 'gcp-healthcare-nlp-api',
-    category,
-    url: gcphealthcarenlpapi.toString(),
+    category: 'GCP',
+    url: gcphealthcarenlpapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-home',
     name: 'gcp-home',
-    category,
-    url: gcphome.toString(),
+    category: 'GCP',
+    url: gcphome,
     isIsometric: false
   },
-
   {
     id: 'gcp-identity-and-access-management',
     name: 'gcp-identity-and-access-management',
-    category,
-    url: gcpidentityandaccessmanagement.toString(),
+    category: 'GCP',
+    url: gcpidentityandaccessmanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-identity-aware-proxy',
     name: 'gcp-identity-aware-proxy',
-    category,
-    url: gcpidentityawareproxy.toString(),
+    category: 'GCP',
+    url: gcpidentityawareproxy,
     isIsometric: false
   },
-
   {
     id: 'gcp-identity-platform',
     name: 'gcp-identity-platform',
-    category,
-    url: gcpidentityplatform.toString(),
+    category: 'GCP',
+    url: gcpidentityplatform,
     isIsometric: false
   },
-
   {
     id: 'gcp-iot-core',
     name: 'gcp-iot-core',
-    category,
-    url: gcpiotcore.toString(),
+    category: 'GCP',
+    url: gcpiotcore,
     isIsometric: false
   },
-
   {
     id: 'gcp-iot-edge',
     name: 'gcp-iot-edge',
-    category,
-    url: gcpiotedge.toString(),
+    category: 'GCP',
+    url: gcpiotedge,
     isIsometric: false
   },
-
   {
     id: 'gcp-key-access-justifications',
     name: 'gcp-key-access-justifications',
-    category,
-    url: gcpkeyaccessjustifications.toString(),
+    category: 'GCP',
+    url: gcpkeyaccessjustifications,
     isIsometric: false
   },
-
   {
     id: 'gcp-key-management-service',
     name: 'gcp-key-management-service',
-    category,
-    url: gcpkeymanagementservice.toString(),
+    category: 'GCP',
+    url: gcpkeymanagementservice,
     isIsometric: false
   },
-
   {
     id: 'gcp-kuberun',
     name: 'gcp-kuberun',
-    category,
-    url: gcpkuberun.toString(),
+    category: 'GCP',
+    url: gcpkuberun,
     isIsometric: false
   },
-
   {
     id: 'gcp-launcher',
     name: 'gcp-launcher',
-    category,
-    url: gcplauncher.toString(),
+    category: 'GCP',
+    url: gcplauncher,
     isIsometric: false
   },
-
   {
     id: 'gcp-local-ssd',
     name: 'gcp-local-ssd',
-    category,
-    url: gcplocalssd.toString(),
+    category: 'GCP',
+    url: gcplocalssd,
     isIsometric: false
   },
-
   {
     id: 'gcp-looker',
     name: 'gcp-looker',
-    category,
-    url: gcplooker.toString(),
+    category: 'GCP',
+    url: gcplooker,
     isIsometric: false
   },
-
   {
     id: 'gcp-managed-service-for-microsoft-active-directory',
     name: 'gcp-managed-service-for-microsoft-active-directory',
-    category,
-    url: gcpmanagedserviceformicrosoftactivedirectory.toString(),
+    category: 'GCP',
+    url: gcpmanagedserviceformicrosoftactivedirectory,
     isIsometric: false
   },
-
   {
     id: 'gcp-media-translation-api',
     name: 'gcp-media-translation-api',
-    category,
-    url: gcpmediatranslationapi.toString(),
+    category: 'GCP',
+    url: gcpmediatranslationapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-memorystore',
     name: 'gcp-memorystore',
-    category,
-    url: gcpmemorystore.toString(),
+    category: 'GCP',
+    url: gcpmemorystore,
     isIsometric: false
   },
-
   {
     id: 'gcp-migrate-for-anthos',
     name: 'gcp-migrate-for-anthos',
-    category,
-    url: gcpmigrateforanthos.toString(),
+    category: 'GCP',
+    url: gcpmigrateforanthos,
     isIsometric: false
   },
-
   {
     id: 'gcp-migrate-for-compute-engine',
     name: 'gcp-migrate-for-compute-engine',
-    category,
-    url: gcpmigrateforcomputeengine.toString(),
+    category: 'GCP',
+    url: gcpmigrateforcomputeengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-my-cloud',
     name: 'gcp-my-cloud',
-    category,
-    url: gcpmycloud.toString(),
+    category: 'GCP',
+    url: gcpmycloud,
     isIsometric: false
   },
-
   {
     id: 'gcp-network-connectivity-center',
     name: 'gcp-network-connectivity-center',
-    category,
-    url: gcpnetworkconnectivitycenter.toString(),
+    category: 'GCP',
+    url: gcpnetworkconnectivitycenter,
     isIsometric: false
   },
-
   {
     id: 'gcp-network-intelligence-center',
     name: 'gcp-network-intelligence-center',
-    category,
-    url: gcpnetworkintelligencecenter.toString(),
+    category: 'GCP',
+    url: gcpnetworkintelligencecenter,
     isIsometric: false
   },
-
   {
     id: 'gcp-network-security',
     name: 'gcp-network-security',
-    category,
-    url: gcpnetworksecurity.toString(),
+    category: 'GCP',
+    url: gcpnetworksecurity,
     isIsometric: false
   },
-
   {
     id: 'gcp-network-tiers',
     name: 'gcp-network-tiers',
-    category,
-    url: gcpnetworktiers.toString(),
+    category: 'GCP',
+    url: gcpnetworktiers,
     isIsometric: false
   },
-
   {
     id: 'gcp-network-topology',
     name: 'gcp-network-topology',
-    category,
-    url: gcpnetworktopology.toString(),
+    category: 'GCP',
+    url: gcpnetworktopology,
     isIsometric: false
   },
-
   {
     id: 'gcp-onboarding',
     name: 'gcp-onboarding',
-    category,
-    url: gcponboarding.toString(),
+    category: 'GCP',
+    url: gcponboarding,
     isIsometric: false
   },
-
   {
     id: 'gcp-os-configuration-management',
     name: 'gcp-os-configuration-management',
-    category,
-    url: gcposconfigurationmanagement.toString(),
+    category: 'GCP',
+    url: gcposconfigurationmanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-os-inventory-management',
     name: 'gcp-os-inventory-management',
-    category,
-    url: gcposinventorymanagement.toString(),
+    category: 'GCP',
+    url: gcposinventorymanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-os-patch-management',
     name: 'gcp-os-patch-management',
-    category,
-    url: gcpospatchmanagement.toString(),
+    category: 'GCP',
+    url: gcpospatchmanagement,
     isIsometric: false
   },
-
   {
     id: 'gcp-partner-interconnect',
     name: 'gcp-partner-interconnect',
-    category,
-    url: gcppartnerinterconnect.toString(),
+    category: 'GCP',
+    url: gcppartnerinterconnect,
     isIsometric: false
   },
-
   {
     id: 'gcp-partner-portal',
     name: 'gcp-partner-portal',
-    category,
-    url: gcppartnerportal.toString(),
+    category: 'GCP',
+    url: gcppartnerportal,
     isIsometric: false
   },
-
   {
     id: 'gcp-performance-dashboard',
     name: 'gcp-performance-dashboard',
-    category,
-    url: gcpperformancedashboard.toString(),
+    category: 'GCP',
+    url: gcpperformancedashboard,
     isIsometric: false
   },
-
   {
     id: 'gcp-permissions',
     name: 'gcp-permissions',
-    category,
-    url: gcppermissions.toString(),
+    category: 'GCP',
+    url: gcppermissions,
     isIsometric: false
   },
-
   {
     id: 'gcp-persistent-disk',
     name: 'gcp-persistent-disk',
-    category,
-    url: gcppersistentdisk.toString(),
+    category: 'GCP',
+    url: gcppersistentdisk,
     isIsometric: false
   },
-
   {
     id: 'gcp-phishing-protection',
     name: 'gcp-phishing-protection',
-    category,
-    url: gcpphishingprotection.toString(),
+    category: 'GCP',
+    url: gcpphishingprotection,
     isIsometric: false
   },
-
   {
     id: 'gcp-policy-analyzer',
     name: 'gcp-policy-analyzer',
-    category,
-    url: gcppolicyanalyzer.toString(),
+    category: 'GCP',
+    url: gcppolicyanalyzer,
     isIsometric: false
   },
-
   {
     id: 'gcp-premium-network-tier',
     name: 'gcp-premium-network-tier',
-    category,
-    url: gcppremiumnetworktier.toString(),
+    category: 'GCP',
+    url: gcppremiumnetworktier,
     isIsometric: false
   },
-
   {
     id: 'gcp-private-connectivity',
     name: 'gcp-private-connectivity',
-    category,
-    url: gcpprivateconnectivity.toString(),
+    category: 'GCP',
+    url: gcpprivateconnectivity,
     isIsometric: false
   },
-
   {
     id: 'gcp-private-service-connect',
     name: 'gcp-private-service-connect',
-    category,
-    url: gcpprivateserviceconnect.toString(),
+    category: 'GCP',
+    url: gcpprivateserviceconnect,
     isIsometric: false
   },
-
   {
     id: 'gcp-producer-portal',
     name: 'gcp-producer-portal',
-    category,
-    url: gcpproducerportal.toString(),
+    category: 'GCP',
+    url: gcpproducerportal,
     isIsometric: false
   },
-
   {
     id: 'gcp-profiler',
     name: 'gcp-profiler',
-    category,
-    url: gcpprofiler.toString(),
+    category: 'GCP',
+    url: gcpprofiler,
     isIsometric: false
   },
-
   {
     id: 'gcp-project',
     name: 'gcp-project',
-    category,
-    url: gcpproject.toString(),
+    category: 'GCP',
+    url: gcpproject,
     isIsometric: false
   },
-
   {
     id: 'gcp-pubsub',
     name: 'gcp-pubsub',
-    category,
-    url: gcppubsub.toString(),
+    category: 'GCP',
+    url: gcppubsub,
     isIsometric: false
   },
-
   {
     id: 'gcp-quantum-engine',
     name: 'gcp-quantum-engine',
-    category,
-    url: gcpquantumengine.toString(),
+    category: 'GCP',
+    url: gcpquantumengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-quotas',
     name: 'gcp-quotas',
-    category,
-    url: gcpquotas.toString(),
+    category: 'GCP',
+    url: gcpquotas,
     isIsometric: false
   },
-
   {
     id: 'gcp-real-world-insights',
     name: 'gcp-real-world-insights',
-    category,
-    url: gcprealworldinsights.toString(),
+    category: 'GCP',
+    url: gcprealworldinsights,
     isIsometric: false
   },
-
   {
     id: 'gcp-recommendations-ai',
     name: 'gcp-recommendations-ai',
-    category,
-    url: gcprecommendationsai.toString(),
+    category: 'GCP',
+    url: gcprecommendationsai,
     isIsometric: false
   },
-
   {
     id: 'gcp-release-notes',
     name: 'gcp-release-notes',
-    category,
-    url: gcpreleasenotes.toString(),
+    category: 'GCP',
+    url: gcpreleasenotes,
     isIsometric: false
   },
-
   {
     id: 'gcp-retail-api',
     name: 'gcp-retail-api',
-    category,
-    url: gcpretailapi.toString(),
+    category: 'GCP',
+    url: gcpretailapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-risk-manager',
     name: 'gcp-risk-manager',
-    category,
-    url: gcpriskmanager.toString(),
+    category: 'GCP',
+    url: gcpriskmanager,
     isIsometric: false
   },
-
   {
     id: 'gcp-runtime-config',
     name: 'gcp-runtime-config',
-    category,
-    url: gcpruntimeconfig.toString(),
+    category: 'GCP',
+    url: gcpruntimeconfig,
     isIsometric: false
   },
-
   {
     id: 'gcp-secret-manager',
     name: 'gcp-secret-manager',
-    category,
-    url: gcpsecretmanager.toString(),
+    category: 'GCP',
+    url: gcpsecretmanager,
     isIsometric: false
   },
-
   {
     id: 'gcp-security-command-center',
     name: 'gcp-security-command-center',
-    category,
-    url: gcpsecuritycommandcenter.toString(),
+    category: 'GCP',
+    url: gcpsecuritycommandcenter,
     isIsometric: false
   },
-
   {
     id: 'gcp-security-health-advisor',
     name: 'gcp-security-health-advisor',
-    category,
-    url: gcpsecurityhealthadvisor.toString(),
+    category: 'GCP',
+    url: gcpsecurityhealthadvisor,
     isIsometric: false
   },
-
   {
     id: 'gcp-security-key-enforcement',
     name: 'gcp-security-key-enforcement',
-    category,
-    url: gcpsecuritykeyenforcement.toString(),
+    category: 'GCP',
+    url: gcpsecuritykeyenforcement,
     isIsometric: false
   },
-
   {
     id: 'gcp-security',
     name: 'gcp-security',
-    category,
-    url: gcpsecurity.toString(),
+    category: 'GCP',
+    url: gcpsecurity,
     isIsometric: false
   },
-
   {
     id: 'gcp-service-discovery',
     name: 'gcp-service-discovery',
-    category,
-    url: gcpservicediscovery.toString(),
+    category: 'GCP',
+    url: gcpservicediscovery,
     isIsometric: false
   },
-
   {
     id: 'gcp-speech-to-text',
     name: 'gcp-speech-to-text',
-    category,
-    url: gcpspeechtotext.toString(),
+    category: 'GCP',
+    url: gcpspeechtotext,
     isIsometric: false
   },
-
   {
     id: 'gcp-stackdriver',
     name: 'gcp-stackdriver',
-    category,
-    url: gcpstackdriver.toString(),
+    category: 'GCP',
+    url: gcpstackdriver,
     isIsometric: false
   },
-
   {
     id: 'gcp-standard-network-tier',
     name: 'gcp-standard-network-tier',
-    category,
-    url: gcpstandardnetworktier.toString(),
+    category: 'GCP',
+    url: gcpstandardnetworktier,
     isIsometric: false
   },
-
   {
     id: 'gcp-stream-suite',
     name: 'gcp-stream-suite',
-    category,
-    url: gcpstreamsuite.toString(),
+    category: 'GCP',
+    url: gcpstreamsuite,
     isIsometric: false
   },
-
   {
     id: 'gcp-support',
     name: 'gcp-support',
-    category,
-    url: gcpsupport.toString(),
+    category: 'GCP',
+    url: gcpsupport,
     isIsometric: false
   },
-
   {
     id: 'gcp-tensorflow-enterprise',
     name: 'gcp-tensorflow-enterprise',
-    category,
-    url: gcptensorflowenterprise.toString(),
+    category: 'GCP',
+    url: gcptensorflowenterprise,
     isIsometric: false
   },
-
   {
     id: 'gcp-text-to-speech',
     name: 'gcp-text-to-speech',
-    category,
-    url: gcptexttospeech.toString(),
+    category: 'GCP',
+    url: gcptexttospeech,
     isIsometric: false
   },
-
   {
     id: 'gcp-tools-for-powershell',
     name: 'gcp-tools-for-powershell',
-    category,
-    url: gcptoolsforpowershell.toString(),
+    category: 'GCP',
+    url: gcptoolsforpowershell,
     isIsometric: false
   },
-
   {
     id: 'gcp-trace',
     name: 'gcp-trace',
-    category,
-    url: gcptrace.toString(),
+    category: 'GCP',
+    url: gcptrace,
     isIsometric: false
   },
-
   {
     id: 'gcp-traffic-director',
     name: 'gcp-traffic-director',
-    category,
-    url: gcptrafficdirector.toString(),
+    category: 'GCP',
+    url: gcptrafficdirector,
     isIsometric: false
   },
-
   {
     id: 'gcp-transfer-appliance',
     name: 'gcp-transfer-appliance',
-    category,
-    url: gcptransferappliance.toString(),
+    category: 'GCP',
+    url: gcptransferappliance,
     isIsometric: false
   },
-
   {
     id: 'gcp-transfer',
     name: 'gcp-transfer',
-    category,
-    url: gcptransfer.toString(),
+    category: 'GCP',
+    url: gcptransfer,
     isIsometric: false
   },
-
   {
     id: 'gcp-user-preferences',
     name: 'gcp-user-preferences',
-    category,
-    url: gcpuserpreferences.toString(),
+    category: 'GCP',
+    url: gcpuserpreferences,
     isIsometric: false
   },
-
   {
     id: 'gcp-vertexai',
     name: 'gcp-vertexai',
-    category,
-    url: gcpvertexai.toString(),
+    category: 'GCP',
+    url: gcpvertexai,
     isIsometric: false
   },
-
   {
     id: 'gcp-video-intelligence-api',
     name: 'gcp-video-intelligence-api',
-    category,
-    url: gcpvideointelligenceapi.toString(),
+    category: 'GCP',
+    url: gcpvideointelligenceapi,
     isIsometric: false
   },
-
   {
     id: 'gcp-virtual-private-cloud',
     name: 'gcp-virtual-private-cloud',
-    category,
-    url: gcpvirtualprivatecloud.toString(),
+    category: 'GCP',
+    url: gcpvirtualprivatecloud,
     isIsometric: false
   },
-
   {
     id: 'gcp-visual-inspection',
     name: 'gcp-visual-inspection',
-    category,
-    url: gcpvisualinspection.toString(),
+    category: 'GCP',
+    url: gcpvisualinspection,
     isIsometric: false
   },
-
   {
     id: 'gcp-vmware-engine',
     name: 'gcp-vmware-engine',
-    category,
-    url: gcpvmwareengine.toString(),
+    category: 'GCP',
+    url: gcpvmwareengine,
     isIsometric: false
   },
-
   {
     id: 'gcp-web-risk',
     name: 'gcp-web-risk',
-    category,
-    url: gcpwebrisk.toString(),
+    category: 'GCP',
+    url: gcpwebrisk,
     isIsometric: false
   },
-
   {
     id: 'gcp-web-security-scanner',
     name: 'gcp-web-security-scanner',
-    category,
-    url: gcpwebsecurityscanner.toString(),
+    category: 'GCP',
+    url: gcpwebsecurityscanner,
     isIsometric: false
   },
-
   {
     id: 'gcp-workflows',
     name: 'gcp-workflows',
-    category,
-    url: gcpworkflows.toString(),
+    category: 'GCP',
+    url: gcpworkflows,
     isIsometric: false
   },
-
   {
     id: 'gcp-workload-identity-pool',
     name: 'gcp-workload-identity-pool',
-    category,
-    url: gcpworkloadidentitypool.toString(),
+    category: 'GCP',
+    url: gcpworkloadidentitypool,
     isIsometric: false
   }
 ];

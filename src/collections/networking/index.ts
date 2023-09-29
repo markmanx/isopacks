@@ -1,4 +1,4 @@
-import type { IconInput } from 'src/types';
+import type { Icon } from '../../types';
 import cache from './icons/cache.svg';
 import cardterminal from './icons/cardterminal.svg';
 import cloud from './icons/cloud.svg';
@@ -27,196 +27,194 @@ import tower from './icons/tower.svg';
 import user from './icons/user.svg';
 import vm from './icons/vm.svg';
 
-const category = 'Networking';
-
-const NetworkingIsopack: IconInput[] = [
+const NetworkingIsopack: Icon[] = [
   {
     id: 'cache',
     name: 'cache',
-    category,
-    url: cache.toString(),
+    category: 'Networking',
+    url: cache,
     isIsometric: true
   },
   {
     id: 'cardterminal',
     name: 'cardterminal',
-    category,
-    url: cardterminal.toString(),
+    category: 'Networking',
+    url: cardterminal,
     isIsometric: true
   },
   {
     id: 'cloud',
     name: 'cloud',
-    category,
-    url: cloud.toString(),
+    category: 'Networking',
+    url: cloud,
     isIsometric: true
   },
   {
     id: 'cronjob',
     name: 'cronjob',
-    category,
-    url: cronjob.toString(),
+    category: 'Networking',
+    url: cronjob,
     isIsometric: true
   },
   {
     id: 'desktop',
     name: 'desktop',
-    category,
-    url: desktop.toString(),
+    category: 'Networking',
+    url: desktop,
     isIsometric: true
   },
   {
     id: 'dns',
     name: 'dns',
-    category,
-    url: dns.toString(),
+    category: 'Networking',
+    url: dns,
     isIsometric: true
   },
   {
     id: 'firewall',
     name: 'firewall',
-    category,
-    url: firewall.toString(),
+    category: 'Networking',
+    url: firewall,
     isIsometric: true
   },
   {
     id: 'function-module',
     name: 'function-module',
-    category,
-    url: functionmodule.toString(),
+    category: 'Networking',
+    url: functionmodule,
     isIsometric: true
   },
   {
     id: 'laptop',
     name: 'laptop',
-    category,
-    url: laptop.toString(),
+    category: 'Networking',
+    url: laptop,
     isIsometric: true
   },
   {
     id: 'loadbalancer',
     name: 'loadbalancer',
-    category,
-    url: loadbalancer.toString(),
+    category: 'Networking',
+    url: loadbalancer,
     isIsometric: true
   },
   {
     id: 'lock',
     name: 'lock',
-    category,
-    url: lock.toString(),
+    category: 'Networking',
+    url: lock,
     isIsometric: true
   },
   {
     id: 'mail',
     name: 'mail',
-    category,
-    url: mail.toString(),
+    category: 'Networking',
+    url: mail,
     isIsometric: true
   },
   {
     id: 'mailmultiple',
     name: 'mailmultiple',
-    category,
-    url: mailmultiple.toString(),
+    category: 'Networking',
+    url: mailmultiple,
     isIsometric: true
   },
   {
     id: 'mobiledevice',
     name: 'mobiledevice',
-    category,
-    url: mobiledevice.toString(),
+    category: 'Networking',
+    url: mobiledevice,
     isIsometric: true
   },
   {
     id: 'office',
     name: 'office',
-    category,
-    url: office.toString(),
+    category: 'Networking',
+    url: office,
     isIsometric: true
   },
   {
     id: 'package-module',
     name: 'package-module',
-    category,
-    url: packagemodule.toString(),
+    category: 'Networking',
+    url: packagemodule,
     isIsometric: true
   },
   {
     id: 'paymentcard',
     name: 'paymentcard',
-    category,
-    url: paymentcard.toString(),
+    category: 'Networking',
+    url: paymentcard,
     isIsometric: true
   },
   {
     id: 'printer',
     name: 'printer',
-    category,
-    url: printer.toString(),
+    category: 'Networking',
+    url: printer,
     isIsometric: true
   },
   {
     id: 'queue',
     name: 'queue',
-    category,
-    url: queue.toString(),
+    category: 'Networking',
+    url: queue,
     isIsometric: true
   },
   {
     id: 'router',
     name: 'router',
-    category,
-    url: router.toString(),
+    category: 'Networking',
+    url: router,
     isIsometric: true
   },
   {
     id: 'server',
     name: 'server',
-    category,
-    url: server.toString(),
+    category: 'Networking',
+    url: server,
     isIsometric: true
   },
   {
     id: 'speech',
     name: 'speech',
-    category,
-    url: speech.toString(),
+    category: 'Networking',
+    url: speech,
     isIsometric: true
   },
   {
     id: 'storage',
     name: 'storage',
-    category,
-    url: storage.toString(),
+    category: 'Networking',
+    url: storage,
     isIsometric: true
   },
   {
     id: 'switch-module',
     name: 'switch-module',
-    category,
-    url: switchmodule.toString(),
+    category: 'Networking',
+    url: switchmodule,
     isIsometric: true
   },
   {
     id: 'tower',
     name: 'tower',
-    category,
-    url: tower.toString(),
+    category: 'Networking',
+    url: tower,
     isIsometric: true
   },
   {
     id: 'user',
     name: 'user',
-    category,
-    url: user.toString(),
+    category: 'Networking',
+    url: user,
     isIsometric: true
   },
   {
     id: 'vm',
     name: 'vm',
-    category,
-    url: vm.toString(),
+    category: 'Networking',
+    url: vm,
     isIsometric: true
   }
 ];

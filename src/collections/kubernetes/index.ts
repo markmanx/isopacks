@@ -1,4 +1,4 @@
-import type { IconInput } from 'src/types';
+import type { Icon } from '../../types';
 import k8sapi from './icons/k8s-api.svg';
 import k8sccm from './icons/k8s-c-c-m.svg';
 import k8scm1 from './icons/k8s-c-m1.svg';
@@ -40,287 +40,285 @@ import k8ssvc from './icons/k8s-svc.svg';
 import k8suser from './icons/k8s-user.svg';
 import k8svol from './icons/k8s-vol.svg';
 
-const category = 'Kubernetes';
-
-const KubernetesIsopack: IconInput[] = [
+const KubernetesIsopack: Icon[] = [
   {
     id: 'k8s-api',
     name: 'k8s-api',
-    category,
-    url: k8sapi.toString(),
+    category: 'Kubernetes',
+    url: k8sapi,
     isIsometric: false
   },
   {
     id: 'k8s-c-c-m',
     name: 'k8s-c-c-m',
-    category,
-    url: k8sccm.toString(),
+    category: 'Kubernetes',
+    url: k8sccm,
     isIsometric: false
   },
   {
     id: 'k8s-c-m1',
     name: 'k8s-c-m1',
-    category,
-    url: k8scm1.toString(),
+    category: 'Kubernetes',
+    url: k8scm1,
     isIsometric: false
   },
   {
     id: 'k8s-c-role',
     name: 'k8s-c-role',
-    category,
-    url: k8scrole.toString(),
+    category: 'Kubernetes',
+    url: k8scrole,
     isIsometric: false
   },
   {
     id: 'k8s-cm',
     name: 'k8s-cm',
-    category,
-    url: k8scm.toString(),
+    category: 'Kubernetes',
+    url: k8scm,
     isIsometric: false
   },
   {
     id: 'k8s-control-plane',
     name: 'k8s-control-plane',
-    category,
-    url: k8scontrolplane.toString(),
+    category: 'Kubernetes',
+    url: k8scontrolplane,
     isIsometric: false
   },
   {
     id: 'k8s-crb',
     name: 'k8s-crb',
-    category,
-    url: k8scrb.toString(),
+    category: 'Kubernetes',
+    url: k8scrb,
     isIsometric: false
   },
   {
     id: 'k8s-crd',
     name: 'k8s-crd',
-    category,
-    url: k8scrd.toString(),
+    category: 'Kubernetes',
+    url: k8scrd,
     isIsometric: false
   },
   {
     id: 'k8s-cronjob',
     name: 'k8s-cronjob',
-    category,
-    url: k8scronjob.toString(),
+    category: 'Kubernetes',
+    url: k8scronjob,
     isIsometric: false
   },
   {
     id: 'k8s-deploy',
     name: 'k8s-deploy',
-    category,
-    url: k8sdeploy.toString(),
+    category: 'Kubernetes',
+    url: k8sdeploy,
     isIsometric: false
   },
   {
     id: 'k8s-ds',
     name: 'k8s-ds',
-    category,
-    url: k8sds.toString(),
+    category: 'Kubernetes',
+    url: k8sds,
     isIsometric: false
   },
   {
     id: 'k8s-ep',
     name: 'k8s-ep',
-    category,
-    url: k8sep.toString(),
+    category: 'Kubernetes',
+    url: k8sep,
     isIsometric: false
   },
   {
     id: 'k8s-etcd',
     name: 'k8s-etcd',
-    category,
-    url: k8setcd.toString(),
+    category: 'Kubernetes',
+    url: k8setcd,
     isIsometric: false
   },
   {
     id: 'k8s-group',
     name: 'k8s-group',
-    category,
-    url: k8sgroup.toString(),
+    category: 'Kubernetes',
+    url: k8sgroup,
     isIsometric: false
   },
   {
     id: 'k8s-hpa',
     name: 'k8s-hpa',
-    category,
-    url: k8shpa.toString(),
+    category: 'Kubernetes',
+    url: k8shpa,
     isIsometric: false
   },
   {
     id: 'k8s-ing',
     name: 'k8s-ing',
-    category,
-    url: k8sing.toString(),
+    category: 'Kubernetes',
+    url: k8sing,
     isIsometric: false
   },
   {
     id: 'k8s-job',
     name: 'k8s-job',
-    category,
-    url: k8sjob.toString(),
+    category: 'Kubernetes',
+    url: k8sjob,
     isIsometric: false
   },
   {
     id: 'k8s-k-proxy',
     name: 'k8s-k-proxy',
-    category,
-    url: k8skproxy.toString(),
+    category: 'Kubernetes',
+    url: k8skproxy,
     isIsometric: false
   },
   {
     id: 'k8s-kubelet',
     name: 'k8s-kubelet',
-    category,
-    url: k8skubelet.toString(),
+    category: 'Kubernetes',
+    url: k8skubelet,
     isIsometric: false
   },
   {
     id: 'k8s-kubernetes',
     name: 'k8s-kubernetes',
-    category,
-    url: k8skubernetes.toString(),
+    category: 'Kubernetes',
+    url: k8skubernetes,
     isIsometric: false
   },
   {
     id: 'k8s-limits',
     name: 'k8s-limits',
-    category,
-    url: k8slimits.toString(),
+    category: 'Kubernetes',
+    url: k8slimits,
     isIsometric: false
   },
   {
     id: 'k8s-netpol',
     name: 'k8s-netpol',
-    category,
-    url: k8snetpol.toString(),
+    category: 'Kubernetes',
+    url: k8snetpol,
     isIsometric: false
   },
   {
     id: 'k8s-node',
     name: 'k8s-node',
-    category,
-    url: k8snode.toString(),
+    category: 'Kubernetes',
+    url: k8snode,
     isIsometric: false
   },
   {
     id: 'k8s-ns',
     name: 'k8s-ns',
-    category,
-    url: k8sns.toString(),
+    category: 'Kubernetes',
+    url: k8sns,
     isIsometric: false
   },
   {
     id: 'k8s-pod',
     name: 'k8s-pod',
-    category,
-    url: k8spod.toString(),
+    category: 'Kubernetes',
+    url: k8spod,
     isIsometric: false
   },
   {
     id: 'k8s-psp',
     name: 'k8s-psp',
-    category,
-    url: k8spsp.toString(),
+    category: 'Kubernetes',
+    url: k8spsp,
     isIsometric: false
   },
   {
     id: 'k8s-pv',
     name: 'k8s-pv',
-    category,
-    url: k8spv.toString(),
+    category: 'Kubernetes',
+    url: k8spv,
     isIsometric: false
   },
   {
     id: 'k8s-pvc',
     name: 'k8s-pvc',
-    category,
-    url: k8spvc.toString(),
+    category: 'Kubernetes',
+    url: k8spvc,
     isIsometric: false
   },
   {
     id: 'k8s-quota',
     name: 'k8s-quota',
-    category,
-    url: k8squota.toString(),
+    category: 'Kubernetes',
+    url: k8squota,
     isIsometric: false
   },
   {
     id: 'k8s-rb',
     name: 'k8s-rb',
-    category,
-    url: k8srb.toString(),
+    category: 'Kubernetes',
+    url: k8srb,
     isIsometric: false
   },
   {
     id: 'k8s-role',
     name: 'k8s-role',
-    category,
-    url: k8srole.toString(),
+    category: 'Kubernetes',
+    url: k8srole,
     isIsometric: false
   },
   {
     id: 'k8s-rs',
     name: 'k8s-rs',
-    category,
-    url: k8srs.toString(),
+    category: 'Kubernetes',
+    url: k8srs,
     isIsometric: false
   },
   {
     id: 'k8s-sa',
     name: 'k8s-sa',
-    category,
-    url: k8ssa.toString(),
+    category: 'Kubernetes',
+    url: k8ssa,
     isIsometric: false
   },
   {
     id: 'k8s-sc',
     name: 'k8s-sc',
-    category,
-    url: k8ssc.toString(),
+    category: 'Kubernetes',
+    url: k8ssc,
     isIsometric: false
   },
   {
     id: 'k8s-sched',
     name: 'k8s-sched',
-    category,
-    url: k8ssched.toString(),
+    category: 'Kubernetes',
+    url: k8ssched,
     isIsometric: false
   },
   {
     id: 'k8s-secret',
     name: 'k8s-secret',
-    category,
-    url: k8ssecret.toString(),
+    category: 'Kubernetes',
+    url: k8ssecret,
     isIsometric: false
   },
   {
     id: 'k8s-sts',
     name: 'k8s-sts',
-    category,
-    url: k8ssts.toString(),
+    category: 'Kubernetes',
+    url: k8ssts,
     isIsometric: false
   },
   {
     id: 'k8s-svc',
     name: 'k8s-svc',
-    category,
-    url: k8ssvc.toString(),
+    category: 'Kubernetes',
+    url: k8ssvc,
     isIsometric: false
   },
   {
     id: 'k8s-user',
     name: 'k8s-user',
-    category,
-    url: k8suser.toString(),
+    category: 'Kubernetes',
+    url: k8suser,
     isIsometric: false
   },
   {
     id: 'k8s-vol',
     name: 'k8s-vol',
-    category,
-    url: k8svol.toString(),
+    category: 'Kubernetes',
+    url: k8svol,
     isIsometric: false
   }
 ];

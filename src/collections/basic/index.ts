@@ -1,50 +1,44 @@
-import type { IconInput } from 'src/types';
+import type { Icon } from '../../types';
 import block from './icons/block.svg';
 import cube from './icons/cube.svg';
 import diamond from './icons/diamond.svg';
 import pyramid from './icons/pyramid.svg';
 import sphere from './icons/sphere.svg';
 
-const category = 'Basic';
-
-const BasicIsopack: IconInput[] = [
+const BasicIsopack: Icon[] = [
   {
     id: 'block',
     name: 'block',
-    category,
-    url: block.toString(),
+    category: 'Basic',
+    url: block,
     isIsometric: true
   },
-
   {
     id: 'cube',
     name: 'cube',
-    category,
-    url: cube.toString(),
+    category: 'Basic',
+    url: cube,
     isIsometric: true
   },
-
   {
     id: 'diamond',
     name: 'diamond',
-    category,
-    url: diamond.toString(),
+    category: 'Basic',
+    url: diamond,
     isIsometric: true
   },
-
   {
     id: 'pyramid',
     name: 'pyramid',
-    category,
-    url: pyramid.toString(),
+    category: 'Basic',
+    url: pyramid,
     isIsometric: true
   },
-
   {
     id: 'sphere',
     name: 'sphere',
-    category,
-    url: sphere.toString(),
+    category: 'Basic',
+    url: sphere,
     isIsometric: true
   }
 ];
