@@ -1,15 +1,17 @@
 const path = require('path');
 
-module.exports = {
+module.exports = () => {
+
+ return {
   mode: 'production',
   target: 'web',
   entry: {
-    'index': './src/index.ts',
-    'collections/isoflow/index': './src/collections/isoflow/index.ts',
-    'collections/aws/index': './src/collections/aws/index.ts',
-    'collections/azure/index': './src/collections/azure/index.ts',
-    'collections/gcp/index': './src/collections/gcp/index.ts',
-    'collections/kubernetes/index': './src/collections/kubernetes/index.ts'
+    'utils': './src/tools/utils.ts',
+    'isoflow': './src/generated/isoflow.ts',
+    'aws': './src/generated/aws.ts',
+    'azure': './src/generated/azure.ts',
+    'gcp': './src/generated/gcp.ts',
+    'kubernetes': './src/generated/kubernetes.ts'
   },
   resolve: {
     extensions: ['.ts'],
@@ -25,11 +27,9 @@ module.exports = {
         test: /\.ts$/,
         use: 'ts-loader',
         exclude: /node_modules/
-      },
-      {
-        test: /\.svg$/,
-        type: 'asset/inline'
       }
     ]
   },
+}
+
 }

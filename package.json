@@ -9,8 +9,8 @@
     "dist/"
   ],
   "scripts": {
-    "build": "webpack && tsc --declaration --emitDeclarationOnly",
-    "generate:collections": "mkdir ./src/generated; ts-node --transpile-only ./src/tools/processCollections.ts && tsc && rm -rf ./src/generated",
+    "build": "npm run generate:collections && webpack && tsc --declaration --emitDeclarationOnly && cp ./src/generated/isopacks.md ./dist && rm -rf ./src/generated && mv ./dist/generated/* ./dist/ && mv ./dist/tools/* ./dist/ && rm -rf ./dist/generated && rm -rf ./dist/tools",
+    "generate:collections": "mkdir ./src/generated; ts-node --transpile-only ./src/tools/processCollections.ts",
     "lint:fix-generated": "eslint --fix ./src/generated/**/*.ts"
   },
   "author": "Various",

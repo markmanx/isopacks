@@ -13,6 +13,7 @@
   "exclude": ["node_modules"],
   "include": [
     "./src/generated/**/*.ts",
+    "./src/tools/**/*.ts",
   ],
   "ts-node": {
     "compilerOptions": {

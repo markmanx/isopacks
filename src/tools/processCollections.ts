@@ -1,23 +1,11 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
 import { collections, CollectionConfig, paths } from '../config';
-
-interface ProcessedIcon {
-  id: string;
-  name: string;
-  isIsometric: boolean;
-  src: string;
-}
-
-interface ProcessedCollection {
-  id: string;
-  name: string;
-  icons: ProcessedIcon[];
-}
+import type { ProcessedCollection, ProcessedIcon } from '../types';
 
 const createCollectionMarkdown = (collection: ProcessedCollection) => {
   const lineItems = collection.icons.map((icon) => [
-    `|<img style="padding: 10px; width: 60px; height: 60px;" src="${icon.src}" />|${icon.id}|`
+    `|${icon.url}|${icon.id}|`
   ]);
 
   return [
@@ -35,23 +23,23 @@ const processIconFile = async (
 ): Promise<ProcessedIcon> => {
   const id = fileName.split('.')[0];
 
-  let src;
+  let url;
 
   if (paths.remoteBase) {
-    src = `${paths.remoteBase}/${collection.id}/icons/${id}.svg`;
+    url = `${paths.remoteBase}/${collection.id}/icons/${id}.svg`;
   } else {
-    src = await fs
+    url = await fs
       .readFile(
         path.join(paths.collectionsBase, collection.id, 'icons', fileName),
         'base64'
       )
-      .then((res) => `data:image/svg;base64, ${res}`);
+      .then((res) => `data:image/svg+xml;base64,${res}`);
   }
 
   return {
     id,
     name: id,
-    src,
+    url,
     isIsometric: collection.isIsometric
   };
 };
@@ -91,20 +79,12 @@ const processCollections = async () => {
     )
   );
 
-  // Update markdown template
-  const markdownTemplate = await fs.readFile(
-    path.resolve('README.template'),
-    'utf-8'
-  );
-
+  // Generate index markdown file
   const markdown = processedCollections
     .map(createCollectionMarkdown)
     .join('\n');
 
-  await fs.writeFile(
-    path.resolve('README.md'),
-    markdownTemplate.replace('{{ICON_COLLECTIONS}}', markdown)
-  );
+  await fs.writeFile(path.resolve(paths.output, 'isopacks.md'), markdown);
 };
 
 processCollections();
