@@ -5,7 +5,7 @@ export const flattenCollection = (
 ): FlattenedIcon[] =>
   collection.icons.map((icon) => ({
     ...icon,
-    collection: collection.name
+    collection: collection.id
   }));
 
 export const flattenCollections = (
