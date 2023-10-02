@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
     "outDir": "./dist",
     "noImplicitAny": true,
     "target": "es6",
@@ -11,9 +10,9 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
   },
-  "exclude": ["node_modules", "./dist"],
+  "exclude": ["node_modules"],
   "include": [
-    "**/*.ts"
+    "./src/generated/**/*.ts",
   ],
   "ts-node": {
     "compilerOptions": {

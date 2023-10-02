@@ -1,102 +1,109 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
+import { collections, CollectionConfig, paths } from '../config';
 
-interface CollectionConfig {
-  dirName: string;
-  categoryName: string;
+interface ProcessedIcon {
+  id: string;
+  name: string;
   isIsometric: boolean;
+  src: string;
 }
 
-const collectionsBase = path.join(__dirname, '../collections');
-const collections: CollectionConfig[] = [
-  {
-    dirName: 'isoflow',
-    categoryName: 'Isoflow',
-    isIsometric: true
-  },
-  {
-    dirName: 'aws',
-    categoryName: 'AWS',
-    isIsometric: false
-  },
-  {
-    dirName: 'azure',
-    categoryName: 'Azure',
-    isIsometric: false
-  },
-  {
-    dirName: 'gcp',
-    categoryName: 'GCP',
-    isIsometric: false
-  },
-  {
-    dirName: 'kubernetes',
-    categoryName: 'Kubernetes',
-    isIsometric: false
-  }
-];
+interface ProcessedCollection {
+  id: string;
+  name: string;
+  icons: ProcessedIcon[];
+}
 
-const createIndexFromCollection = async (
-  dirName: string,
-  categoryName: string,
-  isIsometric: boolean
-) => {
-  const collectionDir = path.join(collectionsBase, dirName);
-  const iconsDir = path.join(collectionDir, 'icons');
-  const iconFiles = await fs
-    .readdir(iconsDir)
+const createCollectionMarkdown = (collection: ProcessedCollection) => {
+  const lineItems = collection.icons.map((icon) => [
+    `|<img style="padding: 10px; width: 60px; height: 60px;" src="${icon.src}" />|${icon.id}|`
+  ]);
+
+  return [
+    `## ${collection.name}`,
+    '| Icon | ID |',
+    '| ---- | -- |',
+    ...lineItems,
+    ''
+  ].join('\n');
+};
+
+const processIconFile = async (
+  collection: CollectionConfig,
+  fileName: string
+): Promise<ProcessedIcon> => {
+  const id = fileName.split('.')[0];
+
+  let src;
+
+  if (paths.remoteBase) {
+    src = `${paths.remoteBase}/${collection.id}/icons/${id}.svg`;
+  } else {
+    src = await fs
+      .readFile(
+        path.join(paths.collectionsBase, collection.id, 'icons', fileName),
+        'base64'
+      )
+      .then((res) => `data:image/svg;base64, ${res}`);
+  }
+
+  return {
+    id,
+    name: id,
+    src,
+    isIsometric: collection.isIsometric
+  };
+};
+
+const createCollectionIndex = async (
+  collection: CollectionConfig
+): Promise<ProcessedCollection> => {
+  const iconFileNames = await fs
+    .readdir(path.join(paths.collectionsBase, collection.id, 'icons'))
     .then((res) => res.filter((file) => file.endsWith('.svg')));
 
-  const registryLineItems = iconFiles.reduce(
-    (acc, svg) => {
-      const id = svg.split('.')[0];
-      const varName = id.replace(/(-|&)/g, '');
-      const importLine = `import ${varName} from './icons/${svg}';`;
-      const entryLine = `{
-        id: '${id}',
-        name: '${id}',
-        category: '${categoryName}',
-        url: ${varName},
-        isIsometric: ${isIsometric}
-      }`;
-
-      const newImports = [...acc.imports, importLine];
-      const newEntries = [...acc.entries, entryLine];
-
-      return {
-        imports: newImports,
-        entries: newEntries
-      };
-    },
-    {
-      imports: [] as string[],
-      entries: [] as string[]
-    }
+  const lineItems = await Promise.all(
+    iconFileNames.map((fileName) => processIconFile(collection, fileName))
   );
 
-  const registryFileContent = `
-    import type { Icon } from '../../types';
-    ${registryLineItems.imports.join('\n')}
+  const resultCollection = {
+    id: collection.id,
+    name: collection.name,
+    icons: lineItems
+  };
 
-    const ${categoryName}Isopack: Icon[] = [
-      ${registryLineItems.entries.join(',\n')}
-    ];
-
-    export default ${categoryName}Isopack;
-    `;
-
-  await fs.writeFile(path.join(collectionDir, 'index.ts'), registryFileContent);
+  return resultCollection;
 };
 
 const processCollections = async () => {
+  const processedCollections = await Promise.all(
+    collections.map(createCollectionIndex)
+  );
+
+  // Store collections in output folder
   await Promise.all(
-    collections.map((collection) =>
-      createIndexFromCollection(
-        collection.dirName,
-        collection.categoryName,
-        collection.isIsometric
+    processedCollections.map((collection) =>
+      fs.writeFile(
+        path.join(paths.output, `${collection.id}.ts`),
+        `export default ${JSON.stringify(collection)};`
       )
     )
+  );
+
+  // Update markdown template
+  const markdownTemplate = await fs.readFile(
+    path.resolve('README.template'),
+    'utf-8'
+  );
+
+  const markdown = processedCollections
+    .map(createCollectionMarkdown)
+    .join('\n');
+
+  await fs.writeFile(
+    path.resolve('README.md'),
+    markdownTemplate.replace('{{ICON_COLLECTIONS}}', markdown)
   );
 };
 

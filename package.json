@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "build": "webpack && tsc --declaration --emitDeclarationOnly",
-    "generate-collections-index": "ts-node --transpile-only ./src/tools/processCollections.ts && npm run lint:fix-generated",
-    "lint:fix-generated": "eslint --fix ./src/collections/**/index.ts"
+    "generate:collections": "mkdir ./src/generated; ts-node --transpile-only ./src/tools/processCollections.ts && tsc && rm -rf ./src/generated",
+    "lint:fix-generated": "eslint --fix ./src/generated/**/*.ts"
   },
   "author": "Various",
   "license": "Varies",
