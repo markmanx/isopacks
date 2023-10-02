@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "npm run generate:collections && webpack && tsc --declaration --emitDeclarationOnly && cp ./src/generated/isopacks.md ./dist && rm -rf ./src/generated && mv ./dist/generated/* ./dist/ && rm -rf ./dist/generated",
-    "generate:collections": "mkdir ./src/generated; ts-node --transpile-only ./src/tools/processCollections.ts",
+    "generate:collections": "mkdir ./src/generated; ts-node --transpile-only ./src/utils/processCollections.ts",
     "lint:fix-generated": "eslint --fix ./src/generated/**/*.ts"
   },
   "author": "Various",

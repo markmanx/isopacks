@@ -6,7 +6,7 @@ module.exports = () => {
   mode: 'production',
   target: 'web',
   entry: {
-    'utils': './src/tools/utils.ts',
+    'utils/index': './src/utils/index.ts',
     'isoflow': './src/generated/isoflow.ts',
     'aws': './src/generated/aws.ts',
     'azure': './src/generated/azure.ts',
