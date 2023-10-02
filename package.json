@@ -9,7 +9,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "npm run generate:collections && webpack && tsc --declaration --emitDeclarationOnly && cp ./src/generated/isopacks.md ./dist && rm -rf ./src/generated && mv ./dist/generated/* ./dist/ && mv ./dist/tools/* ./dist/ && rm -rf ./dist/generated && rm -rf ./dist/tools",
+    "build": "npm run generate:collections && webpack && tsc --declaration --emitDeclarationOnly && cp ./src/generated/isopacks.md ./dist && rm -rf ./src/generated && mv ./dist/generated/* ./dist/ && rm -rf ./dist/generated",
     "generate:collections": "mkdir ./src/generated; ts-node --transpile-only ./src/tools/processCollections.ts",
     "lint:fix-generated": "eslint --fix ./src/generated/**/*.ts"
   },
