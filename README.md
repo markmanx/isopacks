@@ -1,6 +1,6 @@
 # Isopacks
 
-<div style={{ display: 'flex' }}>
+<div style="display: flex;">
 <img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/server.svg" alt="drawing" width="100"/>
 <img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/storage.svg" alt="drawing" width="100"/>
 <img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/switch.svg" alt="drawing" width="100"/>
@@ -24,7 +24,7 @@ For a complete set of icons available, see this [page](https://v2.isoflow.io/doc
 See the Isoflow documentation here: [Importing Isopacks](https://v2.isoflow.io/docs/isopacks)
 
 ### Importing into a React app
-You can display icons as `base64` encoded images (although make sure to consider the [tradeoffs](#self-hosting-icons-vs-importing-from-the-package) of importing using this method).
+Icons can be imported and displayed as `base64` encoded images (although make sure to consider the [tradeoffs](#self-hosting-icons-vs-importing-from-the-package) of importing using this method).
 
 1. Install the `npm` package
 ```bash
@@ -49,7 +49,7 @@ const MyComponent = () => {
 
 - **Importing icons** directly from the npm package is practical but not recommended as it adds to the final bundle size.
 
-- **Referencing icons via URL** enables the icons to be downloaded later on, after the app loads.  This is the recommended approach for production apps.
+- **Referencing icons via URL** enables the icons to be downloaded after the app loads.  This is the recommended approach for production apps.
 
 ## Contributing
 
