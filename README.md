@@ -1,21 +1,38 @@
 # Isopacks
-This library brings together existing collections of popular networking and cloud icons in a central place, so that they can be used in slides, documents or imported into JavaScript projects with common metadata.  Many of the icon sets are provided for free by popular cloud service providers (e.g. AWS, GCP and Azure), some are available through community projects (see the [Kubernetes icon project](https://github.com/kubernetes/community/tree/master/icons)) and the more general icons are provided by the guys at [Isoflow.io](https://isoflow.io).
 
-**Please read the LICENSE files associated with each isopack and respect the licenses of each icon provider**.
+<div style={{ display: 'flex' }}>
+<img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/server.svg" alt="drawing" width="100"/>
+<img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/storage.svg" alt="drawing" width="100"/>
+<img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/switch.svg" alt="drawing" width="100"/>
+</div>
+
+This library brings together various collections of popular networking and cloud icons in one central place.  
+
+You can drag and drop them as images into slides and documents, or import them into JavaScript / Typescript projects.  Many of the icons are maintained and provided by popular cloud service providers (e.g. AWS, GCP and Azure), some are available through community projects (see the [Kubernetes icon project](https://github.com/kubernetes/community/tree/master/icons)) and the more general icons are provided by the folks at [Isoflow.io](https://isoflow.io).
+
+**Please read the LICENSE files associated with each Isopack**.
 
 ## Do I need Isoflow to use these icons?
-No.  You can use these with your tool of choice.  However, if you're looking for a diagramming tool that supports these icons out of the box, check out [Isoflow.io](https://isoflow.io).
+No.  You can use these with your tool of choice.  However, if you're looking for a diagramming tool that supports these icons out of the box, we'd highly recommend [Isoflow.io](https://isoflow.io).
 
 ## What's in it
-Index coming soon, for now you can just look inside the `/collections` folder.
+For a complete set of icons available, see this [page](https://v2.isoflow.io/docs/isopacks-reference).
 
 ## How to use
 
-### Import icons into a React app
-Icons can be imported as `base64` encoded strings.  See this section on [tradeoffs](#trade-offs-between-importing-vs-self-hosting-icons) for more information.
+### Importing into Isoflow
+See the Isoflow documentation here: [Importing Isopacks](https://v2.isoflow.io/docs/isopacks)
 
-- `npm install @isoflow/isopacks`
-- Import the collection you want to use
+### Importing into a React app
+You can display icons as `base64` encoded images (although make sure to consider the [tradeoffs](#self-hosting-icons-vs-importing-from-the-package) of importing using this method).
+
+1. Install the `npm` package
+```bash
+npm install @isoflow/isopacks
+```
+
+2. Import the collections you want to use:
+
 ```jsx
 import awsIsopack from '@isoflow/isopacks/dist/aws';
 
@@ -28,8 +45,17 @@ const MyComponent = () => {
 }
 ```
 
-## Trade-off's between importing vs self-hosting icons
+## Self-hosting icons vs importing from the package
 
-- **Importing icons** directly from the npm package is practical but not recommended as it adds to the final bundle size ().
+- **Importing icons** directly from the npm package is practical but not recommended as it adds to the final bundle size.
 
-- **Referencing icons via URL** enables the icons to be downloaded later on, after the app loads. This also activates the browser's cache for individual icons so that they can be loaded instantly later on.
+- **Referencing icons via URL** enables the icons to be downloaded later on, after the app loads.  This is the recommended approach for production apps.
+
+## Contributing
+
+For bugs, feature requests, and discussions please use [Github Issues](https://github.com/markmanx/isopacks/issues).
+
+### Icon IDs
+
+As a convention, the `id` of an Isopack icon should be the same as the icon's SVG filename (without the `.svg` extension).
+This makes it easy to derive `id`s from the file structure.
