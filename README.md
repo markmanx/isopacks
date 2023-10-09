@@ -1,9 +1,9 @@
 # Isopacks
 
 <div style="display: flex;">
-<img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/server.svg" alt="drawing" width="100"/>
-<img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/storage.svg" alt="drawing" width="100"/>
-<img src="https://raw.githubusercontent.com/markmanx/isoflow/main/src/isopacks/networking/icons/switch.svg" alt="drawing" width="100"/>
+<img src="https://isoflow-public.s3.eu-west-2.amazonaws.com/isopacks/isoflow/server.svg" alt="server" width="100"/>
+<img src="https://isoflow-public.s3.eu-west-2.amazonaws.com/isopacks/isoflow/storage.svg" alt="storage" width="100"/>
+<img src="https://isoflow-public.s3.eu-west-2.amazonaws.com/isopacks/isoflow/switch-module.svg" alt="switch" width="100"/>
 </div>
 
 This library brings together various collections of popular networking and cloud icons in one central place.  
