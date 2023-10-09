@@ -1,6 +1,6 @@
 {
   "name": "@isoflow/isopacks",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "description": "Icons for popular cloud services and networking hardware.",
   "types": "dist/index.d.ts",
